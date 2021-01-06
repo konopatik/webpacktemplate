@@ -1,0 +1,4 @@
+# Project exclude paths
+/dist/
+/dist/assets/js/
+/node_modules/
