@@ -10,12 +10,15 @@ block content
     article.product
       a.product__image(href="#")
         .product__switch.image-switch
+          .image-switch__left
+            include ../../assets/img/Material Icons/keyboard_arrow_left.svg
           +image-switch__item("../../assets/img/image.png", "room")
           +image-switch__item("../../assets/img/image2.png", "room")
           +image-switch__item("../../assets/img/image3.png", "room")
           +image-switch__item("../../assets/img/image4.png", "room")
+          .image-switch__right
+            include ../../assets/img/Material Icons/keyboard_arrow_right.svg
         ul.product__image-pagination.image-pagination(aria-hidden="true")
-          li.image-pagination__item
       .product__info
         span.product__number № <span>840</span>
         span.product__price 9 900₽ <span>в сутки</span>

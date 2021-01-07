@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/Material Icons/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/star_border.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/Material Icons/star_border.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lmKwLUYd5v9N4MGSIPwj5rqaci" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +49,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Pug/Jade" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -47,11 +59,11 @@
       <recent name="$PROJECT_DIR$/src/scss/utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img/Material Icons" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/build" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.localhost:8081">
@@ -95,12 +107,24 @@
       <workItem from="1609232752748" duration="12388000" />
       <workItem from="1609245816586" duration="2428000" />
       <workItem from="1609249399977" duration="674000" />
-      <workItem from="1609932124540" duration="8954000" />
+      <workItem from="1609932124540" duration="9410000" />
+      <workItem from="1610015546172" duration="9731000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
