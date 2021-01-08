@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/Material Icons/star.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/star_border.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/Material Icons/star_border.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +104,7 @@
       <workItem from="1609249399977" duration="674000" />
       <workItem from="1609932124540" duration="9410000" />
       <workItem from="1610015546172" duration="9731000" />
+      <workItem from="1610113508155" duration="4028000" />
     </task>
     <servers />
   </component>
@@ -125,6 +121,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -51,6 +51,9 @@ ul, li {
 
 section, .section {
   position: relative;
+  width: 1440px;
+  height: 1350px;
+  background: #F4F4F6;
   padding: 10px 20px;
   @media screen and (max-width: $desktopWidth) {
     padding: 36px 0;
@@ -62,20 +65,6 @@ section, .section {
     padding: 20px 0;
   }
 }
-
-//.wrapper {
-//  display: flex;
-//  flex-direction: column;
-//  min-height: 100vh;
-//  margin: 0 auto;
-//}
-//
-//.content-wrapper {
-//  display: flex;
-//  flex-direction: column;
-//  min-height: 100vh;
-//}
-
 .container {
   width: 100%;
   flex: 0 0 auto;
@@ -140,7 +129,7 @@ section, .section {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0;
+  opacity: 1;
 }
 
 .image-switch__img img {
@@ -151,14 +140,14 @@ section, .section {
 }
 
 .image-switch__item:first-child .image-switch__img {
-  opacity: 1;
+  opacity: 0;
   z-index: -1;
 }
-
-.image-switch__item:hover .image-switch__img {
-  opacity: 1;
-  z-index: -1;
-}
+//
+//.image-switch__item:hover .image-switch__img {
+//  opacity: 1;
+//  z-index: -1;
+//}
 
 .image-pagination {
   position: absolute;
