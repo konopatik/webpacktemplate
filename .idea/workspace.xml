@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="">
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/montserrat-v15-cyrillic-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/montserrat-v15-cyrillic-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/montserrat-v15-cyrillic-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/montserrat-v15-cyrillic-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/montserrat-v15-cyrillic-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/montserrat-v15-cyrillic-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/montserrat-v15-cyrillic-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/montserrat-v15-cyrillic-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/montserrat-v15-cyrillic-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/montserrat-v15-cyrillic-regular.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/layout/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/layout/main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +36,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1lmKwLUYd5v9N4MGSIPwj5rqaci" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pug/pages/index.pug" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,11 +73,11 @@
       <recent name="$PROJECT_DIR$/src/scss/utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/fonts/Montserrat" />
       <recent name="$PROJECT_DIR$/src/assets/img/Material Icons" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.localhost:8081">
@@ -104,8 +123,22 @@
       <workItem from="1609249399977" duration="674000" />
       <workItem from="1609932124540" duration="9410000" />
       <workItem from="1610015546172" duration="9731000" />
-      <workItem from="1610113508155" duration="4028000" />
+      <workItem from="1610113508155" duration="7460000" />
+      <workItem from="1610446357588" duration="132000" />
+      <workItem from="1610446774032" duration="66000" />
+      <workItem from="1610446861010" duration="58000" />
+      <workItem from="1610448361185" duration="1656000" />
+      <workItem from="1610450045251" duration="1974000" />
+      <workItem from="1610452038808" duration="890000" />
     </task>
+    <task id="LOCAL-00001" summary="-">
+      <created>1610117561801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610117561801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +155,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

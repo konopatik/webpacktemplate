@@ -2,7 +2,7 @@
 @import "utils/vars";
 @import "utils/mixins";
 @import "utils/fonts";
-
+@import '~material-icons/iconfont/material-icons.scss';
 
 html {
   line-height: $mainLineHeight;
@@ -140,7 +140,7 @@ section, .section {
 }
 
 .image-switch__item:first-child .image-switch__img {
-  opacity: 0;
+  opacity: 1;
   z-index: -1;
 }
 //
@@ -171,6 +171,20 @@ section, .section {
 
 .image-pagination__item--active {
   background-color: #FFFFFF;
+}
+.image-switch__left{
+  top:50px;
+  z-index: 30;
+  position: absolute;
+  background: black;
+  opacity: 0.5;
+}
+.image-switch__left svg{
+  opacity: .5;
+  background: white; /* Белый цвет фона */
+  mix-blend-mode: screen;
+  width: 44px;
+  height: 44px;
 }
 .product__info {
   align-items: center;
