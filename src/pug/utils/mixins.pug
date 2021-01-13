@@ -1,23 +1,22 @@
 mixin image-switch__item(src, alt)
-	.image-switch__item
-		.image-switch__img
-			img(src=src alt=alt)
+    .image-switch__item
+        .image-switch__img
+            img(src=src alt=alt)
 
 
 
 mixin star_svg
-	include ../../assets/img/Material Icons/star.svg
-
-
+    i.material-icons.material-icons-rating star
 
 mixin star_svg_border
-	include ../../assets/img/Material Icons/star_border.svg
+    i.material-icons.material-icons-rating  star_border
 
 
-mixin keyboard_arrow_left_swg
-	include ../../assets/img/Material Icons/keyboard_arrow_left.svg
+mixin keyboard_arrow_left_svg
+    button.image-switch__button
+        i.material-icons.material-icons-color keyboard_arrow_left
 
 
-
-mixin keyboard_arrow_right_swg
-	include ../../assets/img/Material Icons/keyboard_arrow_right.svg
+mixin keyboard_arrow_right_svg
+    button.image-switch__button
+        i.material-icons.material-icons-color keyboard_arrow_right

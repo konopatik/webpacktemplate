@@ -110,7 +110,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: `${PATHS.assets}css/[name].[hash].css`,
+            filename: `${PATHS.assets}css/[name].[fullhash].css`,
         }),
         new CopyWebpackPlugin({
             patterns: [

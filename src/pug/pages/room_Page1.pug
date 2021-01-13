@@ -1,0 +1,26 @@
+article.product.block__roompage1
+    .image-switch__left
+        +keyboard_arrow_left_svg
+    .image-switch__right
+        +keyboard_arrow_right_svg
+    .product__number__lux люкс
+    a.product__image(href="#")
+        .product__switch.image-switch
+            +image-switch__item("../../assets/img/room-Page1.png", "room")
+            +image-switch__item("../../assets/img/image2.png", "room")
+            +image-switch__item("../../assets/img/image3.png", "room")
+            +image-switch__item("../../assets/img/image4.png", "room")
+        ul.product__image-pagination.image-pagination(aria-hidden="true")
+    .product__info
+        span.product__number № <span>888</span>
+        span.product__price 9 900₽
+            span в сутки
+        .gorizontal__line
+        .product__props
+            span.product__rating
+                +star_svg
+                +star_svg
+                +star_svg
+                +star_svg
+                +star_svg
+            span.product__testimonials 145 Отзывов

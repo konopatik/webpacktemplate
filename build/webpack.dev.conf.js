@@ -10,6 +10,8 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         port: 8081,
         overlay: true,
         open: 'google-chrome',
+        hot: true,
+        openPage: '',
     },
     plugins: [
         new webpack.SourceMapDevToolPlugin({

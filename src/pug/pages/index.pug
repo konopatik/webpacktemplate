@@ -1,36 +1,13 @@
 extends ../layout/main
 
 block variables
-  - let title = 'Webpack + Pug';
-  - let description = 'Description for Webpack + Pug';
-  - let pageClass = 'index-page';
+    - let title = 'Webpack + Pug';
+    - let description = 'Description for Webpack + Pug';
+    - let pageClass = 'index-page';
 
 block content
-  section
-    i.material-icons face
-    article.product
-      a.product__image(href="#")
-        .product__switch.image-switch
-          .image-switch__left
-            +keyboard_arrow_left_swg
-          +image-switch__item("../../assets/img/image.png", "room")
-          +image-switch__item("../../assets/img/image2.png", "room")
-          +image-switch__item("../../assets/img/image3.png", "room")
-          +image-switch__item("../../assets/img/image4.png", "room")
-          .image-switch__right
-            +keyboard_arrow_right_swg
-        ul.product__image-pagination.image-pagination(aria-hidden="true")
-      .product__info
-        span.product__number № <span>840</span>
-        span.product__price 9 900₽ <span>в сутки</span>
-        .gorizontal__line
-        .product__props
-          span.product__rating
-            +star_svg
-            +star_svg
-            +star_svg
-            +star_svg
-            +star_svg_border
-          span.product__testimonials 65 Отзывов
+    section
+        include room_Page1.pug
+        include room_Page2.pug
 
 
