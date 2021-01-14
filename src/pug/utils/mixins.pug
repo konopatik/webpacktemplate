@@ -1,32 +1,46 @@
+- var data_items = [29, 30, 31, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 1];
+
+mixin list(class_name, data_items)
+	each item,index in data_items
+		div(class=class_name)
+			if index <= 2 || index >= 34
+				li.calendar__field-dates-item.other-month= item
+			else
+				li.calendar__field-dates-item= item
+			div.background-data-item
+
+
+
 mixin image-switch__item(src, alt)
-    .image-switch__item
-        .image-switch__img
-            img(src=src alt=alt)
+	.image-switch__item
+		.image-switch__img
+			img(src=src alt=alt)
 
 
 
 mixin star_svg
-    i.material-icons.material-icons-rating star
+	i.material-icons.material-icons-rating star
 
 mixin star_svg_border
-    i.material-icons.material-icons-rating  star_border
+	i.material-icons.material-icons-rating  star_border
 
 
 mixin keyboard_arrow_left_svg
-    button.image-switch__button
-        i.material-icons.material-icons-color keyboard_arrow_left
+	button.image-switch__button
+		i.material-icons.material-icons-color keyboard_arrow_left
 
 
 mixin keyboard_arrow_right_svg
-    button.image-switch__button
-        i.material-icons.material-icons-color keyboard_arrow_right
+	button.image-switch__button
+		i.material-icons.material-icons-color keyboard_arrow_right
 
 
 mixin kalendar_arrow_back
-    button.image-switch__button
-      i.material-icons.material-icons-left.material-icons-style arrow_back
+	button.image-switch__button
+		i.material-icons.material-icons-left.material-icons-style arrow_back
 
 
 mixin kalendar_arrow_forward
-    button.image-switch__button
-     i.material-icons.material-icons-right.material-icons-style arrow_forward
+	button.image-switch__button
+		i.material-icons.material-icons-right.material-icons-style arrow_forward
+
