@@ -1,0 +1,127 @@
+.calendar__block{
+  position: absolute;
+  width: 320px;
+  height: 369px;
+  left: 980px;
+  top: 150px;
+}
+.calendar__field {
+  width: 320px;
+  height: 369px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border-radius: 4px;
+}
+.icon-link-left {
+  position: absolute;
+  width: 72px;
+  height: 15px;
+  left: 20px;
+  top: 334px;
+}
+
+.icon-link-right {
+  position: absolute;
+  width: 84px;
+  height: 15px;
+  left: 216px;
+  top: 334px;
+}
+.icon-link-color{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #BC9CFF;
+}
+.material-icons-left{
+  left: 20.2px;
+  top: 20px;
+}
+.material-icons-right{
+  left: 275.4px;
+  top: 20px;
+}
+.material-icons-style{
+  position: absolute;
+  width: 23.93px;
+  height: 24px;
+
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary Color */
+
+  color: #BC9CFF;
+}
+.calendar__field-days{
+  position: absolute;
+  width: 279.39px;
+  height: 240px;
+  left: 20.94px;
+  top: 74px;
+}
+.calendar__field-month{
+  position: absolute;
+  width: 119px;
+  height: 24px;
+  left: 101px;
+  top: 20px;
+
+  font-size: 19px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Dark 100% */
+
+  color: #1F2041;
+}
+.calendar__field-day-of-week{
+  position: absolute;
+  width: 279.13px;
+  height: 40px;
+  top: 10px;
+  display: flex;
+}
+.calendar__field-item-day{
+  width: 39.88px;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* Primary Color */
+
+  color: #BC9CFF;
+}
+.calendar__field-dates{
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 53px;
+}
+.calendar__field-dates-item{
+  width: 40.14px;
+  height: 40.44px;
+  //justify-content: center;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  /* Dark 50% */
+
+  color: rgba(31, 32, 65, 0.5);
+}
+

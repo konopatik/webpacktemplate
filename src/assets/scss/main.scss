@@ -66,26 +66,8 @@ section, .section {
     padding: 20px 0;
   }
 }
-.container {
-  width: 100%;
-  flex: 0 0 auto;
-  position: relative;
-  max-width: $desktopWidth;
-  margin: 0 auto;
-  padding: 0rem;
-  @media screen and (max-width: $smDesktopWidth) {
-    max-width: $tableWidth;
-    padding: 0rem;
-  }
-  @media screen and (max-width: $tableWidth) {
-    max-width: $phoneWidth;
-    padding: 0rem;
-  }
-  @media screen and (max-width: $phoneWidth) {
-    max-width: $smPhoneWidth;
-    padding: 0rem;
-  }
-}
 
 @import "modules/product";
+@import "modules/room_page1";
+@import "modules/calendar";
 @import "modules/wrapper";
