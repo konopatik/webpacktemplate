@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Закончила кадендарь. Дописала миксин(не уверена в его &quot;красоте&quot;).">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo/TOXIN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo/Vector-gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo/Vector.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo/Vector1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo/Vector2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Обнаружила недочеты в календаре, доделала. Леплю логотип">
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/montserrat-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/logo/Vector-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/logo/Vector-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/calendar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/room_page1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/room_page1.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/layout/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/layout/main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/calendar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/calendar.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/calendar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/room_page1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/room_page1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/room_Page1.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/room_Page1.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/room_Page2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/room_Page2.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,14 +85,14 @@
       <recent name="$PROJECT_DIR$/src/scss/utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/scss/modules/Cards" />
       <recent name="$PROJECT_DIR$/src/pug/pages/Cards" />
       <recent name="$PROJECT_DIR$/src/pug/pages" />
       <recent name="$PROJECT_DIR$/src/assets/fonts/Montserrat" />
       <recent name="$PROJECT_DIR$/src/assets/img/Material Icons" />
-      <recent name="$PROJECT_DIR$/src/assets/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.localhost:8081">
+  <component name="RunManager" selected="JavaScript Debug.localhost:8080">
     <configuration name="localhost:8080" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/">
       <method v="2" />
     </configuration>
@@ -159,7 +156,7 @@
       <workItem from="1610540601845" duration="6093000" />
       <workItem from="1610551182469" duration="6257000" />
       <workItem from="1610608770089" duration="27786000" />
-      <workItem from="1610700230548" duration="13175000" />
+      <workItem from="1610700230548" duration="22476000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -210,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610706089636</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Обнаружила недочеты в календаре, доделала. Леплю логотип">
+      <created>1610716803275</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610716803275</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +241,8 @@
     <MESSAGE value="Верстка календаря" />
     <MESSAGE value="Верстка календаря(продолжается)" />
     <MESSAGE value="Закончила кадендарь. Дописала миксин(не уверена в его &quot;красоте&quot;)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Закончила кадендарь. Дописала миксин(не уверена в его &quot;красоте&quot;)." />
+    <MESSAGE value="Обнаружила недочеты в календаре, доделала. Леплю логотип" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обнаружила недочеты в календаре, доделала. Леплю логотип" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

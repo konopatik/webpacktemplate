@@ -50,11 +50,27 @@ ul, li {
   padding: 0;
 }
 
-section, .section {
+.cards {
   position: relative;
   width: 1440px;
   height: 1350px;
   background: #F4F4F6;
+  padding: 10px 20px;
+  @media screen and (max-width: $desktopWidth) {
+    padding: 36px 0;
+  }
+  @media screen and (max-width: $tableWidth) {
+    padding: 28px 0;
+  }
+  @media screen and (max-width: $phoneWidth) {
+    padding: 20px 0;
+  }
+}
+.form_elements {
+  position: relative;
+  width: 1440px;
+  height: 1853px;
+  background: #FFFFFF;
   padding: 10px 20px;
   @media screen and (max-width: $desktopWidth) {
     padding: 36px 0;
@@ -73,9 +89,20 @@ section, .section {
   left: 30px;
   top: 30px;
 }
-.logo-circle{
-  width: 48px;
-  height: 48px;
+.logo-vector-left{
+  position: absolute;
+  width: 14.12px;
+  height: 14.12px;
+  left: 11.29px;
+  top: 18.35px;
+
+}
+.logo-vector-right{
+  position: absolute;
+  width: 10.94px;
+  height: 7.09px;
+  left: 25.77px;
+  top: 14.35px;
 
 }
 //.cards{
@@ -86,7 +113,8 @@ section, .section {
 //  border-radius: 0px;
 //
 //}
-@import "modules/product";
-@import "modules/room_page1";
-@import "modules/calendar";
+@import "modules/Cards/product";
+@import "modules/Cards/room_page1";
+@import "modules/Cards/calendar";
+@import "modules/Form Elements/form_elements";
 @import "modules/wrapper";
