@@ -22,14 +22,14 @@ html {
 body {
   background: #E5E5E5;
   position: relative;
-  width: 1440px;
-  height: 1350px;
+  //width: 1440px;
+  //height: 1350px;
   font-family: $mainFont;
   font-size: $mainFontSize;
   font-weight: $mainFontWeight;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 0;
+  //padding: 0;
 }
 
 *, *:before, *:after {
@@ -66,7 +66,26 @@ section, .section {
     padding: 20px 0;
   }
 }
+.logo{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 30px;
+  top: 30px;
+}
+.logo-circle{
+  width: 48px;
+  height: 48px;
 
+}
+//.cards{
+//  height: 1350px;
+//  width: 1440px;
+//  left: 22155px;
+//  top: -9500px;
+//  border-radius: 0px;
+//
+//}
 @import "modules/product";
 @import "modules/room_page1";
 @import "modules/calendar";

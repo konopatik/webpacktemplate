@@ -89,15 +89,13 @@
 
         .calendar__field-dates-item {
           position: absolute;
-          z-index: 2;
-          width: 40.14px;
+          width: 39.88px;
           height: 40.44px;
           margin-top:10px;
           font-weight: normal;
           font-size: 12px;
           line-height: 15px;
           text-align: center;
-          justify-content: center;
           /* Dark 50% */
 
           color: rgba(31, 32, 65, 0.5);
@@ -105,10 +103,8 @@
 
         .background-data-item {
           visibility: hidden;
-          z-index: 1;
           width: 39.88px;
           height: 40px;
-          left: 180.7px;
           background: #BC9CFF;
           border-radius: 22px;
         }
@@ -116,20 +112,21 @@
         .other-month {
           color: rgba(31, 32, 65, 0.25);
         }
+        .calendar-color-date{
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 15px;
+
+          color: #FFFFFF;
+        }
         .background-selection-date {
           visibility: visible;
           background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-          border-radius: 22px;
         }
         .background-today{
           visibility: visible;
-          left: 140.82px;
-          top: 54px;
-
           /* Secondary Gradient */
-
           background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
-          border-radius: 22px;
         }
       }
 

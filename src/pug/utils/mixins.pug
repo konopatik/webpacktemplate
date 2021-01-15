@@ -5,6 +5,8 @@ mixin list(class_name, data_items)
 		div(class=class_name)
 			if index <= 2 || index >= 34
 				li.calendar__field-dates-item.other-month= item
+			else if index == 21 || index==25 ||index == 10
+				li.calendar__field-dates-item.calendar-color-date= item
 			else
 				li.calendar__field-dates-item= item
 			if index == 21 || index==25
