@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Верстка календаря">
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Верстка календаря(продолжается)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/calendar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/calendar_day_of_week.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/calendar_day_of_week.js" afterDir="false" />
@@ -146,7 +146,8 @@
       <workItem from="1610521388283" duration="11705000" />
       <workItem from="1610540601845" duration="6093000" />
       <workItem from="1610551182469" duration="6257000" />
-      <workItem from="1610608770089" duration="27561000" />
+      <workItem from="1610608770089" duration="27786000" />
+      <workItem from="1610700230548" duration="5795000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610622852452</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Верстка календаря(продолжается)">
+      <created>1610643843431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610643843431</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +216,8 @@
     <MESSAGE value="Попытка подключить/настроить material icons." />
     <MESSAGE value="Оставила шрифты пока так, потом покопаюсь. Верстка страницы Cards" />
     <MESSAGE value="Верстка календаря" />
-    <option name="LAST_COMMIT_MESSAGE" value="Верстка календаря" />
+    <MESSAGE value="Верстка календаря(продолжается)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Верстка календаря(продолжается)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

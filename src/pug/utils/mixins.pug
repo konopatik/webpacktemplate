@@ -7,7 +7,12 @@ mixin list(class_name, data_items)
 				li.calendar__field-dates-item.other-month= item
 			else
 				li.calendar__field-dates-item= item
-			div.background-data-item
+			if index == 21 || index==25
+				div.background-data-item.background-selection-date
+			else if index == 10
+				div.background-data-item.background-today
+			else
+				div.background-data-item
 
 
 
