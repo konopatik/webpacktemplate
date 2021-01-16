@@ -1,17 +1,8 @@
-.text__field-default {
-  position: absolute;
-  width: 320px;
-  height: 67px;
-  left: 141px;
-  top: 140px;
-}
-
 .text {
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
 }
-
 .text__field {
   position: absolute;
   width: 72px;
@@ -19,7 +10,6 @@
   top: 3px;
   color: #1F2041;
 }
-
 .text-default {
   position: absolute;
   width: 57px;
@@ -29,7 +19,6 @@
   text-align: right;
   color: rgba(31, 32, 65, 0.5);
 }
-
 .text__field-input {
   font-family: 'Montserrat-Regular';
   position: absolute;
@@ -42,13 +31,7 @@
   border-radius: 4px;
   outline: none;
 }
-
-@include placeholder {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
-  padding-left: 12px;
-
-  color: rgba(31, 32, 65, 0.25);
+.not-visible {
+  visibility: hidden;
+  left: 261.74px;
 }

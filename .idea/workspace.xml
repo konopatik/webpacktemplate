@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Начала делать dropdown">
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Form elements. dropdown-default">
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Material Icons/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Material Icons/MaterialIconsOutlined-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Material Icons/MaterialIconsRound-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Material Icons/MaterialIconsSharp-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Material Icons/MaterialIconsTwoTone-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Material Icons/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/data-picker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/date-dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/input-default.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-focus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-focus.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/dropdown-default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/common-style-input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-focus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/input-focus.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/layout/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/layout/main.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +91,11 @@
       <recent name="$PROJECT_DIR$/src/scss/utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements" />
       <recent name="$PROJECT_DIR$/src/assets/scss/modules/Cards" />
       <recent name="$PROJECT_DIR$/src/pug/pages/Cards" />
       <recent name="$PROJECT_DIR$/src/pug/pages" />
       <recent name="$PROJECT_DIR$/src/assets/fonts/Montserrat" />
-      <recent name="$PROJECT_DIR$/src/assets/img/Material Icons" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.localhost:8080">
@@ -153,7 +163,7 @@
       <workItem from="1610551182469" duration="6257000" />
       <workItem from="1610608770089" duration="27786000" />
       <workItem from="1610700230548" duration="24169000" />
-      <workItem from="1610804534585" duration="3846000" />
+      <workItem from="1610804534585" duration="9188000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -225,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610735607179</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Form elements. dropdown-default">
+      <created>1610808425676</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610808425676</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +272,8 @@
     <MESSAGE value="Обнаружила недочеты в календаре, доделала. Леплю логотип" />
     <MESSAGE value="Логотип закончила. Начала страницу Form Elements. Сверстала первые два поля." />
     <MESSAGE value="Начала делать dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начала делать dropdown" />
+    <MESSAGE value="Form elements. dropdown-default" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form elements. dropdown-default" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
