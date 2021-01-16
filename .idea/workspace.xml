@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Логотип закончила. Начала страницу Form Elements. Сверстала первые два поля.">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-focus.scss" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Начала делать dropdown">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Montserrat/montserrat-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-focus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/input-focus.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +152,8 @@
       <workItem from="1610540601845" duration="6093000" />
       <workItem from="1610551182469" duration="6257000" />
       <workItem from="1610608770089" duration="27786000" />
-      <workItem from="1610700230548" duration="24129000" />
+      <workItem from="1610700230548" duration="24169000" />
+      <workItem from="1610804534585" duration="3846000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -215,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610733991902</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Начала делать dropdown">
+      <created>1610735607179</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610735607179</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +254,8 @@
     <MESSAGE value="Закончила кадендарь. Дописала миксин(не уверена в его &quot;красоте&quot;)." />
     <MESSAGE value="Обнаружила недочеты в календаре, доделала. Леплю логотип" />
     <MESSAGE value="Логотип закончила. Начала страницу Form Elements. Сверстала первые два поля." />
-    <option name="LAST_COMMIT_MESSAGE" value="Логотип закончила. Начала страницу Form Elements. Сверстала первые два поля." />
+    <MESSAGE value="Начала делать dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начала делать dropdown" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

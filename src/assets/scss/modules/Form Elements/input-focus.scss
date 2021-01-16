@@ -15,23 +15,22 @@
 
 .text-focus {
   width: 96px;
-  left: 223.74px;
+  left: 221.74px;
 }
 
-.input-value input {
+@include placeholder {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   /* identical to box height, or 171% */
 
-  padding-left: 13px;
+  padding-left: 12px;
   padding-bottom: 2px;
   /* Dark 75% */
 
   color: rgba(31, 32, 65, 0.75);
 }
-
 .input-focus {
   top: 21px;
   border: 1px solid rgba(31, 32, 65, 0.5);
