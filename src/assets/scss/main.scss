@@ -130,6 +130,13 @@ ul, li {
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+
+.product__svg-button{
+  cursor: pointer;
+  background: #0000;
+  border: none;
+  outline:none;
+}
 //.cards{
 //  height: 1350px;
 //  width: 1440px;
@@ -138,8 +145,7 @@ ul, li {
 //  border-radius: 0px;
 //
 //}
-@import "modules/Cards/product";
-@import "modules/Cards/room_page1";
-@import "modules/Cards/calendar";
+@import "modules/Cards/cards";
+@import "modules/Cards/All cards elem/calendar";
 @import "modules/Form Elements/form_elements";
 @import "modules/wrapper";

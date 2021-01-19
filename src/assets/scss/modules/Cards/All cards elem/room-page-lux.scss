@@ -1,0 +1,63 @@
+@import "../../../utils/mixins";
+.product__block-roompage-lux{
+  position: absolute;
+  left: 980px;
+  top: 559px;
+  .product__button{
+    top:53.5px;
+    z-index: 40;
+    position: absolute;
+    opacity: 1;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+  }
+  .product__button-svg-right{
+    left: 226px;
+  }
+  .material-icons__style{
+    color: white;
+  }
+  .product__number-lux {
+    position: absolute;
+    left: 80px;
+    top: 181px;
+    width: 41px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #BC9CFF;
+  }
+  .product__image-mask{
+    position: absolute;
+    display: flex;
+    z-index: 30;
+  }
+  .image-mask{
+    width: 42px;
+    height: 151px;
+    left: 230px;
+    top: 559.5px;
+
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 99.99%, rgba(255, 255, 255, 0) 100%);
+  }
+  .image-mask__right{
+    margin-left: 186px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .product__rating-lux{
+    margin-right: 20px;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(rgba(188, 156, 255, 1), rgba(139, 164, 249, 1));
+  }
+  .product__testimonials-lux {
+    margin-top: 11.56px;
+    color: rgba(31, 32, 65, 0.5);
+    line-height: 18px;
+    text-align: right;
+  }
+}

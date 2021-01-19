@@ -1,0 +1,197 @@
+.calendar {
+  position: absolute;
+  width: 320px;
+  height: 369px;
+  left: 980px;
+  top: 150px;
+
+  .calendar__field {
+    width: 320px;
+    height: 369px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    border-radius: 4px;
+  }
+
+  .calendar__button {
+    position: absolute;
+    width: 23.93px;
+    height: 24px;
+    left: 14.4px;
+    top: 10px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Primary Color */
+
+    color: #BC9CFF;
+  }
+
+  .calendar__button-svg-right {
+    left: 270.4px;
+  }
+
+  .material-icons__style {
+    position: absolute;
+    width: 23.93px;
+    height: 24px;
+
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Primary Color */
+
+    color: #BC9CFF;
+  }
+
+  .calendar__field-month {
+    position: absolute;
+    width: 119px;
+    height: 24px;
+    left: 101px;
+    top: 20px;
+
+    font-size: 19px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Dark 100% */
+
+    color: #1F2041;
+  }
+
+  .calendar__field-days {
+    position: absolute;
+    width: 279.39px;
+    height: 240px;
+    left: 20.94px;
+    top: 59px;
+  }
+
+  .calendar__field-restangle {
+    position: absolute;
+    width: 159.5px;
+    height: 40px;
+    left: 21.14px;
+    top: 175px;
+
+    /* Primary Gradient */
+
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    opacity: 0.25;
+  }
+
+  .calendar__field-day-of-week {
+    position: absolute;
+    width: 279.13px;
+    height: 40px;
+    top: 28px;
+    display: flex;
+  }
+//это стиль для дней недели
+  .calendar__field-item-day {
+    width: 39.88px;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* Primary Color */
+
+    color: #BC9CFF;
+  }
+
+  .calendar__field-dates {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 55px;
+  }
+
+
+  .calendar__field-dates-item {
+    position: absolute;
+    width: 39.88px;
+    height: 40.44px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    /* Dark 50% */
+
+    color: rgba(31, 32, 65, 0.5);
+  }
+
+  .other-month {
+    color: rgba(31, 32, 65, 0.25);
+  }
+
+  .calendar-color-date {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+  }
+
+  .background-data-item {
+    visibility: hidden;
+    width: 39.88px;
+    height: 40px;
+    background: #BC9CFF;
+    border-radius: 22px;
+  }
+
+  .background-selection-date {
+    visibility: visible;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  }
+
+  .background-today {
+    visibility: visible;
+    /* Secondary Gradient */
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+  }
+
+
+  .calendar__link-left {
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 20px;
+    top: 334px;
+  }
+
+  .calendar__link-right {
+    position: absolute;
+    width: 84px;
+    height: 15px;
+    left: 216px;
+    top: 334px;
+  }
+
+  .calendar__link-color {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #BC9CFF;
+  }
+
+
+}
+

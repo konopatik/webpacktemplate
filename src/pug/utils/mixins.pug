@@ -41,24 +41,14 @@ mixin star_svg_border
 	i.material-icons.material-icons-rating  star_border
 
 
-mixin keyboard_arrow_left_svg
-	button.image-switch__button
-		i.material-icons.material-icons-color keyboard_arrow_left
-
-
-mixin keyboard_arrow_right_svg
-	button.image-switch__button
-		i.material-icons.material-icons-color keyboard_arrow_right
-
-
-mixin kalendar_arrow_back
-	button.image-switch__button
-		i.material-icons.material-icons-left.material-icons-style arrow_back
-
-
-mixin kalendar_arrow_forward
-	button.image-switch__button
-		i.material-icons.material-icons-right.material-icons-style arrow_forward
+mixin product__button(data)
+	button.product__svg-button&attributes(attributes)
+		block
+mixin icon(data)
+	- var classList = ['material-icons']
+	if attributes.icon
+	- classList.push(classList[0] +  attributes.icon)
+	i(class=classList)=attributes.name
 
 
 
