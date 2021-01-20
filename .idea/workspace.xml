@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Рефакторинг. Переименовала некоторые файлы и классы, сформировала более мелкие блоки">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/placeholder.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/too-date-dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/logo.scss" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Еще немного реффакторинга.date-dropdown">
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/filter-date-dropdown.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/common-style-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/common-style-input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/data-picker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/data-picker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/date-dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/date-dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/dropdown-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/dropdown-default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/input-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/input-default.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/input-focus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/input-focus.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/placeholder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/placeholder.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +152,7 @@
       <workItem from="1610700230548" duration="24169000" />
       <workItem from="1610804534585" duration="9304000" />
       <workItem from="1611041056152" duration="21214000" />
-      <workItem from="1611125252562" duration="16650000" />
+      <workItem from="1611125252562" duration="18296000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -254,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611058680727</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Еще немного реффакторинга.date-dropdown">
+      <created>1611148216055</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611148216055</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +285,8 @@
     <MESSAGE value="Form elements. dropdown-default" />
     <MESSAGE value="Form elements. data-picker, date-dropdown" />
     <MESSAGE value="Рефакторинг. Переименовала некоторые файлы и классы, сформировала более мелкие блоки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг. Переименовала некоторые файлы и классы, сформировала более мелкие блоки" />
+    <MESSAGE value="Еще немного реффакторинга.date-dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Еще немного реффакторинга.date-dropdown" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
