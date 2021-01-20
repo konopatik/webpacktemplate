@@ -1,11 +1,9 @@
 .date-dropdown{
-  position: absolute;
   width: 150px;
   height: 65px;
-  left: 141px;
   top: 502px;
 }
-.text__date-dropdown{
+.text-date-dropdown{
   width: 150px;
   height: 15px;
   top:0;
@@ -14,7 +12,10 @@
   width: 150px;
   top: 20.44px;
 }
-//.expand_more{
-//  left: 116px;
-//  top: 21px;
-//}
+.input-button__small {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 110px;
+  top: 30px;
+}

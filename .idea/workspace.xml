@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Form elements. data-picker, date-dropdown">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/common-style-cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/room-page.scss" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Рефакторинг. Переименовала некоторые файлы и классы, сформировала более мелкие блоки">
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/placeholder.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/too-date-dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/logo.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/calendar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/room_page1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/room-page-lux.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/common-style-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/common-style-input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/calendar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/calendar.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/data-picker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/data-picker.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/date-dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/date-dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/dropdown-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/dropdown-default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/input-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/input-default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/input-focus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements/input-focus.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/room_Page1.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/room-page-lux.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/room_Page2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/room-page.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,18 +80,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem" />
+      <recent name="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements" />
       <recent name="$PROJECT_DIR$/src/pug/pages" />
+      <recent name="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem" />
       <recent name="$PROJECT_DIR$/dist/assets/fonts" />
       <recent name="$PROJECT_DIR$/dist/assets/fonts/Montserrat" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pug/pages" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem" />
       <recent name="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements" />
       <recent name="$PROJECT_DIR$/src/assets/scss/modules/Cards" />
-      <recent name="$PROJECT_DIR$/src/pug/pages/Cards" />
-      <recent name="$PROJECT_DIR$/src/pug/pages" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.localhost:8080">
@@ -157,7 +160,8 @@
       <workItem from="1610608770089" duration="27786000" />
       <workItem from="1610700230548" duration="24169000" />
       <workItem from="1610804534585" duration="9304000" />
-      <workItem from="1611041056152" duration="14715000" />
+      <workItem from="1611041056152" duration="21214000" />
+      <workItem from="1611125252562" duration="16650000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -243,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610813777671</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Рефакторинг. Переименовала некоторые файлы и классы, сформировала более мелкие блоки">
+      <created>1611058680727</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611058680727</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +286,8 @@
     <MESSAGE value="Начала делать dropdown" />
     <MESSAGE value="Form elements. dropdown-default" />
     <MESSAGE value="Form elements. data-picker, date-dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Form elements. data-picker, date-dropdown" />
+    <MESSAGE value="Рефакторинг. Переименовала некоторые файлы и классы, сформировала более мелкие блоки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг. Переименовала некоторые файлы и классы, сформировала более мелкие блоки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

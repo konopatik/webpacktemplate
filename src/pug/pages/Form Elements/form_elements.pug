@@ -1,27 +1,38 @@
 include ../../utils/mixins
 +logo
-.text__field-default
-	label.text.text__field text field
-	label.text.text-default default
-	input.text__field-input(placeholder='Email')
+.text-field-default.general-setting-block
+	label.general-setting-text text field
+	label.general-setting-text.text-default default
+	input.text-field-input(placeholder='Email')
 
-.text__field-focus
-	label.text.text__field.focus text field
-	label.text.text-default.text-focus hover/focus
-	input.text__field-input.input-focus(placeholder='This is pretty awesome')
+.text-field-focus.general-setting-block
+	label.general-setting-text.focus text field
+	label.general-setting-text.text-default.text-focus hover/focus
+	input.text-field-input.input-focus(placeholder='This is pretty awesome')
 
-.dropdown-default
-	label.text.text__field.dropdown dropdown
-	label.text.text-default.not-visible default
-	input.text__field-input.input-dropdown(placeholder='Сколько гостей')
-	+expand_more
+.dropdown-default.general-setting-block
+	label.general-setting-text.dropdown dropdown
+	label.general-setting-text.text-default.not-visible default
+	input.text-field-input.input-dropdown(placeholder='Сколько гостей')
+	.input-button
+		+product__button
+			+icon(icon="__expand_more", name="expand_more")
 
-.data-picker
-	label.text.text__field.text__data-picker masked text field
-	label.text.text-default.not-visible default
-	input.text__field-input(placeholder='ДД.ММ.ГГГГ')
+.data-picker.general-setting-block
+	label.general-setting-text.text-data-picker masked text field
+	label.general-setting-text.text-default.not-visible default
+	input.text-field-input(placeholder='ДД.ММ.ГГГГ')
 
-.date-dropdown
-	label.text.text__field.text__date-dropdown date dropdown
-	input.text__field-input.date-dropdown-input(placeholder='ДД.ММ.ГГГГ')
-	+expand_more
+.date-dropdown.general-setting-block
+	label.general-setting-text.text-date-dropdown date dropdown
+	input.text-field-input.date-dropdown-input(placeholder='ДД.ММ.ГГГГ')
+	.input-button__small
+		+product__button
+			+icon(icon="__expand_more", name="expand_more")
+
+.too-date-dropdown.general-setting-block
+	label.general-setting-text.text-date-dropdown date dropdown
+	input.text-field-input.date-dropdown-input(placeholder='19.08.2019')
+	.input-button__small
+		+product__button
+			+icon(icon="__expand_more", name="expand_more")

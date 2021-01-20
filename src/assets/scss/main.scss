@@ -22,14 +22,11 @@ html {
 body {
   background: #E5E5E5;
   position: relative;
-  //width: 1440px;
-  //height: 1350px;
   font-family: $mainFont;
   font-size: $mainFontSize;
   font-weight: $mainFontWeight;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  //padding: 0;
 }
 
 *, *:before, *:after {
@@ -55,57 +52,33 @@ ul, li {
   width: 1440px;
   height: 1350px;
   background: #F4F4F6;
-  padding: 10px 20px;
-  @media screen and (max-width: $desktopWidth) {
-    padding: 36px 0;
-  }
-  @media screen and (max-width: $tableWidth) {
-    padding: 28px 0;
-  }
-  @media screen and (max-width: $phoneWidth) {
-    padding: 20px 0;
-  }
+  //padding: 10px 20px;
+  //@media screen and (max-width: $desktopWidth) {
+  //  padding: 36px 0;
+  //}
+  //@media screen and (max-width: $tableWidth) {
+  //  padding: 28px 0;
+  //}
+  //@media screen and (max-width: $phoneWidth) {
+  //  padding: 20px 0;
+  //}
 }
 .form_elements {
   position: relative;
   width: 1440px;
   height: 1853px;
   background: #FFFFFF;
-  padding: 10px 20px;
-  @media screen and (max-width: $desktopWidth) {
-    padding: 36px 0;
-  }
-  @media screen and (max-width: $tableWidth) {
-    padding: 28px 0;
-  }
-  @media screen and (max-width: $phoneWidth) {
-    padding: 20px 0;
-  }
+  //padding: 10px 20px;
+  //@media screen and (max-width: $desktopWidth) {
+  //  padding: 36px 0;
+  //}
+  //@media screen and (max-width: $tableWidth) {
+  //  padding: 28px 0;
+  //}
+  //@media screen and (max-width: $phoneWidth) {
+  //  padding: 20px 0;
+  //}
 }
-.logo{
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  left: 30px;
-  top: 30px;
-}
-.logo-vector-left{
-  position: absolute;
-  width: 14.12px;
-  height: 14.12px;
-  left: 11.29px;
-  top: 18.35px;
-
-}
-.logo-vector-right{
-  position: absolute;
-  width: 10.94px;
-  height: 7.09px;
-  left: 25.77px;
-  top: 14.35px;
-
-}
-
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -146,6 +119,5 @@ ul, li {
 //
 //}
 @import "modules/Cards/cards";
-@import "modules/Cards/All cards elem/calendar";
 @import "modules/Form Elements/form_elements";
 @import "modules/wrapper";
