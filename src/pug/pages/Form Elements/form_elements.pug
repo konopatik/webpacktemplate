@@ -1,5 +1,6 @@
 include ../../utils/mixins
 +logo
+//большой инпут
 .text-field-default.general-setting-block
 	label.general-setting-text text field
 	label.general-setting-text.text-default default
@@ -22,7 +23,7 @@ include ../../utils/mixins
 	label.general-setting-text.text-data-picker masked text field
 	label.general-setting-text.text-default.not-visible default
 	input.text-field-input(placeholder='ДД.ММ.ГГГГ')
-
+//маленький инпут
 .date-dropdown.general-setting-block
 	label.general-setting-text.text-date-dropdown date dropdown
 	input.text-field-input.date-dropdown-input(value='ДД.ММ.ГГГГ')
@@ -36,10 +37,17 @@ include ../../utils/mixins
 	.input-button__small
 		+product__button
 			+icon(icon="__expand_more", name="expand_more")
-
+//средний инпут
 .filter-date-dropdown.general-setting-block
 	label.general-setting-text.text-filter filter date dropdown
 	input.text-field-input.text-filter-input(value='19 авг - 23 авг')
 	.input-button__filter
 		+product__button
 			+icon(icon="__expand_more", name="expand_more")
+
+.subscription-text-field.general-setting-block
+	label.general-setting-text.text-subscription subscription text field
+	input.text-field-input.subscription-input(placeholder='Email')
+	.input-button__subscription
+		+product__button().test
+			+icon(icon="__subscription", name="arrow_forward")
