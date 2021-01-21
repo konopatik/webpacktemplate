@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="open-dropdown-expanded">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-list.scss" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="checkbox-list">
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-list.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
     </list>
@@ -150,7 +151,7 @@
       <workItem from="1610804534585" duration="9304000" />
       <workItem from="1611041056152" duration="21214000" />
       <workItem from="1611125252562" duration="19097000" />
-      <workItem from="1611219116344" duration="18122000" />
+      <workItem from="1611219116344" duration="20014000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -278,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611238017631</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="checkbox-list">
+      <created>1611238575138</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611238575139</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +324,8 @@
     <MESSAGE value="subscription-text-field. Переделала вывод звезд рейтинга" />
     <MESSAGE value="dropdown-expanded" />
     <MESSAGE value="open-dropdown-expanded" />
-    <option name="LAST_COMMIT_MESSAGE" value="open-dropdown-expanded" />
+    <MESSAGE value="checkbox-list" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkbox-list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
