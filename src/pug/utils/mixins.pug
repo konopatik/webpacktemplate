@@ -1,47 +1,58 @@
 - var data_items = [29, 30, 31, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 1];
+- var expandable = ["Завтрак", "Письменный стол", "Стул для кормления", "Кроватка", "Телевизор", "Шампунь"];
+
 
 mixin list(class_name, data_items)
-	each item,index in data_items
-		div(class=class_name)
-			if index <= 2 || index >= 34
-				li.calendar__field-dates-item.other-month= item
-			else if index == 21 || index==25 ||index == 10
-				li.calendar__field-dates-item.calendar-color-date= item
-			else
-				li.calendar__field-dates-item= item
-			if index == 21 || index==25
-				div.background-data-item.background-selection-date
-			else if index == 10
-				div.background-data-item.background-today
-			else
-				div.background-data-item
+    each item,index in data_items
+        div(class=class_name)
+            if index <= 2 || index >= 34
+                li.calendar__field-dates-item.other-month= item
+            else if index == 21 || index == 25 || index == 10
+                li.calendar__field-dates-item.calendar-color-date= item
+            else
+                li.calendar__field-dates-item= item
+            if index == 21 || index == 25
+                div.background-data-item.background-selection-date
+            else if index == 10
+                div.background-data-item.background-today
+            else
+                div.background-data-item
+- var classname = ["group","group_1", "group_2", "group_3", "group_4", "group_5" ];
+mixin checkbox(classname)
+    each item in classname
+        div(class=item)
+            block
 
 
+- var expandable = ["Завтрак", "Письменный стол", "Стул для кормления", "Кроватка", "Телевизор", "Шампунь"];
+mixin input(expandable)
+    each item in expandable
+        .checkbox-text=item
 
 mixin image-switch__item(src, alt)
-	.image-switch__item
-		.image-switch__img
-			img(src=src alt=alt)
+    .image-switch__item
+        .image-switch__img
+            img(src=src alt=alt)
 
 
 mixin logo
-	.logo
-		.logo-circle
-			img(src="../../assets/img//logo/Vector-gray.png" alt='logo-circle')
-		.logo-vector-left
-			img(src="../../assets/img//logo/Vector-left.png" alt='logo-vector-left')
-		.logo-vector-right
-			img(src="../../assets/img//logo/Vector-right.png" alt='logo-vector-right')
+    .logo
+        .logo-circle
+            img(src="../../assets/img//logo/Vector-gray.png" alt='logo-circle')
+        .logo-vector-left
+            img(src="../../assets/img//logo/Vector-left.png" alt='logo-vector-left')
+        .logo-vector-right
+            img(src="../../assets/img//logo/Vector-right.png" alt='logo-vector-right')
 
 
 
 mixin product__button(data)
-	button.product__svg-button&attributes(attributes)
-		block
+    button.product__svg-button&attributes(attributes)
+        block
 mixin icon(data)
-	- var classList = ['material-icons']
-	if attributes.icon
-	- classList.push(classList[0] +  attributes.icon)
-	i(class=classList)=attributes.name
+    - var classList = ['material-icons']
+    if attributes.icon
+    - classList.push(classList[0] +  attributes.icon)
+    i(class=classList)=attributes.name
 
 

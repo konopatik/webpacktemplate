@@ -26,3 +26,37 @@
   height: 171px;
   top: 46.44px;
 }
+.group{
+  position: absolute;
+  width: 88.74px;
+  height: 20px;
+}
+.checkbox{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+
+  background: #FFFFFF;
+  /* Dark 25% */
+
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.checkbox-text{
+  position: absolute;
+  width: 59px;
+  height: 18px;
+  left: 29.74px;
+
+
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  /* Dark 50% */
+
+  color: rgba(31, 32, 65, 0.5);
+}

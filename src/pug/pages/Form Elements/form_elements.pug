@@ -2,109 +2,129 @@ include ../../utils/mixins
 +logo
 //большой инпут
 .text-field-default.general-setting-block
-	label.general-setting-text text field
-	label.general-setting-text.text-default default
-	input.text-field-input(placeholder='Email')
+    label.general-setting-text text field
+    label.general-setting-text.text-default default
+    input.text-field-input(placeholder='Email')
 
 .text-field-focus.general-setting-block
-	label.general-setting-text.focus text field
-	label.general-setting-text.text-default.text-focus hover/focus
-	input.text-field-input.input-focus(value='This is pretty awesome')
+    label.general-setting-text.focus text field
+    label.general-setting-text.text-default.text-focus hover/focus
+    input.text-field-input.input-focus(value='This is pretty awesome')
 
 .dropdown-default.general-setting-block
-	label.general-setting-text.dropdown dropdown
-	label.general-setting-text.text-default.not-visible default
-	input.text-field-input.input-dropdown(value='Сколько гостей')
-	.input-button
-		+product__button.form-button
-			+icon(icon="__expand_more", name="expand_more")
+    label.general-setting-text.dropdown dropdown
+    label.general-setting-text.text-default.not-visible default
+    input.text-field-input.input-dropdown(value='Сколько гостей')
+    .input-button
+        +product__button.form-button
+            +icon(icon="__expand_more", name="expand_more")
 
 .data-picker.general-setting-block
-	label.general-setting-text.text-data-picker masked text field
-	label.general-setting-text.text-default.not-visible default
-	input.text-field-input(placeholder='ДД.ММ.ГГГГ')
+    label.general-setting-text.text-data-picker masked text field
+    label.general-setting-text.text-default.not-visible default
+    input.text-field-input(placeholder='ДД.ММ.ГГГГ')
 //маленький инпут
 .date-dropdown.general-setting-block
-	label.general-setting-text.text-date-dropdown date dropdown
-	input.text-field-input.date-dropdown-input(value='ДД.ММ.ГГГГ')
-	.input-button__small
-		+product__button.form-button
-			+icon(icon="__expand_more", name="expand_more")
+    label.general-setting-text.text-date-dropdown date dropdown
+    input.text-field-input.date-dropdown-input(value='ДД.ММ.ГГГГ')
+    .input-button__small
+        +product__button.form-button
+            +icon(icon="__expand_more", name="expand_more")
 
 .too-date-dropdown.general-setting-block
-	label.general-setting-text.text-date-dropdown date dropdown
-	input.text-field-input.date-dropdown-input(value='19.08.2019')
-	.input-button__small
-		+product__button.form-button
-			+icon(icon="__expand_more", name="expand_more")
+    label.general-setting-text.text-date-dropdown date dropdown
+    input.text-field-input.date-dropdown-input(value='19.08.2019')
+    .input-button__small
+        +product__button.form-button
+            +icon(icon="__expand_more", name="expand_more")
 //средний инпут
 .filter-date-dropdown.general-setting-block
-	label.general-setting-text.text-filter filter date dropdown
-	input.text-field-input.text-filter-input(value='19 авг - 23 авг')
-	.input-button__filter
-		+product__button.form-button
-			+icon(icon="__expand_more", name="expand_more")
+    label.general-setting-text.text-filter filter date dropdown
+    input.text-field-input.text-filter-input(value='19 авг - 23 авг')
+    .input-button__filter
+        +product__button.form-button
+            +icon(icon="__expand_more", name="expand_more")
 
 .subscription-text-field.general-setting-block
-	label.general-setting-text.text-subscription subscription text field
-	input.text-field-input.subscription-input(placeholder='Email')
-	.input-button__subscription
-		+product__button().form-button.subscription-button
-			+icon(icon="__subscription", name="arrow_forward")
+    label.general-setting-text.text-subscription subscription text field
+    input.text-field-input.subscription-input(placeholder='Email')
+    .input-button__subscription
+        +product__button().form-button.subscription-button
+            +icon(icon="__subscription", name="arrow_forward")
 
 .dropdown-expanded.general-setting-block
-	label.general-setting-text.text-dropdown-expanded dropdown
-	label.general-setting-text.text-default.text-dropdown-default default
-	input.text-field-input.dropdown-expanded-input(value='2 спальни, 2 кровати...')
-	.input-dropdown-expanded
-		+product__button.form-button
-			+icon(icon="__expand_more", name="expand_more")
+    label.general-setting-text.text-dropdown-expanded dropdown
+    label.general-setting-text.text-default.text-dropdown-default default
+    input.text-field-input.dropdown-expanded-input(value='2 спальни, 2 кровати...')
+    .input-dropdown-expanded
+        +product__button.form-button
+            +icon(icon="__expand_more", name="expand_more")
 
 
 .open-dropdown-expanded.general-setting-block
-	label.general-setting-text.text-dropdown-expanded dropdown
-	label.general-setting-text.text-default.text-dropdown expanded
-	input.text-field-input.open-dropdown-expanded-input(value='2 спальни, 2 кровати...')
-	.input-dropdown-expanded
-		+product__button.form-button
-			+icon(icon="__expand_more", name="expand_more")
-	.dropdown-expanded__open
-		.bedrooms
-			.general-setting-text.rooms__text спальни
-			.counter
-				button.product__svg-button.restangle
-					span.restangle__text -
-				span.general-setting-text.quantity 2
-				button.product__svg-button.restangle.restangle__plus
-					span.restangle__text +
-		.bed
-			.general-setting-text.rooms__text.bed__text  кровати
-			.counter
-				button.product__svg-button.restangle
-					span.restangle__text -
-				span.general-setting-text.quantity__bed 2
-				button.product__svg-button.restangle.restangle-bed__plus
-					span.restangle__text +
-		.bathrooms
-			.general-setting-text.rooms__text.bathrooms__text  ванные комнаты
-			.counter
-				button.product__svg-button.restangle
-					span.restangle__text -
-				span.general-setting-text.quantity__bath 0
-				button.product__svg-button.restangle.restangle-bath__plus
-					span.restangle__text +
+    label.general-setting-text.text-dropdown-expanded dropdown
+    label.general-setting-text.text-default.text-dropdown expanded
+    input.text-field-input.open-dropdown-expanded-input(value='2 спальни, 2 кровати...')
+    .input-dropdown-expanded
+        +product__button.form-button
+            +icon(icon="__expand_more", name="expand_more")
+    .dropdown-expanded__open
+        .bedrooms
+            .general-setting-text.rooms__text спальни
+            .counter
+                button.product__svg-button.restangle
+                    span.restangle__text -
+                span.general-setting-text.quantity 2
+                button.product__svg-button.restangle.restangle__plus
+                    span.restangle__text +
+        .bed
+            .general-setting-text.rooms__text.bed__text  кровати
+            .counter
+                button.product__svg-button.restangle
+                    span.restangle__text -
+                span.general-setting-text.quantity__bed 2
+                button.product__svg-button.restangle.restangle-bed__plus
+                    span.restangle__text +
+        .bathrooms
+            .general-setting-text.rooms__text.bathrooms__text  ванные комнаты
+            .counter
+                button.product__svg-button.restangle
+                    span.restangle__text -
+                span.general-setting-text.quantity__bath 0
+                button.product__svg-button.restangle.restangle-bath__plus
+                    span.restangle__text +
 
 .checkbox-list.general-setting-block
-	label.general-setting-text.text-checkbox-list expandable checkbox list
-	.input-checkbox-list
-		+product__button.form-button
-			+icon(icon="__expand_more", name="expand_more")
+    label.general-setting-text.text-checkbox-list expandable checkbox list
+    .input-checkbox-list
+        +product__button.form-button
+            +icon(icon="__expand_more", name="expand_more")
 
 .open-checkbox-list.general-setting-block
-	label.general-setting-text.text-open-checkbox-list expandable checkbox list
-	.input-open-checkbox-list
-		+product__button.form-button
-			+icon(icon="__rotate", name="expand_more")
-	.open-list
+    label.general-setting-text.text-open-checkbox-list expandable checkbox list
+    .input-open-checkbox-list
+        +product__button.form-button
+            +icon(icon="__rotate", name="expand_more")
+    .open-list
+        +checkbox(classname)
+            +input( expandable)
+        //.group
+        //	input.checkbox
+        //	.checkbox-text Завтрак
+        //.group
+        //	input.checkbox
+        //	.checkbox-text Завтрак
+        //.group
+        //	input.checkbox
+        //	.checkbox-text Завтрак
+        //.group
+        //	input.checkbox
+        //	.checkbox-text Завтрак
+        //.group
+        //	input.checkbox
+        //	.checkbox-text Завтрак
+        //.group
+        //	input.checkbox
+        //	.checkbox-text Завтрак
 
 
