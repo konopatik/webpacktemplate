@@ -4,13 +4,13 @@
   left: 141px;
 }
 .general-setting-text {
+  width: 72px;
+  height: 15px;
+  top: 4px;
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
   position: absolute;
-  width: 72px;
-  height: 15px;
-  top: 4px;
   color: #1F2041;
 }
 .text-default {
@@ -48,7 +48,8 @@
 
   color: rgba(31, 32, 65, 0.5);
 }
-.material-icons__subscription{
-  background: white; /* Белый цвет фона */
-  mix-blend-mode: screen;
+.form-button{
+  margin-left: 10px;
+  margin-top: 10px;
 }
+

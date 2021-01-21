@@ -23,5 +23,11 @@
   height: 44px;
   left: 223px;
   top: 20px;
+}
+.subscription-button {
   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+.material-icons__subscription{
+  background: white; /* Белый цвет фона */
+  mix-blend-mode: screen;
 }

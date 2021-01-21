@@ -18,22 +18,19 @@
   .calendar__button {
     position: absolute;
     width: 23.93px;
-    height: 24px;
-    left: 14.4px;
-    top: 10px;
-
+    left: 20.2px;
+    top: 20px;
     display: flex;
     align-items: center;
     text-align: center;
   }
 
   .calendar__button-svg-right {
-    left: 270.4px;
+
+    left: 275.4px;
   }
 
   .material-icons__style {
-    position: absolute;
-
     font-weight: normal;
     font-size: 24px;
     line-height: 20px;

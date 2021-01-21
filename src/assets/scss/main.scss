@@ -107,14 +107,10 @@ ul, li {
 .product__svg-button{
   height: 24px;
   padding: 0;
-  mix-blend-mode: screen;
-  //margin-left: 10px;
-  //margin-top: 10px;
   cursor: pointer;
   background: #0000;
   border: none;
   outline:none;
-  //line-height: 24px;
 }
 @import "modules/Cards/cards";
 @import "modules/Form Elements/form_elements";

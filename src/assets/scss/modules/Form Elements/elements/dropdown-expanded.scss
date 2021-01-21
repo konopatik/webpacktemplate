@@ -1,0 +1,39 @@
+.dropdown-expanded {
+  width: 266px;
+  height: 64px;
+  left: 140px;
+  top: 876px;
+}
+.text-dropdown-expanded{
+  width: 81px;
+  height: 15px;
+  top:0;
+}
+.text-dropdown-default {
+  position: absolute;
+  width: 57px;
+  height: 15px;
+  left: 209px;
+  top:0;
+  font-weight: normal;
+
+  text-align: right;
+  /* Dark 50% */
+
+  color: rgba(31, 32, 65, 0.5);
+}
+.dropdown-expanded-input{
+  position: absolute;
+  width: 266px;
+  height: 44px;
+  top: 20px;
+  border-radius: 2px;
+
+}
+.input-dropdown-expanded{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 222px;
+  top: 20px;
+}
