@@ -54,8 +54,42 @@ include ../../utils/mixins
 
 .dropdown-expanded.general-setting-block
 	label.general-setting-text.text-dropdown-expanded dropdown
-	label.general-setting-text.text-dropdown-default default
+	label.general-setting-text.text-default.text-dropdown-default default
 	input.text-field-input.dropdown-expanded-input(value='2 спальни, 2 кровати...')
 	.input-dropdown-expanded
 		+product__button.form-button
 			+icon(icon="__expand_more", name="expand_more")
+
+
+.open-dropdown-expanded.general-setting-block
+	label.general-setting-text.text-dropdown-expanded dropdown
+	label.general-setting-text.text-default.text-dropdown expanded
+	input.text-field-input.open-dropdown-expanded-input(value='2 спальни, 2 кровати...')
+	.input-dropdown-expanded
+		+product__button.form-button
+			+icon(icon="__expand_more", name="expand_more")
+	.dropdown-expanded__open
+		.bedrooms
+			.general-setting-text.rooms__text спальни
+			.counter
+				button.product__svg-button.restangle
+					span.restangle__text -
+				span.general-setting-text.quantity 2
+				button.product__svg-button.restangle.restangle__plus
+					span.restangle__text +
+		.bed
+			.general-setting-text.rooms__text.bed__text  кровати
+			.counter
+				button.product__svg-button.restangle
+					span.restangle__text -
+				span.general-setting-text.quantity__bed 2
+				button.product__svg-button.restangle.restangle-bed__plus
+					span.restangle__text +
+		.bathrooms
+			.general-setting-text.rooms__text.bathrooms__text  ванные комнаты
+			.counter
+				button.product__svg-button.restangle
+					span.restangle__text -
+				span.general-setting-text.quantity__bath 0
+				button.product__svg-button.restangle.restangle-bath__plus
+					span.restangle__text +
