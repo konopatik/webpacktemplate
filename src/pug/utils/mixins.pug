@@ -17,17 +17,17 @@ mixin list(class_name, data_items)
                 div.background-data-item.background-today
             else
                 div.background-data-item
-- var classname = ["group","group_1", "group_2", "group_3", "group_4", "group_5" ];
-mixin checkbox(classname)
-    each item in classname
-        div(class=item)
-            block
+// - var classname = ["group","group_1", "group_2", "group_3", "group_4", "group_5" ];
+// mixin checkbox(classname)
+//     each item in classname
+//         div(class=item)
+//             block
 
 
-- var expandable = ["Завтрак", "Письменный стол", "Стул для кормления", "Кроватка", "Телевизор", "Шампунь"];
-mixin input(expandable)
-    each item in expandable
-        .checkbox-text=item
+// - var expandable = ["Завтрак", "Письменный стол", "Стул для кормления", "Кроватка", "Телевизор", "Шампунь"];
+// mixin input(expandable)
+//      each item in expandable
+//      .checkbox-text=item
 
 mixin image-switch__item(src, alt)
     .image-switch__item

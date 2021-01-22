@@ -30,6 +30,38 @@
   position: absolute;
   width: 88.74px;
   height: 20px;
+  top: 1px;
+}
+.group-1{
+  position: absolute;
+  width: 162px;
+  height: 20px;
+  top: 32px;
+
+}
+.group-2{
+  position: absolute;
+  width: 222px;
+  height: 20px;
+  top: 62px;
+}
+.group-3{
+  position: absolute;
+  width: 222px;
+  height: 20px;
+  top: 92px;
+}
+.group-4{
+  position: absolute;
+  width: 107.74px;
+  height: 20px;
+  top: 122px;
+}
+.group-5{
+  position: absolute;
+  width: 99.74px;
+  height: 20px;
+  top: 152px;
 }
 .checkbox{
   position: absolute;
@@ -43,10 +75,27 @@
   box-sizing: border-box;
   border-radius: 4px;
 }
+
+.checkbox-true{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+
+  background: #FFFFFF;
+  /* Primary Color */
+
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.test {
+  position: absolute;
+  left: 5px;
+  top: 3px;
+  z-index: 1;
+}
 .checkbox-text{
   position: absolute;
-  width: 59px;
-  height: 18px;
   left: 29.74px;
 
 
