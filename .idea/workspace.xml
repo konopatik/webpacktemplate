@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="open-list доделала(не нравится как, но пока оставлю так, по ПП совпадает и хорошо. миксин не удалось довести до ума)">
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="сделала миксин checkbox">
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/utils/checkbox-list.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
     </list>
@@ -152,7 +155,7 @@
       <workItem from="1611041056152" duration="21214000" />
       <workItem from="1611125252562" duration="19097000" />
       <workItem from="1611219116344" duration="31031000" />
-      <workItem from="1611305980301" duration="5891000" />
+      <workItem from="1611305980301" duration="7354000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -308,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611309199220</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="сделала миксин checkbox">
+      <created>1611312569136</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1611312569136</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +360,8 @@
     <MESSAGE value="open-checkbox-list" />
     <MESSAGE value="пытаюсь сделать миксин для вывода списка checkbox. застряла" />
     <MESSAGE value="open-list доделала(не нравится как, но пока оставлю так, по ПП совпадает и хорошо. миксин не удалось довести до ума)" />
-    <option name="LAST_COMMIT_MESSAGE" value="open-list доделала(не нравится как, но пока оставлю так, по ПП совпадает и хорошо. миксин не удалось довести до ума)" />
+    <MESSAGE value="сделала миксин checkbox" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделала миксин checkbox" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,4 @@
 - var data_items = [29, 30, 31, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 1];
-- var expandable = ["Завтрак", "Письменный стол", "Стул для кормления", "Кроватка", "Телевизор", "Шампунь"];
-
 
 mixin list(class_name, data_items)
     each item,index in data_items
@@ -17,19 +15,8 @@ mixin list(class_name, data_items)
                 div.background-data-item.background-today
             else
                 div.background-data-item
-- var classname = ["group","group-1", "group-2", "group-3", "group-4", "group-5" ];
-- var expandable = ["Завтрак", "Письменный стол", "Стул для кормления", "Кроватка", "Телевизор", "Шампунь"];
- mixin checkbox(classname, expandable)
-    each item, key in classname
-        div(class = item)
-            each value, index in expandable
-                if index == key
-                    input.checkbox
-                    .checkbox-text=value
-                    if index > 0 && index < 4
-                        input.checkbox.checkbox-true
-                        img(src="../../../assets/img/check-mark.png").checkbox-img
-                        .checkbox-text=value
+
+
 
 
 
