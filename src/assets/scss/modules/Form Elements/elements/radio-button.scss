@@ -76,9 +76,15 @@
 
   color: rgba(31, 32, 65, 0.75);
 }
-.radio-img {
+.radio__switch-circle {
   position: absolute;
+  width: 12px;
+  height: 12px;
   left: 4px;
   top: 6px;
-  z-index: 1;
+
+  /* Primary Gradient */
+
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 10px;
 }

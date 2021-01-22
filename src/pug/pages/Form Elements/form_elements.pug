@@ -10,7 +10,7 @@ include ../../utils/checkbox-list
 //инпут с данными
 .text-field-focus.general-setting-block
     label.general-setting-text.focus text field
-    label.general-setting-text.text-default.text-focus hover/focus
+    label.general-setting-text.text-default.text-focus hover / focus
     input.text-field-input.input-focus(value='This is pretty awesome')
 
 //выпадающий список(не активный)
@@ -129,7 +129,7 @@ include ../../utils/checkbox-list
     label.general-setting-text.text-radio-button  radio buttons
     .radio-switch__man
         .radio-switch__selected
-        img(src="../../../assets/img/color-circle.png").radio-img
+        .radio__switch-circle
         .radio-text__man Мужчина
     .radio-switch__woman
         .radio-switch
@@ -139,12 +139,26 @@ include ../../utils/checkbox-list
 .toggle.general-setting-block
     label.general-setting-text.toggle-text  toggle
     .toggle__active
-        .toggle__active-switch
-        .toggle__active-circle
-        //img(src="../../../assets/img/color-circle.png").toggle-img
+        button.product__svg-button.toggle__active-switch
+            .toggle__active-circle
         .toggle__text Получать спецпредложения
     .toggle__not-active
-        .toggle__not-active-switch
-        .toggle__not-active-circle
+        button.product__svg-button.toggle__not-active-switch
+            .toggle__not-active-circle
         .toggle__text Получать спецпредложения
+
+//показатель лайков активный/не активный
+.like-button.general-setting-block
+    label.general-setting-text.like-button-text  like button
+    .like-button__not-active
+        +product__button().like-button__not-active-switch
+            +icon(icon="__heart", name="favorite_border")
+            span.like-button__not-active-text 2
+    .like-button__active
+        .like-button__active-switch
+        +product__button().like-button__active-switch
+            +icon(icon="__heart", name="favorite_border")
+            span.like-button__active-text 12
+
+
 
