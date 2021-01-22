@@ -1,0 +1,84 @@
+.radio-buttons{
+  width: 220.74px;
+  height: 55px;
+  left: 587px;
+  top: 313px;
+}
+.text-radio-button{
+  width: 107px;
+  height: 15px;
+  top: 0px;
+}
+
+.radio-switch__woman{
+  position: absolute;
+  width: 102.74px;
+  height: 24px;
+  left: 118px;
+  top: 29px;
+}
+.radio-switch__man {
+  position: absolute;
+  width: 98px;
+  height: 24px;
+  top: 29px;
+}
+.radio-switch {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  background: #FFFFFF;
+  /* Dark 25% */
+
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.radio-text__woman {
+  position: absolute;
+  width: 73px;
+  height: 24px;
+  left: 30px;
+
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+
+  /* Dark 50% */
+
+  color: rgba(31, 32, 65, 0.5);
+}
+.radio-switch__selected{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+
+  background: #FFFFFF;
+/* Primary Color */
+
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.radio-text__man{
+  position: absolute;
+  width: 68px;
+  height: 24px;
+  left: 30px;
+
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+
+  /* Dark 75% */
+
+  color: rgba(31, 32, 65, 0.75);
+}
+.radio-img {
+  position: absolute;
+  left: 4px;
+  top: 6px;
+  z-index: 1;
+}

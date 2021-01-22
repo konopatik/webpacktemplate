@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="сделала миксин checkbox">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/utils/checkbox-list.pug" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="checkbox-button">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/color-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/radio-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cards/calendar/calendar.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cards/calendar/calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cards/cards.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cards/common-style-cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cards/room-page-lux/room-page-lux.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cards/room-page-lux/room-page-lux.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cards/room-page/room-page.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cards/room-page/room-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/checkbox-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/checkbox-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/common-style-input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/data-picker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/date-dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/dropdown-default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/dropdown-expanded.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/filter-date-dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/input-default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/input-focus.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/open-checkbox-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/open-dropdown-expanded.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/placeholder.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/subscription-text-field.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/too-date-dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/form_elements.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Form Elements/form_elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/logo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/utils/checkbox-list.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/utils/mixins.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
@@ -73,17 +100,17 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements" />
+      <recent name="$PROJECT_DIR$/src/pages/Form Elements" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/pages/Cards" />
       <recent name="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements" />
-      <recent name="$PROJECT_DIR$/src/pug/pages" />
-      <recent name="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem" />
-      <recent name="$PROJECT_DIR$/dist/assets/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/Cards" />
+      <recent name="$PROJECT_DIR$/src/pages/Cards/calendar" />
+      <recent name="$PROJECT_DIR$/src/pages/Cards/room-page" />
+      <recent name="$PROJECT_DIR$/src/pages/Cards/room-page-lux" />
       <recent name="$PROJECT_DIR$/src/pug/pages" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem" />
-      <recent name="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/All elements" />
-      <recent name="$PROJECT_DIR$/src/assets/scss/modules/Cards" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.localhost:8080">
@@ -155,7 +182,7 @@
       <workItem from="1611041056152" duration="21214000" />
       <workItem from="1611125252562" duration="19097000" />
       <workItem from="1611219116344" duration="31031000" />
-      <workItem from="1611305980301" duration="7354000" />
+      <workItem from="1611305980301" duration="11646000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -318,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611312569136</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="checkbox-button">
+      <created>1611313959559</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1611313959559</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +395,8 @@
     <MESSAGE value="пытаюсь сделать миксин для вывода списка checkbox. застряла" />
     <MESSAGE value="open-list доделала(не нравится как, но пока оставлю так, по ПП совпадает и хорошо. миксин не удалось довести до ума)" />
     <MESSAGE value="сделала миксин checkbox" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделала миксин checkbox" />
+    <MESSAGE value="checkbox-button" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkbox-button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

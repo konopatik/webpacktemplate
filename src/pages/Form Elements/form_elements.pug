@@ -6,13 +6,11 @@ include ../../utils/checkbox-list
     label.general-setting-text text field
     label.general-setting-text.text-default default
     input.text-field-input(placeholder='Email')
-
 //инпут с данными
 .text-field-focus.general-setting-block
     label.general-setting-text.focus text field
     label.general-setting-text.text-default.text-focus hover/focus
     input.text-field-input.input-focus(value='This is pretty awesome')
-
 //выпадающий список(не активный)
 .dropdown-default.general-setting-block
     label.general-setting-text.dropdown dropdown
@@ -21,13 +19,11 @@ include ../../utils/checkbox-list
     .input-button
         +product__button.form-button
             +icon(icon="__expand_more", name="expand_more")
-
 //указание даты не активный(даты не выбраны)
 .data-picker.general-setting-block
     label.general-setting-text.text-data-picker masked text field
     label.general-setting-text.text-default.not-visible default
     input.text-field-input(placeholder='ДД.ММ.ГГГГ')
-
 //выбор даты не активный
 .date-dropdown.general-setting-block
     label.general-setting-text.text-date-dropdown date dropdown
@@ -35,7 +31,6 @@ include ../../utils/checkbox-list
     .input-button__small
         +product__button.form-button
             +icon(icon="__expand_more", name="expand_more")
-
 //инпут с датой
 .too-date-dropdown.general-setting-block
     label.general-setting-text.text-date-dropdown date dropdown
@@ -43,7 +38,6 @@ include ../../utils/checkbox-list
     .input-button__small
         +product__button.form-button
             +icon(icon="__expand_more", name="expand_more")
-
 //указание даты (даты выбраны)
 .filter-date-dropdown.general-setting-block
     label.general-setting-text.text-filter filter date dropdown
@@ -51,7 +45,6 @@ include ../../utils/checkbox-list
     .input-button__filter
         +product__button.form-button
             +icon(icon="__expand_more", name="expand_more")
-
 //ввод емейл адреса
 .subscription-text-field.general-setting-block
     label.general-setting-text.text-subscription subscription text field
@@ -59,7 +52,6 @@ include ../../utils/checkbox-list
     .input-button__subscription
         +product__button().form-button.subscription-button
             +icon(icon="__subscription", name="arrow_forward")
-
 //активный инпут с выбором кроватей
 .dropdown-expanded.general-setting-block
     label.general-setting-text.text-dropdown-expanded dropdown
@@ -109,7 +101,6 @@ include ../../utils/checkbox-list
     .input-checkbox-list
         +product__button.form-button
             +icon(icon="__expand_more", name="expand_more")
-
 //раскрытый список предоставляемых услуг, внутри миксин checkbox, который выводит этот список
 .open-checkbox-list.general-setting-block
     label.general-setting-text.text-open-checkbox-list expandable checkbox list
@@ -123,15 +114,7 @@ include ../../utils/checkbox-list
 .checkbox-buttons.general-setting-block
     label.general-setting-text.text-checkbox-button  checkbox buttons
     +checkbox(class_checkbox_button, check_box_button)
-
-//выбор пола(переключатель)
+//выбор пола(переключаатель)
 .radio-buttons.general-setting-block
-    label.general-setting-text.text-radio-button  radio buttons
-    .radio-switch__man
-        .radio-switch__selected
-        img(src="../../../assets/img/color-circle.png").radio-img
-        .radio-text__man Мужчина
-    .radio-switch__woman
-        .radio-switch
-        .radio-text__woman Женщина
-
+    label.general-setting-text.text-checkbox-button  checkbox buttons
+    +checkbox(class_checkbox_button, check_box_button)

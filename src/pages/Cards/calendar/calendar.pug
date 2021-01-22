@@ -1,0 +1,22 @@
+include ../../utils/mixins
+
+
+article.calendar
+	.calendar__field
+		//блок с кнопками вперед/назад
+		.calendar__button
+			+product__button()
+				+icon(icon="__style", name="arrow_back")
+		.calendar__button.calendar__button-svg-right
+			+product__button()
+				+icon(icon="__style", name="arrow_forward")
+		.calendar__field-month Август 2019
+		.calendar__field-days
+			.calendar__field-restangle
+			.calendar__field-day-of-week
+				//тут срабатывает js, который вставляет сюда li с днями недели
+			.calendar__field-dates
+				//миксин, который выводитдаты календаря, применяя к нему те или иные стили
+				+list('', data_items)
+	span.calendar__link-left.calendar__link-color очистить
+	span.calendar__link-right.calendar__link-color применить

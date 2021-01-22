@@ -1,0 +1,112 @@
+.open-dropdown-expanded {
+  width: 266px;
+  height: 181.56px;
+  left: 140px;
+  top: 960px;
+
+  filter: drop-shadow(0px 10px 20px rgba(31, 32, 65, 0.05));
+}
+.text-dropdown-expanded{
+  top:0;
+}
+.text-dropdown {
+  left: 196px;
+}
+.open-dropdown-expanded-input{
+  width: 266px;
+  height: 44px;
+  top: 19.56px;
+
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  border-radius: 2px;
+}
+.input-dropdown-expanded{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 222px;
+  top: 20px;
+}
+.dropdown-expanded__open {
+  position: absolute;
+  width: 266px;
+  height: 119px;
+  top: 62.56px;
+
+  background: #FFFFFF;
+  /* Dark 50% */
+
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  box-sizing: border-box;
+}
+
+//1022.56
+.counter {
+  display: flex;
+  width: 92px;
+  height: 30px;
+  margin-left: 167px;
+  margin-top: 6px;
+}
+.restangle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 22px;
+
+}
+.restangle__plus{
+  left: 229px;
+  top: 7.56px;
+}
+.restangle-bed__plus{
+  left: 229px;
+}
+.restangle-bath__plus{
+  left: 229px;
+}
+.restangle__text{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: rgba(31, 32, 65, 0.5);
+}
+.quantity{
+  width: 92px;
+  left: 166px;
+  top: 12px;
+
+  text-align: center;
+
+}
+.quantity__bed{
+  width: 92px;
+  left: 166px;
+  top: 48px;
+  text-align: center;
+}
+.quantity__bath{
+  width: 92px;
+  left: 166px;
+  top: 86.5px;
+  text-align: center;
+}
+.rooms__text {
+  left: 15px;
+  top: 13px;
+}
+.bed__text {
+  left: 15px;
+  top: 50px;
+}
+.bathrooms__text{
+  width: 133px;
+  height: 15px;
+  left: 15px;
+  top: 87px;
+}
