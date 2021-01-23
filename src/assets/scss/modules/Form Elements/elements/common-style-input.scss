@@ -4,17 +4,16 @@
   left: 141px;
 }
 .general-setting-text {
+  position: absolute;
   width: 72px;
   height: 15px;
   top: 4px;
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
-  position: absolute;
   color: #1F2041;
 }
 .text-default {
-  position: absolute;
   top: 0;
   width: 57px;
   height: 15px;
@@ -24,7 +23,6 @@
   color: rgba(31, 32, 65, 0.5);
 }
 .text-field-input {
-  font-family: 'Montserrat-Regular';
   position: absolute;
   width: 320px;
   height: 44px;
@@ -34,6 +32,8 @@
   box-sizing: border-box;
   border-radius: 4px;
   outline: none;
+  font-family: 'Montserrat-Regular';
+  font-size: 14px;
   padding-left: 15px;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
