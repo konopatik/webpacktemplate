@@ -161,4 +161,19 @@ include ../../utils/checkbox-list
             span.like-button__active-text 12
 
 
+//кнопки рейтинга
+//.rate-button.general-setting-block
+label.general-setting-text.rate-button__text  rate button
+.rate-button__rating
+    +product__button()
+        - for(let i = 1; i <= 5; i++)
+        -if (i == 5)
+            +icon(icon="__rating" name="star_border")
+        -else
+            +icon(icon="__rating" name="star")
+.rate-button__rating-full
+    +product__button()
+        - for(let i = 1; i <= 5; i++)
+        +icon(icon="__rating" name="star")
+
 

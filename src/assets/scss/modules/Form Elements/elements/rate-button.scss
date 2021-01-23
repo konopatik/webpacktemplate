@@ -1,0 +1,27 @@
+.rate-button__text {
+  position: absolute;
+  width: 90px;
+  height: 15px;
+  left: 587px;
+  top: 625px;
+}
+.rate-button__rating {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  left: 587px;
+  top: 656px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);;
+}
+.rate-button__rating-full {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  left: 727px;
+  top: 656px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);;
+}
+.material-icons__rating {
+  background: white; /* Белый цвет фона */
+  mix-blend-mode: screen;
+}
