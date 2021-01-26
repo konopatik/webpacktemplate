@@ -11,19 +11,81 @@
   top: 0px;
 }
 
-.input-checkbox-list {
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 221px;
-}
-
 .wide-corridor {
   position: absolute;
   width: 233px;
   height: 52px;
   top: 31px;
+  display: flex;
 
+  .general-explanation {
+    font-family: "Montserrat-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+
+    /* Dark 75% */
+
+    color: rgba(31, 32, 65, 0.75);
+  }
+
+  div {
+    width: 203px;
+    display: inline-grid;
+    .explanation {
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      /* or 117% */
+
+
+      /* Dark 50% */
+
+      color: rgba(31, 32, 65, 0.5);
+    }
+  }
 }
+
+.disabled-assistant {
+  position: absolute;
+  width: 266px;
+  height: 52px;
+  top: 93px;
+  display: flex;
+
+  .general-explanation {
+    font-family: "Montserrat-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+
+    /* Dark 75% */
+
+    color: rgba(31, 32, 65, 0.75);
+  }
+
+  div {
+    width: 236px;
+    display: inline-grid;
+    .explanation {
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      /* or 117% */
+
+
+      /* Dark 50% */
+
+      color: rgba(31, 32, 65, 0.5);
+    }
+  }
+}
+
 
 

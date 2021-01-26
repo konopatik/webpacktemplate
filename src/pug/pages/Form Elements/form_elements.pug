@@ -162,7 +162,7 @@ include ../../utils/checkbox-list
 
 //кнопки рейтинга
 //.rate-button.general-setting-block
-label.general-setting-text.rate-button__text  rate button
+.general-setting-text.rate-button__text  rate button
 .rate-button__rating
     +product__button()
         - for(let i = 1; i <= 5; i++)
@@ -214,10 +214,15 @@ label.general-setting-text.rate-button__text  rate button
 
 //дополнительный чекбокс(раскрытый)
 .rich-checkbox-buttons.general-setting-block
-    label.general-setting-text.rich-checkbox-button__text rich checkbox buttons
+    .general-setting-text.rich-checkbox-button__text rich checkbox buttons
     .wide-corridor
-        input
-        .wide-corridor__text
+        input(type="checkbox")
+        div.general-explanation Широкий коридор
+            span.explanation Ширина коридоров в номере не менее 91 см.
+    .disabled-assistant
+        input(type="checkbox")
+        div.general-explanation Помощник для инвалидов
+            span.explanation На 1 этаже вас встретит специалист и проводит до номера.
 
 
 
