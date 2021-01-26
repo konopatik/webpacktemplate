@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="попытка сделать инпуты переключаемыми( с сохранением цветов). местами кривовато">
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="под стили инпута переделала radio button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/radio-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/radio-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/toggle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/toggle.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/utils/checkbox-list.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/checkbox-list.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +153,7 @@
       <workItem from="1611219116344" duration="31031000" />
       <workItem from="1611305980301" duration="19833000" />
       <workItem from="1611400594520" duration="7874000" />
-      <workItem from="1611644453635" duration="22206000" />
+      <workItem from="1611644453635" duration="23748000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -368,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611665575548</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="под стили инпута переделала radio button">
+      <created>1611670205352</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1611670205352</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +392,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Верстка календаря(продолжается)" />
     <MESSAGE value="Закончила кадендарь. Дописала миксин(не уверена в его &quot;красоте&quot;)." />
     <MESSAGE value="Обнаружила недочеты в календаре, доделала. Леплю логотип" />
     <MESSAGE value="Логотип закончила. Начала страницу Form Elements. Сверстала первые два поля." />
@@ -413,7 +416,8 @@
     <MESSAGE value="like-button" />
     <MESSAGE value="rate-button" />
     <MESSAGE value="попытка сделать инпуты переключаемыми( с сохранением цветов). местами кривовато" />
-    <option name="LAST_COMMIT_MESSAGE" value="попытка сделать инпуты переключаемыми( с сохранением цветов). местами кривовато" />
+    <MESSAGE value="под стили инпута переделала radio button" />
+    <option name="LAST_COMMIT_MESSAGE" value="под стили инпута переделала radio button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

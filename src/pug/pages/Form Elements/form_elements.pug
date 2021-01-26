@@ -138,13 +138,13 @@ include ../../utils/checkbox-list
 .toggle.general-setting-block
     label.general-setting-text.toggle-text  toggle
     .toggle__active
-        button.product__svg-button.toggle__active-switch
-            .toggle__active-circle
-        .toggle__text Получать спецпредложения
+        input.switch(type='checkbox' checked='')
+        div Получать спецпредложения
     .toggle__not-active
-        button.product__svg-button.toggle__not-active-switch
-            .toggle__not-active-circle
-        .toggle__text Получать спецпредложения
+        input.switch(type='checkbox')
+        div Получать спецпредложения
+
+
 
 //показатель лайков активный/не активный
 .like-button.general-setting-block
@@ -218,6 +218,7 @@ label.general-setting-text.rate-button__text  rate button
     .wide-corridor
         input
         .wide-corridor__text
+
 
 
 
