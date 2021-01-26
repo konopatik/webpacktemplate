@@ -6,13 +6,13 @@
 
 mixin checkbox(classname, expandable)
 	each item, key in classname
-		div(class = item)
+		div.general-style-list(class = item)
 			each value, index in expandable
 				if index == key
 					if index > 0 && index < 4
 						input(type="checkbox" checked)
-						label=value
+						div.checkbox-label=value
 					else
 						input(type="checkbox")
-						label=value
+						div.checkbox-label=value
 

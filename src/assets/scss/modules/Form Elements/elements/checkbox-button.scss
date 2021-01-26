@@ -1,32 +1,40 @@
-.checkbox-buttons{
+.checkbox-buttons {
   width: 222px;
   height: 129.12px;
   left: 587px;
   top: 143px;
 }
-.text-checkbox-button{
+
+.text-checkbox-button {
   width: 136px;
   height: 15px;
-  top:0;
+  top: 0;
 }
 
-.list{
+.list {
   position: absolute;
-  //width: 134.74px;
+  width: 135px;
   height: 20px;
   top: 31.56px;
+  display: flex;
 }
-.list-1{
+
+.list-1 {
   position: absolute;
   width: 181px;
   height: 20px;
   top: 62.12px;
-
+  display: flex;
 }
-.list-2{
+
+.list-2 {
   position: absolute;
   width: 222px;
   height: 37px;
   top: 92.12px;
+  display: flex;
+  .checkbox-label {
+    width: 192px;
+  }
 }
 

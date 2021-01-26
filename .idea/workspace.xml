@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="rate-button">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-guest-dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rich-checkbox-list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="попытка сделать инпуты переключаемыми( с сохранением цветов). местами кривовато">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/calendar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-expanded.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-expanded.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-dropdown-expanded.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-dropdown-expanded.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/calendar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/calendar.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/radio-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/radio-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/utils/checkbox-list.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/checkbox-list.pug" afterDir="false" />
     </list>
@@ -163,7 +156,7 @@
       <workItem from="1611219116344" duration="31031000" />
       <workItem from="1611305980301" duration="19833000" />
       <workItem from="1611400594520" duration="7874000" />
-      <workItem from="1611644453635" duration="17580000" />
+      <workItem from="1611644453635" duration="22206000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -368,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611407351444</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="попытка сделать инпуты переключаемыми( с сохранением цветов). местами кривовато">
+      <created>1611665575548</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1611665575548</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +388,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Верстка календаря" />
     <MESSAGE value="Верстка календаря(продолжается)" />
     <MESSAGE value="Закончила кадендарь. Дописала миксин(не уверена в его &quot;красоте&quot;)." />
     <MESSAGE value="Обнаружила недочеты в календаре, доделала. Леплю логотип" />
@@ -413,7 +412,8 @@
     <MESSAGE value="рефакторинг" />
     <MESSAGE value="like-button" />
     <MESSAGE value="rate-button" />
-    <option name="LAST_COMMIT_MESSAGE" value="rate-button" />
+    <MESSAGE value="попытка сделать инпуты переключаемыми( с сохранением цветов). местами кривовато" />
+    <option name="LAST_COMMIT_MESSAGE" value="попытка сделать инпуты переключаемыми( с сохранением цветов). местами кривовато" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

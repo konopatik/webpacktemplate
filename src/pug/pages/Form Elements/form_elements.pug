@@ -128,12 +128,11 @@ include ../../utils/checkbox-list
 .radio-buttons.general-setting-block
     label.general-setting-text.text-radio-button  radio buttons
     .radio-switch__man
-        .radio-switch__selected
-        .radio__switch-circle
-        .radio-text__man Мужчина
+        input(type='radio' name='radio' value='1' checked='')
+        div Мужчина
     .radio-switch__woman
-        .radio-switch
-        .radio-text__woman Женщина
+        input(type='radio' name='radio' value='2')
+        div Женщина
 
 //переключатель на рассылку
 .toggle.general-setting-block
@@ -219,6 +218,8 @@ label.general-setting-text.rate-button__text  rate button
     .wide-corridor
         input
         .wide-corridor__text
+
+
 
 
 

@@ -26,40 +26,32 @@
   height: 171px;
   top: 46.44px;
 }
-.group{
+.general-style-list {
   position: absolute;
-  width: 88.74px;
   height: 20px;
-  top: 1px;
+  display: flex;
+}
+.group{
+  width: 88.74px;
+  top: 2px;
 }
 .group-1{
-  position: absolute;
   width: 162px;
-  height: 20px;
   top: 32px;
-
 }
 .group-2{
-  position: absolute;
   width: 222px;
-  height: 20px;
   top: 62px;
 }
 .group-3{
-  position: absolute;
   width: 222px;
-  height: 20px;
   top: 92px;
 }
 .group-4{
-  position: absolute;
   width: 107.74px;
-  height: 20px;
   top: 122px;
 }
 .group-5{
-  position: absolute;
   width: 99.74px;
-  height: 20px;
   top: 152px;
 }
