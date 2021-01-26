@@ -112,7 +112,7 @@ include ../../utils/checkbox-list
 
 //раскрытый список предоставляемых услуг, внутри миксин checkbox, который выводит этот список
 .open-checkbox-list.general-setting-block
-    label.general-setting-text.text-open-checkbox-list expandable checkbox list
+    .general-setting-text.text-open-checkbox-list expandable checkbox list
     .input-open-checkbox-list
         +product__button.form-button
             +icon(icon="__rotate", name="expand_more")
@@ -121,7 +121,7 @@ include ../../utils/checkbox-list
 
 //список дополнительных возможностей
 .checkbox-buttons.general-setting-block
-    label.general-setting-text.text-checkbox-button  checkbox buttons
+    .general-setting-text.text-checkbox-button  checkbox buttons
     +checkbox(class_checkbox_button, check_box_button)
 
 //выбор пола(переключатель)
@@ -175,5 +175,50 @@ label.general-setting-text.rate-button__text  rate button
     +product__button()
         - for(let i = 1; i <= 5; i++)
         +icon(icon="__rating" name="star")
+
+
+
+//открытый выпадающий список в котором указывается количество человек
+.open-guest-dropdown.general-setting-block
+    label.general-setting-text.text-guest-dropdown dropdown
+    input.text-field-input.open-guest-dropdown__input(value='Сколько гостей')
+    .input-guest-dropdown
+        +product__button.form-button
+            +icon(icon="__expand_more", name="expand_more")
+    .guest-dropdown__open
+        .adults
+            .general-setting-text.people__text взрослые
+            .guest-dropdown__counter
+                button.product__svg-button.restangle.restangle__not-active
+                    span.restangle__text -
+                span.general-setting-text.quantity 0
+                button.product__svg-button.restangle.restangle__plus
+                    span.restangle__text +
+        .children
+            .general-setting-text.people__text.children__text  дети
+            .guest-dropdown__counter
+                button.product__svg-button.restangle.restangle__not-active
+                    span.restangle__text -
+                span.general-setting-text.quantity__children 0
+                button.product__svg-button.restangle.restangle-children__plus
+                    span.restangle__text +
+        .babies
+            .general-setting-text.people__text.babies__text  младенцы
+            .guest-dropdown__counter
+                button.product__svg-button.restangle.restangle__not-active
+                    span.restangle__text -
+                span.general-setting-text.quantity__babies 0
+                button.product__svg-button.restangle.restangle-babies__plus
+                    span.restangle__text +
+    button.product__svg-button.calendar__link-color.link-button применить
+
+
+//дополнительный чекбокс(раскрытый)
+.rich-checkbox-buttons.general-setting-block
+    label.general-setting-text.rich-checkbox-button__text rich checkbox buttons
+    .wide-corridor
+        input
+        .wide-corridor__text
+
 
 

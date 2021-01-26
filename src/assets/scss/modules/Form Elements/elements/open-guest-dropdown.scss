@@ -1,74 +1,65 @@
-.open-dropdown-expanded {
-  width: 266px;
-  height: 181.56px;
-  left: 140px;
-  top: 960px;
-
-  filter: drop-shadow(0px 10px 20px rgba(31, 32, 65, 0.05));
+.open-guest-dropdown{
+  position: absolute;
+  width: 320px;
+  height: 221.56px;
+  left: 587px;
+  top: 876px;
 }
-
-.text-dropdown-expanded {
+.text-guest-dropdown{
+  position: absolute;
+  width: 81px;
+  height: 15px;
   top: 0;
 }
-
-.text-dropdown {
-  left: 196px;
-}
-
-.open-dropdown-expanded-input {
-  width: 266px;
+.open-guest-dropdown__input{
+  width: 320px;
   height: 44px;
-  top: 19.56px;
+  top: 20px;
 
   border: 1px solid rgba(31, 32, 65, 0.5);
   border-radius: 2px;
 }
-
-.input-dropdown-expanded {
+.input-guest-dropdown{
   position: absolute;
   width: 44px;
   height: 44px;
-  left: 222px;
+  left: 276px;
   top: 20px;
 }
-
-.dropdown-expanded__open {
+.guest-dropdown__open {
   position: absolute;
-  width: 266px;
-  height: 119px;
-  top: 61.56px;
+  width: 320px;
+  height: 159px;
+  top: 62.56px;
 
   background: #FFFFFF;
   /* Dark 50% */
-  border-radius: 2px;
+
   border: 1px solid rgba(31, 32, 65, 0.5);
   box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
-.rooms__text {
+.people__text {
   left: 15px;
-  top: 14px;
+  top: 13px;
 }
-
-.bed__text {
+.children__text {
   left: 15px;
   top: 50px;
 }
-
-.bathrooms__text {
+.babies__text{
   width: 133px;
   height: 15px;
   left: 15px;
   top: 87px;
 }
-
 //1022.56
-.counter {
+.guest-dropdown__counter {
   display: flex;
   width: 92px;
   height: 30px;
-  margin-left: 167px;
+  margin-left: 221px;
   margin-top: 6px;
-
   .restangle {
     position: absolute;
     width: 30px;
@@ -80,53 +71,51 @@
     border-radius: 22px;
   }
 
-  .restangle__plus {
-    left: 229px;
+  .restangle__plus{
+    left: 283px;
     top: 7.56px;
   }
-
-  .restangle-bed__plus {
-    left: 229px;
+  .restangle-children__plus{
+    left: 283px;
   }
-
-  .restangle-bath__plus {
-    left: 229px;
+  .restangle-babies__plus{
+    left: 283px;
   }
-
-  .restangle__text {
+  .restangle__text{
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
 
     color: rgba(31, 32, 65, 0.5);
   }
-
-  .quantity {
+  .quantity{
     width: 92px;
-    left: 166px;
-    top: 14px;
+    left: 221px;
+    top: 12px;
 
     text-align: center;
 
   }
-
-  .quantity__bed {
+  .quantity__children{
     width: 92px;
-    left: 166px;
-    top: 50px;
+    left: 221px;
+    top: 48px;
     text-align: center;
   }
-
-  .quantity__bath {
+  .quantity__babies{
     width: 92px;
-    left: 166px;
-    top: 88px;
+    left: 221px;
+    top: 86.5px;
     text-align: center;
   }
-
-
-  .restangle__not-active {
+  .restangle__not-active{
     opacity: 0.38;
   }
-
+}
+.link-button {
+  position: absolute;
+  width: 84px;
+  height: 15px;
+  left: 229px;
+  top: 193px;
 }

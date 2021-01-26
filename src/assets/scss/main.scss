@@ -2,7 +2,7 @@
 @import "utils/vars";
 @import "utils/mixins";
 @import "utils/fonts";
-
+@import "modules/input-style";
 html {
   line-height: $mainLineHeight;
   font-size: $mainFontSize;
@@ -51,32 +51,12 @@ ul, li {
   width: 1440px;
   height: 1350px;
   background: #F4F4F6;
-  //padding: 10px 20px;
-  //@media screen and (max-width: $desktopWidth) {
-  //  padding: 36px 0;
-  //}
-  //@media screen and (max-width: $tableWidth) {
-  //  padding: 28px 0;
-  //}
-  //@media screen and (max-width: $phoneWidth) {
-  //  padding: 20px 0;
-  //}
 }
 .form_elements {
   position: relative;
   width: 1440px;
   height: 1853px;
   background: #FFFFFF;
-  //padding: 10px 20px;
-  //@media screen and (max-width: $desktopWidth) {
-  //  padding: 36px 0;
-  //}
-  //@media screen and (max-width: $tableWidth) {
-  //  padding: 28px 0;
-  //}
-  //@media screen and (max-width: $phoneWidth) {
-  //  padding: 20px 0;
-  //}
 }
 .material-icons {
   font-family: 'Material Icons';
@@ -102,7 +82,17 @@ ul, li {
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+.calendar__link-color {
+  font-family: Montserrat-Regular;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
 
+  text-transform: uppercase;
+
+  color: #BC9CFF;
+}
 .product__svg-button{
   height: 24px;
   padding: 0;
