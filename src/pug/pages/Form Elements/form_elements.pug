@@ -3,20 +3,20 @@ include ../../utils/checkbox-list
 +logo
 //не активный инпут
 .text-field-default.general-setting-block
-    label.general-setting-text text field
-    label.general-setting-text.text-default default
+    h3.general-setting-text text field
+    h3.general-setting-text.text-default default
     input.text-field-input(placeholder='Email')
 
 //инпут с данными
 .text-field-focus.general-setting-block
-    label.general-setting-text.focus text field
-    label.general-setting-text.text-default.text-focus hover / focus
+    h3.general-setting-text.focus text field
+    h3.general-setting-text.text-default.text-focus hover / focus
     input.text-field-input.input-focus(value='This is pretty awesome')
 
 //выпадающий список(не активный)
 .dropdown-default.general-setting-block
-    label.general-setting-text.dropdown dropdown
-    label.general-setting-text.text-default.not-visible default
+    h3.general-setting-text.dropdown dropdown
+    h3.general-setting-text.text-default.not-visible default
     input.text-field-input.input-dropdown(value='Сколько гостей')
     .input-button
         +product__button.form-button
@@ -24,13 +24,13 @@ include ../../utils/checkbox-list
 
 //указание даты не активный(даты не выбраны)
 .data-picker.general-setting-block
-    label.general-setting-text.text-data-picker masked text field
-    label.general-setting-text.text-default.not-visible default
+    h3.general-setting-text.text-data-picker masked text field
+    h3.general-setting-text.text-default.not-visible default
     input.text-field-input(placeholder='ДД.ММ.ГГГГ')
 
 //выбор даты не активный
 .date-dropdown.general-setting-block
-    label.general-setting-text.text-date-dropdown date dropdown
+    h3.general-setting-text.text-date-dropdown date dropdown
     input.text-field-input.date-dropdown-input(value='ДД.ММ.ГГГГ')
     .input-button__small
         +product__button.form-button
@@ -38,7 +38,7 @@ include ../../utils/checkbox-list
 
 //инпут с датой
 .too-date-dropdown.general-setting-block
-    label.general-setting-text.text-date-dropdown date dropdown
+    h3.general-setting-text.text-date-dropdown date dropdown
     input.text-field-input.date-dropdown-input(value='19.08.2019')
     .input-button__small
         +product__button.form-button
@@ -46,7 +46,7 @@ include ../../utils/checkbox-list
 
 //указание даты (даты выбраны)
 .filter-date-dropdown.general-setting-block
-    label.general-setting-text.text-filter filter date dropdown
+    h3.general-setting-text.text-filter filter date dropdown
     input.text-field-input.text-filter-input(value='19 авг - 23 авг')
     .input-button__filter
         +product__button.form-button
@@ -54,7 +54,7 @@ include ../../utils/checkbox-list
 
 //ввод емейл адреса
 .subscription-text-field.general-setting-block
-    label.general-setting-text.text-subscription subscription text field
+    h3.general-setting-text.text-subscription subscription text field
     input.text-field-input.subscription-input(placeholder='Email')
     .input-button__subscription
         +product__button().form-button.subscription-button
@@ -62,8 +62,8 @@ include ../../utils/checkbox-list
 
 //активный инпут с выбором кроватей
 .dropdown-expanded.general-setting-block
-    label.general-setting-text.text-dropdown-expanded dropdown
-    label.general-setting-text.text-default.text-dropdown-default default
+    h3.general-setting-text.text-dropdown-expanded dropdown
+    h3.general-setting-text.text-default.text-dropdown-default default
     input.text-field-input.dropdown-expanded-input(value='2 спальни, 2 кровати...')
     .input-dropdown-expanded
         +product__button.form-button
@@ -71,8 +71,8 @@ include ../../utils/checkbox-list
 
 //открытый выпадающий список в котором указывается количество кроватей
 .open-dropdown-expanded.general-setting-block
-    label.general-setting-text.text-dropdown-expanded dropdown
-    label.general-setting-text.text-default.text-dropdown expanded
+    h3.general-setting-text.text-dropdown-expanded dropdown
+    h3.general-setting-text.text-default.text-dropdown expanded
     input.text-field-input.open-dropdown-expanded-input(value='2 спальни, 2 кровати...')
     .input-dropdown-expanded
         +product__button.form-button
@@ -105,14 +105,14 @@ include ../../utils/checkbox-list
 
 //скрытый список предоставляемых услуг
 .checkbox-list.general-setting-block
-    label.general-setting-text.text-checkbox-list expandable checkbox list
+    h3.general-setting-text.text-checkbox-list expandable checkbox list
     .input-checkbox-list
         +product__button.form-button
             +icon(icon="__expand_more", name="expand_more")
 
 //раскрытый список предоставляемых услуг, внутри миксин checkbox, который выводит этот список
 .open-checkbox-list.general-setting-block
-    .general-setting-text.text-open-checkbox-list expandable checkbox list
+    h3.general-setting-text.text-open-checkbox-list expandable checkbox list
     .input-open-checkbox-list
         +product__button.form-button
             +icon(icon="__rotate", name="expand_more")
@@ -121,12 +121,12 @@ include ../../utils/checkbox-list
 
 //список дополнительных возможностей
 .checkbox-buttons.general-setting-block
-    .general-setting-text.text-checkbox-button  checkbox buttons
+    h3.general-setting-text.text-checkbox-button  checkbox buttons
     +checkbox(class_checkbox_button, check_box_button)
 
 //выбор пола(переключатель)
 .radio-buttons.general-setting-block
-    label.general-setting-text.text-radio-button  radio buttons
+    h3.general-setting-text.text-radio-button  radio buttons
     .radio-switch__man
         input(type='radio' name='radio' value='1' checked='')
         div Мужчина
@@ -136,7 +136,7 @@ include ../../utils/checkbox-list
 
 //переключатель на рассылку
 .toggle.general-setting-block
-    label.general-setting-text.toggle-text  toggle
+    h3.general-setting-text.toggle-text  toggle
     .toggle__active
         input.switch(type='checkbox' checked='')
         div Получать спецпредложения
@@ -148,7 +148,7 @@ include ../../utils/checkbox-list
 
 //показатель лайков активный/не активный
 .like-button.general-setting-block
-    label.general-setting-text.like-button-text  like button
+    h3.general-setting-text.like-button-text  like button
     .like-button__not-active
         +product__button().like-button__not-active-switch
             +icon(icon="__heart", name="favorite_border")
@@ -162,7 +162,7 @@ include ../../utils/checkbox-list
 
 //кнопки рейтинга
 //.rate-button.general-setting-block
-.general-setting-text.rate-button__text  rate button
+h3.general-setting-text.rate-button__text  rate button
 .rate-button__rating
     +product__button()
         - for(let i = 1; i <= 5; i++)
@@ -179,7 +179,7 @@ include ../../utils/checkbox-list
 
 //открытый выпадающий список в котором указывается количество человек
 .open-guest-dropdown.general-setting-block
-    label.general-setting-text.text-guest-dropdown dropdown
+    h3.general-setting-text.text-guest-dropdown dropdown
     input.text-field-input.open-guest-dropdown__input(value='Сколько гостей')
     .input-guest-dropdown
         +product__button.form-button
@@ -214,7 +214,7 @@ include ../../utils/checkbox-list
 
 //дополнительный чекбокс(раскрытый)
 .rich-checkbox-buttons.general-setting-block
-    .general-setting-text.rich-checkbox-button__text rich checkbox buttons
+    h3.general-setting-text.rich-checkbox-button__text rich checkbox buttons
     .wide-corridor
         input(type="checkbox")
         div.general-explanation Широкий коридор
@@ -223,6 +223,20 @@ include ../../utils/checkbox-list
         input(type="checkbox")
         div.general-explanation Помощник для инвалидов
             span.explanation На 1 этаже вас встретит специалист и проводит до номера.
+
+
+.range-slider.general-setting-block
+    h3.general-setting-text.range-slider__text range slider
+    h3.general-setting-text.text-default.range-slider__price 5 000₽ - 10 000₽
+    .range-slider__group
+        .range-slider__group-line
+            .range-slider__group-circle.range-slider__group-circle-left
+            .range-slider__group-dedicated
+            .range-slider__group-circle.range-slider__group-circle-right
+        //input.range-slider__group-left
+        //input.range-slider__group-right
+        //.polzunok-5
+
 
 
 

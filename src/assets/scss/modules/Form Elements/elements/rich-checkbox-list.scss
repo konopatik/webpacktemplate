@@ -36,6 +36,7 @@
     width: 203px;
     display: inline-grid;
     .explanation {
+      padding-top: 5px;
       font-weight: normal;
       font-size: 12px;
       line-height: 14px;
@@ -51,7 +52,7 @@
 
 .disabled-assistant {
   position: absolute;
-  width: 266px;
+  width: 263px;
   height: 52px;
   top: 93px;
   display: flex;
@@ -74,6 +75,7 @@
     width: 236px;
     display: inline-grid;
     .explanation {
+      padding-top: 5px;
       font-weight: normal;
       font-size: 12px;
       line-height: 14px;
