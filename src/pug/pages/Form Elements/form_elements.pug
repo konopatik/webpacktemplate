@@ -144,8 +144,6 @@ include ../../utils/checkbox-list
         input.switch(type='checkbox')
         div Получать спецпредложения
 
-
-
 //показатель лайков активный/не активный
 .like-button.general-setting-block
     h3.general-setting-text.like-button-text  like button
@@ -158,7 +156,6 @@ include ../../utils/checkbox-list
         +product__button().like-button__active-switch
             +icon(icon="__heart material-icons__heart-color", name="favorite")
             span.like-button__active-text 12
-
 
 //кнопки рейтинга
 //.rate-button.general-setting-block
@@ -174,8 +171,6 @@ h3.general-setting-text.rate-button__text  rate button
     +product__button()
         - for(let i = 1; i <= 5; i++)
         +icon(icon="__rating" name="star")
-
-
 
 //открытый выпадающий список в котором указывается количество человек
 .open-guest-dropdown.general-setting-block
@@ -211,7 +206,6 @@ h3.general-setting-text.rate-button__text  rate button
                     span.restangle__text +
     button.product__svg-button.calendar__link-color.link-button применить
 
-
 //дополнительный чекбокс(раскрытый)
 .rich-checkbox-buttons.general-setting-block
     h3.general-setting-text.rich-checkbox-button__text rich checkbox buttons
@@ -234,11 +228,7 @@ h3.general-setting-text.rate-button__text  rate button
             .range-slider__group-dedicated
             .range-slider__group-circle.range-slider__group-circle-right
 
-
-
-
-
-
+//кнопки в обычном состоянии и при наведении
 .buttons.general-setting-block
     h3.general-setting-text.buttons-text buttons
     button.button__color-default click me
@@ -250,6 +240,10 @@ h3.general-setting-text.rate-button__text  rate button
     .buttons__icon.buttons__icon-right
         span.buttons__general-text click me
 
+//
+.button-default
+    +product__button.product__svg-button.button__default.buttons__general-text перейти к оплате
+        +icon(icon="__button-default", name="arrow_forward")
 
 
 
