@@ -63,7 +63,7 @@ ul, li {
   font-weight: normal;
   font-style: normal;
   font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
+  //display: inline-block;
   line-height: 1;
   text-transform: none;
   letter-spacing: normal;
@@ -100,6 +100,7 @@ ul, li {
   background: #0000;
   border: none;
   outline:none;
+
 }
 @import "modules/Cards/cards";
 @import "modules/Form Elements/form_elements";

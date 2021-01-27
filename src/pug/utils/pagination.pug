@@ -1,0 +1,14 @@
+mixin pagination
+    -let i = 1;
+    -let j = 15;
+    -for ( i = 1; i<=15; i++)
+        -if (i <= 3 || i == 15)
+            div.pagination__numeral
+                button.product__svg-button.pagination__circle-text=i
+        -else if (i == 4)
+            div.pagination__numeral
+                button.product__svg-button.pagination__circle-text ...
+
+
+
+

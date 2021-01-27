@@ -31,6 +31,7 @@
       max-width: 100%;
       height: 100%;
       object-fit: cover;
+      border-radius: 4px;
     }
 
     .image-switch__item:first-child .image-switch__img {
@@ -136,4 +137,8 @@
     mix-blend-mode: screen;
   }
 }
-
+.rating-button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}

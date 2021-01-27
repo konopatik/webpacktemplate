@@ -126,3 +126,7 @@ module.exports = {
     ],
 
 }
+
+
+
+// ["./src/main.pug", "./src/about.pug"]

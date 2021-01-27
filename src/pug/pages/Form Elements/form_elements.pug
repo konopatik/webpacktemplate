@@ -1,6 +1,9 @@
 include ../../utils/mixins
 include ../../utils/checkbox-list
+include ../../utils/pagination
 +logo
+
+
 //не активный инпут
 .text-field-default.general-setting-block
     h3.general-setting-text text field
@@ -161,14 +164,14 @@ include ../../utils/checkbox-list
 //.rate-button.general-setting-block
 h3.general-setting-text.rate-button__text  rate button
 .rate-button__rating
-    +product__button()
+    +product__button.rate-button
         - for(let i = 1; i <= 5; i++)
         -if (i == 5)
             +icon(icon="__rating" name="star_border")
         -else
             +icon(icon="__rating" name="star")
 .rate-button__rating-full
-    +product__button()
+    +product__button.rate-button
         - for(let i = 1; i <= 5; i++)
         +icon(icon="__rating" name="star")
 
@@ -229,22 +232,29 @@ h3.general-setting-text.rate-button__text  rate button
             .range-slider__group-circle.range-slider__group-circle-right
 
 //кнопки в обычном состоянии и при наведении
-.buttons.general-setting-block
+.buttons
     h3.general-setting-text.buttons-text buttons
     button.button__color-default click me
     button.button__color-hover click me
     button.button__transparent-default click me
     button.button__transparent-hover click me
-    .buttons__icon.buttons__icon-left
+    .buttons__icon-left
         span.buttons__general-text click me
-    .buttons__icon.buttons__icon-right
+    .buttons__icon-right
         span.buttons__general-text click me
 
-//
+//кнопка
 .button-default
     +product__button.product__svg-button.button__default.buttons__general-text перейти к оплате
         +icon(icon="__button-default", name="arrow_forward")
 
+
+.pagination
+    h3.general-setting-text.pagination__text pagination
+    .pagination__group
+        .pagination__group-numeral
+            +pagination
+        .pagination__group-text 1 – 12 из 100+ вариантов аренды
 
 
 

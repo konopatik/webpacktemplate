@@ -1,12 +1,11 @@
 .buttons {
+  position: absolute;
   width: 218px;
   height: 195px;
   left: 979px;
   top: 231px;
 }
 .buttons-text {
-  width: 61px;
-  height: 15px;
   top: 0px;
 }
 
@@ -16,35 +15,35 @@
   height: 44px;
   border-radius: 22px;
 }
-.button__color-default {
-  left: 1px;
-  top: 31px;
+.button__color-default, .button__color-hover {
   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   color: #FFFFFF;
 }
-
+.button__color-default {
+  left: 1px;
+  top: 31px;
+}
 .button__color-hover {
   left: 119px;
   top: 31px;
 
-  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   opacity: 0.5;
-  color: #FFFFFF;
+}
+.button__transparent-default, .button__transparent-hover {
+  border: 2px solid #BC9CFF;
+  color: #BC9CFF;
 }
 .button__transparent-default{
   top: 105px;
-  border: 2px solid #BC9CFF;
-  color: #BC9CFF;
+
 }
 .button__transparent-hover{
   left: 119px;
   top: 105px;
-  border: 2px solid #BC9CFF;
   opacity: 0.5;
-  color: #BC9CFF;
 }
 
-.buttons__icon {
+.buttons__icon-left, .buttons__icon-right {
   position: absolute;
   width: 61px;
   height: 15px;

@@ -4,10 +4,10 @@ article.product.product__block-roompage-lux
         .image-mask
         .image-mask.image-mask__right
     .product__button
-        +product__button()
+        +product__button.rating-button
             +icon(icon="__style", name="keyboard_arrow_left")
     .product__button.product__button-svg-right
-        +product__button()
+        +product__button.rating-button
             +icon(icon="__style", name="keyboard_arrow_right")
     .product__number-lux люкс
     a.product__image(href="#")
@@ -24,7 +24,7 @@ article.product.product__block-roompage-lux
         .gorizontal__line
         .product__props
             span.product__rating-lux
-                +product__button()
+                +product__button.rating-button
                     - for(let i = 1; i <= 5; i++)
                     +icon(icon="-rating" name="star")
             span.product__testimonials-lux 145 Отзывов
