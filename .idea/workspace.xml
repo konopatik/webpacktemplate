@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="rich checkbox сделала( не уверена в рациональности scss, буду еще думать).">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/range-slider.scss" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="range sliger(без js, просто налепила)">
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/buttons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rich-checkbox-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rich-checkbox-list.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +156,7 @@
       <workItem from="1611305980301" duration="19833000" />
       <workItem from="1611400594520" duration="7874000" />
       <workItem from="1611644453635" duration="25369000" />
-      <workItem from="1611733653543" duration="5311000" />
+      <workItem from="1611733653543" duration="9223000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -388,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611673149182</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="range sliger(без js, просто налепила)">
+      <created>1611739941728</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1611739941728</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +416,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Логотип закончила. Начала страницу Form Elements. Сверстала первые два поля." />
     <MESSAGE value="Начала делать dropdown" />
     <MESSAGE value="Form elements. dropdown-default" />
     <MESSAGE value="Form elements. data-picker, date-dropdown" />
@@ -433,7 +440,8 @@
     <MESSAGE value="под стили инпута переделала radio button" />
     <MESSAGE value="переделала переключатель" />
     <MESSAGE value="rich checkbox сделала( не уверена в рациональности scss, буду еще думать)." />
-    <option name="LAST_COMMIT_MESSAGE" value="rich checkbox сделала( не уверена в рациональности scss, буду еще думать)." />
+    <MESSAGE value="range sliger(без js, просто налепила)" />
+    <option name="LAST_COMMIT_MESSAGE" value="range sliger(без js, просто налепила)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
