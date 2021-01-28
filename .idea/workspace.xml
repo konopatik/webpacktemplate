@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="button-default">
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/utils/pagination.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/common-style-cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/common-style-cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/room-page-lux.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/room-page-lux.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/button-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/button-default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rate-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rate-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/room-page-lux.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/room-page-lux.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/room-page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/room-page.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/pagination.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,6 +155,7 @@
       <workItem from="1611644453635" duration="25369000" />
       <workItem from="1611733653543" duration="17253000" />
       <workItem from="1611754807940" duration="10637000" />
+      <workItem from="1611830326862" duration="1836000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
