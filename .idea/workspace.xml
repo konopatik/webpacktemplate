@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="pagination">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-data-dropdown.scss" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="open-data-dropdown">
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/bullet-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/utils/bullet-list.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/Material Icons/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/Material Icons/star_border.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rich-checkbox-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rich-checkbox-list.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/utils/checkbox-list.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/checkbox-list.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +164,8 @@
       <workItem from="1611644453635" duration="25369000" />
       <workItem from="1611733653543" duration="17253000" />
       <workItem from="1611754807940" duration="10637000" />
-      <workItem from="1611830326862" duration="3704000" />
+      <workItem from="1611830326862" duration="3721000" />
+      <workItem from="1611909005804" duration="5366000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -417,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611832215816</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="open-data-dropdown">
+      <created>1611834592407</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1611834592407</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +453,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Рефакторинг. Переименовала некоторые файлы и классы, сформировала более мелкие блоки" />
     <MESSAGE value="Еще немного реффакторинга.date-dropdown" />
     <MESSAGE value="filter-date-dropdown" />
     <MESSAGE value="subscription-text-field. Переделала вывод звезд рейтинга" />
@@ -462,7 +477,8 @@
     <MESSAGE value="buttons(нужен будет рефакторинг)" />
     <MESSAGE value="button-default" />
     <MESSAGE value="pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="pagination" />
+    <MESSAGE value="open-data-dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="open-data-dropdown" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

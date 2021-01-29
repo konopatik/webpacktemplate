@@ -1,6 +1,4 @@
 include ../../utils/mixins
-include ../../utils/checkbox-list
-include ../../utils/pagination
 +logo
 
 
@@ -132,20 +130,20 @@ include ../../utils/pagination
     h3.general-setting-text.text-radio-button  radio buttons
     .radio-switch__man
         input(type='radio' name='radio' value='1' checked='')
-        div Мужчина
+        label Мужчина
     .radio-switch__woman
         input(type='radio' name='radio' value='2')
-        div Женщина
+        label Женщина
 
 //переключатель на рассылку
 .toggle.general-setting-block
     h3.general-setting-text.toggle-text  toggle
     .toggle__active
         input.switch(type='checkbox' checked='')
-        div Получать спецпредложения
+        label Получать спецпредложения
     .toggle__not-active
         input.switch(type='checkbox')
-        div Получать спецпредложения
+        label Получать спецпредложения
 
 //показатель лайков активный/не активный
 .like-button.general-setting-block
@@ -214,12 +212,12 @@ h3.general-setting-text.rate-button__text  rate button
     h3.general-setting-text.rich-checkbox-button__text rich checkbox buttons
     .wide-corridor
         input(type="checkbox")
-        div.general-explanation Широкий коридор
-            span.explanation Ширина коридоров в номере не менее 91 см.
+        .general-explanation Широкий коридор
+        .explanation Ширина коридоров в номере не менее 91 см.
     .disabled-assistant
         input(type="checkbox")
-        div.general-explanation Помощник для инвалидов
-            span.explanation На 1 этаже вас встретит специалист и проводит до номера.
+        .general-explanation Помощник для инвалидов
+        .explanation На 1 этаже вас встретит специалист и проводит до номера.
 
 //слайдер(ползунок), реализация через js
 .range-slider.general-setting-block
@@ -294,3 +292,10 @@ h3.general-setting-text.rate-button__text  rate button
                     span.restangle__text +
     button.product__svg-button.calendar__link-color.link-button__clear очистить
     button.product__svg-button.calendar__link-color.link-button применить
+
+
+//список запретов
+.bullet-list
+    h3.general-setting-text.bullet-list__text bullet list
+    +bullet-list(bulletListClass, bulletList)
+

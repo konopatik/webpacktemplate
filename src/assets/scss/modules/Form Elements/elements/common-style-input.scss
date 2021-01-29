@@ -4,6 +4,7 @@
   left: 141px;
 }
 .general-setting-text {
+  font-family: 'Montserrat-Bold';
   position: absolute;
   width: 72px;
   height: 15px;
@@ -14,6 +15,7 @@
   color: #1F2041;
 }
 .text-default {
+  font-family: 'Montserrat-Regular';
   top: 0;
   width: 57px;
   height: 15px;
@@ -33,7 +35,7 @@
   border-radius: 4px;
   outline: none;
   font-family: 'Montserrat-Regular';
-  font-size: 14px;
+  font-size: 13.9px;
   padding-left: 15px;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
