@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="bullet-lest + рефакторинг scss файлов">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/advantages.scss" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="advantages">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/review.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +161,7 @@
       <workItem from="1611733653543" duration="17253000" />
       <workItem from="1611754807940" duration="10637000" />
       <workItem from="1611830326862" duration="3721000" />
-      <workItem from="1611909005804" duration="7519000" />
+      <workItem from="1611909005804" duration="14090000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -432,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611914408716</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="advantages">
+      <created>1611916550939</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1611916550939</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="filter-date-dropdown" />
     <MESSAGE value="subscription-text-field. Переделала вывод звезд рейтинга" />
     <MESSAGE value="dropdown-expanded" />
     <MESSAGE value="open-dropdown-expanded" />
@@ -477,7 +487,8 @@
     <MESSAGE value="pagination" />
     <MESSAGE value="open-data-dropdown" />
     <MESSAGE value="bullet-lest + рефакторинг scss файлов" />
-    <option name="LAST_COMMIT_MESSAGE" value="bullet-lest + рефакторинг scss файлов" />
+    <MESSAGE value="advantages" />
+    <option name="LAST_COMMIT_MESSAGE" value="advantages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
