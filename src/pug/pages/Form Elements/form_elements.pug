@@ -120,6 +120,19 @@ include ../../utils/mixins
     .open-list
         +checkbox(class_checkbox_list, expandable)
 
+
+.advantages
+    .advantages__comfort
+        .advantages__wrapper-icon
+            i.material-icons.advantages__icons insert_emoticon
+        .advantages__text Комфорт <p>Шумопоглощающие стены</p>
+    .advantages__band
+    .advantages__convenience
+        .advantages__wrapper-icon
+            i.material-icons.advantages__icons location_city
+        .advantages__text Удобство <p>Окно в каждой из спален</p>
+    .advantages__band
+
 //список дополнительных возможностей
 .checkbox-buttons.general-setting-block
     h3.general-setting-text.text-checkbox-button  checkbox buttons
@@ -298,4 +311,7 @@ h3.general-setting-text.rate-button__text  rate button
 .bullet-list
     h3.general-setting-text.bullet-list__text bullet list
     +bullet-list(bulletListClass, bulletList)
+
+
+
 
