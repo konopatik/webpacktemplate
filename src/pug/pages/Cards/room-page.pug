@@ -14,10 +14,10 @@ article.product.product__block-roompage
         .product__info__horizontal-line
         .product__props
             span.product__rating
-                +product__button.rating-button
+                +button-icon.rating-button
                     - for(let i = 1; i <= 4; i++)
                         +icon(icon="-rating" name="star")
-                +product__button.rating-button
+                +button-icon.rating-button
                     +icon(icon="-rating" name="star_border")
             span.product__testimonials 65 Отзывов
 

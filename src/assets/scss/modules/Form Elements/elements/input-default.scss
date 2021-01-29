@@ -1,7 +1,25 @@
 @import "placeholder";
 
-.text-field-default{
+.input-default{
+  position: absolute;
+  width: 320px;
+  left: 141px;
   height: 67px;
   top: 140px;
+  .input-default__text {
+    width: 72px;
+    height: 15px;
+    margin-top: 3px;
+  }
+  .input-default__hidden-text{
+    width: 57px;
+    height: 15px;
+    margin-left: 263.74px;
+    margin-top: -18px;
+  }
+  .input-default__input {
+    margin-top: 8px;
+  }
 }
+
 

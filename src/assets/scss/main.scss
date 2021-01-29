@@ -24,7 +24,6 @@ body {
   position: relative;
   font-family: $mainFont;
   font-size: $mainFontSize;
-  font-weight: $mainFontWeight;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -93,14 +92,13 @@ ul, li {
 
   color: #BC9CFF;
 }
-.product__svg-button{
+.button{
   height: 24px;
   padding: 0;
   cursor: pointer;
   background: #0000;
   border: none;
   outline:none;
-
 }
 @import "modules/Cards/cards";
 @import "modules/Form Elements/form_elements";

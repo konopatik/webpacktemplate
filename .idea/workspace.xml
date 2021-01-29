@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="advantages">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/review.scss" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="review. закончила form elements.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/input-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/input-default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/input-focus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/input-focus.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/calendar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/calendar.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/room-page-lux.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/room-page-lux.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/room-page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/room-page.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +167,7 @@
       <workItem from="1611733653543" duration="17253000" />
       <workItem from="1611754807940" duration="10637000" />
       <workItem from="1611830326862" duration="3721000" />
-      <workItem from="1611909005804" duration="14090000" />
+      <workItem from="1611909005804" duration="22059000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -443,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611916550939</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="review. закончила form elements.">
+      <created>1611925085722</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1611925085722</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +476,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="subscription-text-field. Переделала вывод звезд рейтинга" />
     <MESSAGE value="dropdown-expanded" />
     <MESSAGE value="open-dropdown-expanded" />
     <MESSAGE value="checkbox-list" />
@@ -488,7 +500,8 @@
     <MESSAGE value="open-data-dropdown" />
     <MESSAGE value="bullet-lest + рефакторинг scss файлов" />
     <MESSAGE value="advantages" />
-    <option name="LAST_COMMIT_MESSAGE" value="advantages" />
+    <MESSAGE value="review. закончила form elements." />
+    <option name="LAST_COMMIT_MESSAGE" value="review. закончила form elements." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

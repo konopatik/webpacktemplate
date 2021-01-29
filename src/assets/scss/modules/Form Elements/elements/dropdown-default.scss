@@ -1,21 +1,21 @@
 .dropdown-default {
+  position: absolute;
+  width: 320px;
   height: 64.44px;
+  left: 141px;
   top: 311px;
+  .dropdown-default__text {
+    width: 81px;
+    top: 0.44px;
+  }
+  .dropdown-default__input{
+    margin-top: -10px;
+  }
+  .dropdown-default__button{
+    width: 44px;
+    height: 44px;
+    margin-left: 275.74px;
+    margin-top: -44px;
+  }
 }
 
-.dropdown {
-  width: 81px;
-  top: 0.44px;
-  font-weight: bold;
-}
-.input-dropdown{
-  top: 20.44px;
-  box-sizing: border-box;
-}
-.input-button{
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 275.74px;
-  top: 20px;
-}
