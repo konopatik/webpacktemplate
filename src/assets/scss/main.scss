@@ -3,6 +3,7 @@
 @import "utils/mixins";
 @import "utils/fonts";
 @import "modules/input-style";
+@import "modules/button-style";
 html {
   line-height: $mainLineHeight;
   font-size: $mainFontSize;
@@ -58,11 +59,12 @@ ul, li {
   background: #FFFFFF;
 }
 .material-icons {
+  padding: 10px;
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
   font-size: 24px;  /* Preferred icon size */
-  //display: inline-block;
+  display: inline-block;
   line-height: 1;
   text-transform: none;
   letter-spacing: normal;
@@ -93,7 +95,8 @@ ul, li {
   color: #BC9CFF;
 }
 .button{
-  height: 24px;
+  width: 44px;
+  height: 44px;
   padding: 0;
   cursor: pointer;
   background: #0000;

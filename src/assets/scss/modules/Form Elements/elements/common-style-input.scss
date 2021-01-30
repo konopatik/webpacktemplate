@@ -1,6 +1,9 @@
 .general-setting-block{
   position: absolute;
-  width: 320px;
+  left: 141px;
+}
+.general-setting__block{
+  position: absolute;
   left: 141px;
 }
 .general-setting__text {
@@ -78,7 +81,7 @@
 }
 .material-icons__expand_more{
   /* Dark 50% */
-
+  //padding: 10px;
   color: rgba(31, 32, 65, 0.5);
 }
 .button__icon{

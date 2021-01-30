@@ -1,17 +1,17 @@
 @import "placeholder";
 
 .input-default{
-  position: absolute;
+  @extend .general-setting__block;
   width: 320px;
-  left: 141px;
-  height: 67px;
   top: 140px;
   .input-default__text {
+    @extend .general-setting__text;
     width: 72px;
     height: 15px;
     margin-top: 3px;
   }
   .input-default__hidden-text{
+    @extend .general-setting__hidden-text;
     width: 57px;
     height: 15px;
     margin-left: 263.74px;

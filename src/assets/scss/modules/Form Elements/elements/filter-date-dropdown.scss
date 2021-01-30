@@ -1,24 +1,21 @@
-.filter-date-dropdown{
+.filter-date-dropdown {
+  @extend .general-setting__block;
   width: 266px;
-  height: 65px;
   top: 607px;
 
+  .filter-date-dropdown__text {
+    @extend .general-setting__text;
+    width: 197px;
+    height: 15px;
+  }
+
+  .filter-date-dropdown__input {
+    margin-top: 5px;
+  }
+
+  .filter-date-dropdown__button {
+    margin-top: -44px;
+    margin-left: 222px;
+  }
 }
-.text-filter {
-  width: 197px;
-  height: 15px;
-  top:0;
-}
-.text-filter-input{
-  font-family: Montserrat-Regular;
-  width: 266px;
-  height: 44px;
-  top: 20px;
-}
-.input-button__filter{
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 222px;
-  top: 20px;
-}
+

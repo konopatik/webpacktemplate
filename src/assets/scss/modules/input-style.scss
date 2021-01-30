@@ -1,5 +1,6 @@
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {
-  input[type='input'] {
+  input[type='input'],
+  input[type='date'] {
     --active: #FFFFFF;
     --border: 1px solid rgba(31, 32, 65, 0.25);
     --border-focus: 1px solid rgba(31, 32, 65, 0.5);
@@ -12,11 +13,46 @@
     outline: none;
     font-family: 'Montserrat-Regular';
     font-size: 13.9px;
-    padding-left: 15px;
+    padding-left: 14px;
     line-height: 24px;
     color: rgba(31, 32, 65, 0.75);
     &:hover {
       border: var(--border-focus);
+    }
+    &.input-small {
+      width: 150px;
+    }
+    &.input-medium {
+      width: 100%;
+    }
+  }
+  input[type='date'] {
+    width: 150px;
+  }
+  input[type='submit'] {
+    --active: #FFFFFF;
+    --border: 1px solid rgba(31, 32, 65, 0.25);
+    --border-focus: 1px solid rgba(31, 32, 65, 0.5);
+    background: #FFFFFF;
+    border: var(--border);
+    width: 320px;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    padding-left: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+    &:hover {
+      border: var(--border-focus);
+    }
+    &.input-small {
+      width: 150px;
+    }
+    &.input-medium {
+      width: 100%;
     }
   }
   input[type='checkbox'],

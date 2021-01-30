@@ -1,33 +1,30 @@
 @import "placeholder";
-.subscription-text-field{
+
+.subscription-text-field {
+  position: absolute;;
   width: 267px;
-  height: 64px;
   left: 140px;
   top: 712px;
-}
-.text-subscription {
-  width: 170px;
-  height: 15px;
-  left: 1px;
-  top:0;
-}
-.subscription-input{
-  width: 267px;
-  height: 44px;
-  top: 20px;
 
-}
-.input-button__subscription{
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 223px;
-  top: 20px;
-}
-.subscription-button {
-  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-}
-.material-icons__subscription{
-  background: white; /* Белый цвет фона */
-  mix-blend-mode: screen;
+  .subscription-text-field__text {
+    @extend .general-setting__text;
+    width: 170px;
+    height: 15px;
+    left: 1px;
+  }
+
+  .subscription-text-field__input {
+    margin-top: 5px;
+  }
+
+  .subscription-text-field__button {
+    margin-left: 223px;
+    margin-top: -44px;
+
+    .material-icons__subscription {
+      background: white; /* Белый цвет фона */
+      mix-blend-mode: screen
+    }
+  }
+
 }

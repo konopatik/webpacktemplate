@@ -1,8 +1,20 @@
 .data-picker {
-  height: 67px;
+@extend .general-setting__block;
+  width: 320px;
   top: 395px;
+  .data-picker__text{
+    @extend .general-setting__text;
+    width: 130px;
+    margin-top: 3px;
+  }
+  .data-picker__hidden-text {
+    @extend .general-setting__hidden-text ;
+    margin-left: 263.74px;
+    margin-top: -16px;
+    visibility: hidden;
+  }
+  .data-picker__input {
+    margin-top: 6px;
+  }
 }
-.text-data-picker{
-  width: 130px;
-  top: 3px;
-}
+

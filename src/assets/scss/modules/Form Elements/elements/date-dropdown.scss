@@ -1,21 +1,22 @@
-.date-dropdown{
+.date-dropdown {
+@extend .general-setting__block;
   width: 150px;
-  height: 65px;
   top: 502px;
+
+  .date-dropdown__text {
+    @extend .general-setting__text;
+    width: 150px;
+    height: 15px;
+  }
+
+  .date-dropdown__input {
+    margin-top: 5px;
+  }
+
+  .date-dropdown__button {
+    margin-top: -44px;
+    margin-left: 106px;
+  }
+
 }
-.text-date-dropdown{
-  width: 150px;
-  height: 15px;
-  top:0;
-}
-.date-dropdown-input {
-  width: 150px;
-  top: 20.44px;
-}
-.input-button__small {
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 106px;
-  top: 20px;
-}
+

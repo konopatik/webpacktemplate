@@ -4,62 +4,59 @@ include ../../utils/mixins
 
 //не активный инпут
 .input-default
-    h3.general-setting__text.input-default__text text field
-    h3.general-setting__hidden-text.input-default__hidden-text default
+    h3.input-default__text text field
+    h3.input-default__hidden-text default
     input(type='input' placeholder='Email').input-default__input
 
 //инпут с данными
 .input-focus
-    h3.general-setting__text.input-focus__text text field
-    h3.general-setting__hidden-text.input-focus__hidden-text hover / focus
+    h3.input-focus__text text field
+    h3.input-focus__hidden-text hover / focus
     input(type='input' value='This is pretty awesome').input-focus__input
 
 //выпадающий список(не активный)
 .dropdown-default
-    h3.general-setting__text.dropdown-default__text dropdown
-    h3.general-setting__hidden-text.not-visible default
-    input.dropdown-default__input(type='input' value='Сколько гостей')
-    .dropdown-default__button
-        +button-icon.button__icon
-            +icon(icon="__expand_more", name="expand_more")
+    h3.dropdown-default__text dropdown
+    h3.dropdown-default__hidden-text default
+    input(type='input' value='Сколько гостей').dropdown-default__input
+    +button-icon.dropdown-default__button
+        +icon(icon="", name="expand_more")
 
 //указание даты не активный(даты не выбраны)
-.data-picker.general-setting-block
-    h3.general-setting-text.text-data-picker masked text field
-    h3.general-setting-text.text-default.not-visible default
-    input.text-field-input(placeholder='ДД.ММ.ГГГГ')
+.data-picker
+    h3.data-picker__text masked text field
+    h3.data-picker__hidden-text default
+    input(type='input' placeholder='ДД.ММ.ГГГГ').data-picker__input
 
 //выбор даты не активный
-.date-dropdown.general-setting-block
-    h3.general-setting-text.text-date-dropdown date dropdown
-    input.text-field-input.date-dropdown-input(value='ДД.ММ.ГГГГ')
-    .input-button__small
-        +button-icon.button__icon
-            +icon(icon="__expand_more", name="expand_more")
+.date-dropdown
+    h3.date-dropdown__text date dropdown
+    //input.date-dropdown__input(type='date' )
+    input.input-small.date-dropdown__input(type='input' value='ДД.ММ.ГГГГ')
+    +button-icon.date-dropdown__button
+        +icon(icon="", name="expand_more")
 
 //инпут с датой
-.too-date-dropdown.general-setting-block
-    h3.general-setting-text.text-date-dropdown date dropdown
-    input.text-field-input.date-dropdown-input(value='19.08.2019')
-    .input-button__small
-        +button-icon.button__icon
-            +icon(icon="__expand_more", name="expand_more")
+.date-dropdown__2
+    h3.date-dropdown__text date dropdown
+    input.input-small.date-dropdown__input(type='input' value='19.08.2019')
+    +button-icon.date-dropdown__button
+        +icon(icon="", name="expand_more")
 
 //указание даты (даты выбраны)
-.filter-date-dropdown.general-setting-block
-    h3.general-setting-text.text-filter filter date dropdown
-    input.text-field-input.text-filter-input(value='19 авг - 23 авг')
-    .input-button__filter
-        +button-icon.button__icon
-            +icon(icon="__expand_more", name="expand_more")
+.filter-date-dropdown
+    h3.filter-date-dropdown__text filter date dropdown
+    input.input-medium.filter-date-dropdown__input(type='input' value='19 авг - 23 авг')
+    +button-icon.filter-date-dropdown__button
+        +icon(icon="__expand_more", name="expand_more")
 
 //ввод емейл адреса
-.subscription-text-field.general-setting-block
-    h3.general-setting-text.text-subscription subscription text field
-    input.text-field-input.subscription-input(placeholder='Email')
-    .input-button__subscription
-        +button-icon().button__icon.subscription-button
-            +icon(icon="__subscription", name="arrow_forward")
+.subscription-text-field
+    h3.subscription-text-field__text subscription text field
+    input.input-medium.subscription-text-field__input(type='input' placeholder='Email')
+    input.input-submit.subscription-text-field__button
+    //+button-icon().subscription-text-field__button
+    //    +icon(icon="__subscription", name="arrow_forward")
 
 //активный инпут с выбором кроватей
 .dropdown-expanded.general-setting-block

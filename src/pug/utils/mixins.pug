@@ -40,14 +40,22 @@ mixin logo
             img(src="../../assets/img//logo/Vector-right.png" alt='logo-vector-right')
 
 
+//
+//mixin button-icon(data)
+//    button(type='button')&attributes(attributes)
+//        block
+//mixin icon(data)
+//    - var classList = ['material-icons']
+//    if attributes.icon
+//    - classList.push(classList[0] +  attributes.icon)
+//    i(class=classList)=attributes.name
+
 
 mixin button-icon(data)
-    button.button&attributes(attributes)
+    button(type='button')&attributes(attributes)
         block
 mixin icon(data)
     - var classList = ['material-icons']
     if attributes.icon
-    - classList.push(classList[0] +  attributes.icon)
+    - classList.push(classList[0] + attributes.icon)
     i(class=classList)=attributes.name
-
-
