@@ -1,6 +1,6 @@
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {
   button[type='button'],
-  button[type='submit']{
+  button[type='submit'] {
     width: 44px;
     height: 44px;
     padding: 0;
@@ -8,17 +8,23 @@
     background: #0000;
     border: none;
     border-radius: 4px;
-    outline:none;
+    outline: none;
     display: flex;
     align-items: center;
     text-align: center;
-
-    /* Dark 50% */
-
-    color: rgba(31, 32, 65, 0.5);
+    &.restangle {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      background: #FFFFFF;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      box-sizing: border-box;
+      border-radius: 22px;
+    }
   }
   button[type='submit'] {
     width: 24px;
     height: 24px;
   }
+
 }

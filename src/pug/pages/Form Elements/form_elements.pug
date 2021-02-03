@@ -57,47 +57,46 @@ include ../../utils/mixins
         +icon(icon="__subscription", name="arrow_forward")
 
 //активный инпут с выбором кроватей
-.dropdown-expanded.general-setting-block
-    h3.general-setting-text.text-dropdown-expanded dropdown
-    h3.general-setting-text.text-default.text-dropdown-default default
-    input.text-field-input.dropdown-expanded-input(value='2 спальни, 2 кровати...')
-    .input-dropdown-expanded
-        +button-icon.button__icon
-            +icon(icon="__expand_more", name="expand_more")
+.dropdown-expanded
+    h3.dropdown-expanded__text dropdown
+    h3.dropdown-expanded__text-hidden default
+    input.input-medium.dropdown-expanded__input(type='input' value='2 спальни, 2 кровати...')
+    +button-icon(type = 'button').dropdown-expanded__button
+        +icon(icon="__dropdown_more", name="expand_more")
 
 //открытый выпадающий список в котором указывается количество кроватей
-.open-dropdown-expanded.general-setting-block
-    h3.general-setting-text.text-dropdown-expanded dropdown
-    h3.general-setting-text.text-default.text-dropdown expanded
-    input.text-field-input.open-dropdown-expanded-input(value='2 спальни, 2 кровати...')
-    .input-dropdown-expanded
-        +button-icon.button__icon
-            +icon(icon="__expand_more", name="expand_more")
+.open-dropdown-expanded
+    h3.open-dropdown-expanded__text dropdown
+    h3.open-dropdown-expanded__text-hidden expanded
+    input.input-medium.open-dropdown-expanded__input(type='input' value='2 спальни, 2 кровати...')
+    +button-icon(type = 'button').open-dropdown-expanded__button
+        +icon(icon="__open-dropdown_more", name="expand_more")
     .dropdown-expanded__open
-        .bedrooms
-            .general-setting-text.rooms__text спальни
-            .counter
-                button.button.restangle
-                    span.restangle__text -
-                span.general-setting-text.quantity 2
-                button.button.restangle.restangle__plus
-                    span.restangle__text +
-        .bed
-            .general-setting-text.rooms__text.bed__text  кровати
-            .counter
-                button.button.restangle
-                    span.restangle__text -
-                span.general-setting-text.quantity__bed 2
-                button.button.restangle.restangle-bed__plus
-                    span.restangle__text +
-        .bathrooms
-            .general-setting-text.rooms__text.bathrooms__text  ванные комнаты
-            .counter
-                button.button.restangle.restangle__not-active
-                    span.restangle__text -
-                span.general-setting-text.quantity__bath 0
-                button.button.restangle.restangle-bath__plus
-                    span.restangle__text +
+        +dropdown(dropdownList,dropdownClass)
+        //.bedrooms
+        //    .general-setting-text.rooms__text спальни
+        //    .counter
+        //        button.button.restangle
+        //            span.restangle__text -
+        //        span.general-setting-text.quantity 2
+        //        button.button.restangle.restangle__plus
+        //            span.restangle__text +
+        //.bed
+        //    .general-setting-text.rooms__text.bed__text  кровати
+        //    .counter
+        //        button.button.restangle
+        //            span.restangle__text -
+        //        span.general-setting-text.quantity__bed 2
+        //        button.button.restangle.restangle-bed__plus
+        //            span.restangle__text +
+        //.bathrooms
+        //    .general-setting-text.rooms__text.bathrooms__text  ванные комнаты
+        //    .counter
+        //        button.button.restangle.restangle__not-active
+        //            span.restangle__text -
+        //        span.general-setting-text.quantity__bath 0
+        //        button.button.restangle.restangle-bath__plus
+        //            span.restangle__text +
 
 //скрытый список предоставляемых услуг
 .checkbox-list.general-setting-block
