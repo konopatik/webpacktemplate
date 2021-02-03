@@ -19,7 +19,7 @@ include ../../utils/mixins
     h3.dropdown-default__text dropdown
     h3.dropdown-default__hidden-text default
     input(type='input' value='Сколько гостей').dropdown-default__input
-    +button-icon.dropdown-default__button
+    +button-icon(type = 'button').dropdown-default__button
         +icon(icon="", name="expand_more")
 
 //указание даты не активный(даты не выбраны)
@@ -31,32 +31,30 @@ include ../../utils/mixins
 //выбор даты не активный
 .date-dropdown
     h3.date-dropdown__text date dropdown
-    //input.date-dropdown__input(type='date' )
     input.input-small.date-dropdown__input(type='input' value='ДД.ММ.ГГГГ')
-    +button-icon.date-dropdown__button
-        +icon(icon="", name="expand_more")
+    +button-icon(type = 'button').date-dropdown__button
+        +icon(icon="__expand_more", name="expand_more")
 
 //инпут с датой
 .date-dropdown__2
     h3.date-dropdown__text date dropdown
     input.input-small.date-dropdown__input(type='input' value='19.08.2019')
-    +button-icon.date-dropdown__button
-        +icon(icon="", name="expand_more")
+    +button-icon(type = 'button').date-dropdown__button
+        +icon(icon="__expand_more", name="expand_more")
 
 //указание даты (даты выбраны)
 .filter-date-dropdown
     h3.filter-date-dropdown__text filter date dropdown
     input.input-medium.filter-date-dropdown__input(type='input' value='19 авг - 23 авг')
-    +button-icon.filter-date-dropdown__button
+    +button-icon(type = 'button').filter-date-dropdown__button
         +icon(icon="__expand_more", name="expand_more")
 
 //ввод емейл адреса
 .subscription-text-field
     h3.subscription-text-field__text subscription text field
     input.input-medium.subscription-text-field__input(type='input' placeholder='Email')
-    input.input-submit.subscription-text-field__button
-    //+button-icon().subscription-text-field__button
-    //    +icon(icon="__subscription", name="arrow_forward")
+    +button-icon(type = 'submit').subscription-text-field__button
+        +icon(icon="__subscription", name="arrow_forward")
 
 //активный инпут с выбором кроватей
 .dropdown-expanded.general-setting-block
