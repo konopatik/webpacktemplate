@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="рефакторинг scss">
-      <change afterPath="$PROJECT_DIR$/src/pug/utils/dropdown.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-expanded.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-expanded.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-dropdown-expanded.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-dropdown-expanded.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/utils/dropdown.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/dropdown.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +159,8 @@
       <workItem from="1611909005804" duration="22100000" />
       <workItem from="1611940916005" duration="96000" />
       <workItem from="1611996745373" duration="16615000" />
-      <workItem from="1612344372739" duration="15443000" />
+      <workItem from="1612344372739" duration="15458000" />
+      <workItem from="1612422562814" duration="1638000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -474,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612351360360</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="рефакторинг scss">
+      <created>1612366294025</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1612366294026</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

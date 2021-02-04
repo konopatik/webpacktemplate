@@ -1,16 +1,16 @@
-- var dropdownList = [{'bedrooms': ['спальни','2']},{'bed' : ['кровати','2']},{'bathrooms': ['ванные комнаты','0']}];
-- var dropdownClass = ['open-text-bedrooms','open-text-bed','open-text-bathrooms'];
+- var dropdownList = [{'bedrooms': ['open-text-bedrooms','спальни','2']},{'bed' : ['open-text-bed','кровати','2']},{'bathrooms': ['open-text-bathrooms','ванные комнаты','0']}];
 
 mixin dropdown(dropdownList,dropdownClass)
 	each item, key in dropdownList
-		each className, keyClass  in dropdownClass
-			if key == keyClass
-				each value, index in item
-					div(class=index)
-						div(class=className).dropdown__open-text=value[0]
-						.counter
-							button.restangle(type='button') -
-								//span.restangle__text -
-							span.counter__quantity=value[1]
-							button.restangle.restangle__plus(type='button') +
-								//span.restangle__text +
+		each value, index in item
+			div(class=index)
+				div(class=value[0]).dropdown__open-text=value[1]
+				.counter
+					if value[2] == 0
+						button.restangle.restangle__not-active(type='button') -
+						span.counter__quantity=value[2]
+						button.restangle(type='button') +
+					else
+						button.restangle(type='button') -
+						span.counter__quantity=value[2]
+						button.restangle(type='button') +

@@ -88,6 +88,14 @@
   text-align: center;
 
 }
+.restangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.restangle__not-active {
+  opacity: 0.38;
+}
 //.rooms__text {
 //  left: 15px;
 //  top: 14px;
@@ -162,8 +170,6 @@
 //  }
 //
 //
-//  .restangle__not-active {
-//    opacity: 0.38;
-//  }
+
 //
 //}
