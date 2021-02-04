@@ -1,18 +1,10 @@
-- var expandable = ["Завтрак", "Письменный стол", "Стул для кормления", "Кроватка", "Телевизор", "Шампунь"];
-- var class_checkbox_list = ["group","group-1", "group-2", "group-3", "group-4", "group-5" ];
-- var check_box_button = ["Можно курить", "Можно с питомцами", "Можно пригласить гостей (до 10 человек)"];
-- var class_checkbox_button = ["list","list-1", "list-2"];
+- var expandable = [["Завтрак", false], ["Письменный стол", true], ["Стул для кормления", true], ["Кроватка", true], ["Телевизор", false], ["Шампунь",, false]];
+- var checkbox_button = [["Можно курить", false], ["Можно с питомцами", true], ["Можно пригласить гостей (до 10 человек)", true]];
 
 
-mixin checkbox(classname, expandable)
-	each item, key in classname
-		.general-style-list(class = item)
-			each value, index in expandable
-				if index == key
-					if index > 0 && index < 4
-						input(type="checkbox" checked)
-						label.checkbox-label=value
-					else
-						input(type="checkbox")
-						label.checkbox-label=value
+mixin checkbox(expandable)
+	each value, index in expandable
+		.general-style-list
+			input(type="checkbox" checked=value[1])
+			label=value[0]
 

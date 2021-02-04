@@ -1,28 +1,26 @@
 .toggle{
+  position: absolute;
   width: 260px;
   height: 89px;
   left: 587px;
   top: 404.56px;
-}
-.toggle-text{
-  width: 50px;
-  height: 15px;
-  top: 0;
+  .toggle__text{
+    @extend .general-setting__text;
+    width: 50px;
+    height: 15px;
+  }
+  .toggle__active,.toggle__not-active{
+    height: 24px;
+  }
+  .toggle__active{
+    width: 260px;
+    margin-top: 16px;
+  }
+  .toggle__not-active{
+    width: 260px;
+    margin-top: 10px;
+  }
 }
 
-.toggle__active{
-  position: absolute;
-  width: 260px;
-  height: 24px;
-  top: 31px;
-  display: flex;
-}
-.toggle__not-active{
-  position: absolute;
-  width: 260px;
-  height: 24px;
-  top: 65px;
-  display: flex;
-}
 
 

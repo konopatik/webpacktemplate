@@ -16,160 +16,100 @@
     margin-left: 196px;
     margin-top: -15px;
   }
+
   .open-dropdown-expanded__input {
     width: 266px;
     height: 44px;
     margin-top: 4px;
+
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     border: 1px solid rgba(31, 32, 65, 0.5);
+    border-bottom-color: rgba(31,32,65,.25);
   }
 
   .open-dropdown-expanded__button {
-    margin-top: -44px;
+    margin-top: -43px;
     margin-left: 222px;
   }
+
   .material-icons__open-dropdown_more {
     padding-bottom: 9px;
     color: rgba(31, 32, 65, 0.75);
   }
-}
+  .dropdown-expanded__open {
+    margin-top: -1px;
+    background: #FFFFFF;
+    /* Dark 50% */
+    border: 1px solid rgba(31, 32, 65, 0.5);
+    border-top-color: rgba(31,32,65,.25);
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
 
-.dropdown-expanded__open {
-  background: #FFFFFF;
-  /* Dark 50% */
-  border: 1px solid rgba(31, 32, 65, 0.5);
-  border-radius: 4px;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  box-sizing: border-box;
-}
-.bedrooms, .bed, .bathrooms,{
-  display: flex;
-  height: 39px;
-  //justify-content: space-between;
-}
-.bed {
-  .dropdown__open-text {
-    margin-top: 10px;
+    .bedrooms, .bed, .bathrooms, {
+      display: flex;
+      height: 39px;
+    }
+
+    .bed {
+      .dropdown__open-text {
+        margin-top: 10px;
+      }
+
+      .counter {
+        margin-bottom: 4px;
+      }
+    }
+
+    .bathrooms {
+      .dropdown__open-text {
+        margin-top: 8px;
+      }
+
+      .counter {
+        margin-bottom: 8px;
+      }
+    }
+
+    .dropdown__open-text {
+      @extend .general-setting__text;
+      margin-left: 14px;
+      margin-top: 12px;
+    }
+
+    .counter {
+      display: flex;
+      align-items: center;
+      width: 92px;
+      margin-right: 7px;
+      margin-left: auto;
+
+    }
+
+    .counter__quantity {
+      @extend .general-setting__text;
+      width: 32px;
+      height: 15px;
+      margin-left: 2px;
+
+      text-align: center;
+
+    }
+
+    .restangle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .restangle__not-active {
+      opacity: 0.38;
+    }
   }
-  .counter {
-    margin-bottom: 4px;
-  }
-}
-.bathrooms {
-  .dropdown__open-text {
-    margin-top: 8px;
-  }
-  .counter {
-    margin-bottom: 8px;
-  }
-}
-.dropdown__open-text {
-  @extend .general-setting__text;
-  margin-left: 14px;
-  margin-top: 12px;
-}
-.counter {
-  display: flex;
-  align-items: center;
-  width: 92px;
-  margin-right: 7px;
-  margin-left: auto;
 
 }
-.counter__quantity {
-  @extend .general-setting__text;
-  width: 32px;
-  height: 15px;
-  left: 166px;
-  top: 14px;
 
-  text-align: center;
 
-}
-.restangle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.restangle__not-active {
-  opacity: 0.38;
-}
-//.rooms__text {
-//  left: 15px;
-//  top: 14px;
-//}
-//
-//.bed__text {
-//  left: 15px;
-//  top: 50px;
-//}
-//
-//.bathrooms__text {
-//  width: 133px;
-//  height: 15px;
-//  left: 15px;
-//  top: 87px;
-//}
-//
-////1022.56
-//.counter {
-//  display: flex;
-//  width: 92px;
-//  height: 30px;
-//  margin-left: 167px;
-//  margin-top: 6px;
-//
-//  .restangle {
-//    position: absolute;
-//    width: 30px;
-//    height: 30px;
-//    text-align: center;
-//    background: #FFFFFF;
-//    border: 1px solid rgba(31, 32, 65, 0.25);
-//    box-sizing: border-box;
-//    border-radius: 22px;
-//  }
-//
-//  .restangle__plus {
-//    left: 229px;
-//    top: 7.56px;
-//  }
-//
-//  .restangle-bed__plus {
-//    left: 229px;
-//  }
-//
-//  .restangle-bath__plus {
-//    left: 229px;
-//  }
-//
-//  .restangle__text {
-//    font-weight: normal;
-//    font-size: 18px;
-//    line-height: 22px;
-//
-//    color: rgba(31, 32, 65, 0.5);
-//  }
-//
 
-//
-//  .quantity__bed {
-//    width: 92px;
-//    left: 166px;
-//    top: 50px;
-//    text-align: center;
-//  }
-//
-//  .quantity__bath {
-//    width: 92px;
-//    left: 166px;
-//    top: 88px;
-//    text-align: center;
-//  }
-//
-//
-
-//
-//}

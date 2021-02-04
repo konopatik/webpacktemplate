@@ -20,13 +20,14 @@
     &:hover {
       border: var(--border-focus);
     }
-
     &.input-small {
       width: 150px;
+      margin-top: 3.5px;
     }
 
     &.input-medium {
       width: 100%;
+      margin-top: 3.5px;
     }
   }
   input[type='date'] {
@@ -145,7 +146,7 @@
       font-family: 'Montserrat-Regular';
       font-style: normal;
       font-weight: normal;
-      font-size: 14px;
+      font-size: 13.9px;
       line-height: 18px;
       color: rgba(31, 32, 65, 0.5);
     }
@@ -153,7 +154,6 @@
   input[type='checkbox'] {
     &:not(.switch) {
       border-radius: 4px;
-
       &:after {
         width: 6px;
         height: 8px;
@@ -214,11 +214,11 @@
       opacity: 0;
     }
 
-    & + div {
+    & + label {
       margin-top: 2px;
     }
 
-    &:checked + div {
+    &:checked + label {
       margin-top: 2px;
       color: rgba(31, 32, 65, 0.75);
     }

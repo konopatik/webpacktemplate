@@ -1,40 +1,34 @@
 .checkbox-buttons {
+  position: absolute;
   width: 222px;
   height: 129.12px;
   left: 587px;
   top: 143px;
-}
+  .checkbox-button__text {
+    @extend .general-setting__text;
+    width: 136px;
+    height: 15px;
+    top: 0;
 
-.text-checkbox-button {
-  width: 136px;
-  height: 15px;
-  top: 0;
-}
-
-.list {
-  position: absolute;
-  width: 135px;
-  height: 20px;
-  top: 31.56px;
-  display: flex;
-}
-
-.list-1 {
-  position: absolute;
-  width: 181px;
-  height: 20px;
-  top: 62.12px;
-  display: flex;
-}
-
-.list-2 {
-  position: absolute;
-  width: 222px;
-  height: 37px;
-  top: 92.12px;
-  display: flex;
-  .checkbox-label {
-    width: 192px;
   }
+  .checkbox-buttons__block {
+    margin-top: 16.56px;
+    height: 97.56px;
+    .general-style-list {
+      display: flex;
+      height: 20px;
+      margin-bottom: 10px;
+    }
+    .general-style-list:last-child {
+      height: 37px;
+    }
+    .general-style-list:last-of-type > label {
+      width: 192px;
+
+    }
+  }
+
 }
+
+
 

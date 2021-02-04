@@ -1,30 +1,29 @@
 .radio-buttons{
+  position: absolute;
   width: 220.74px;
   height: 55px;
   left: 587px;
   top: 313px;
-}
-.text-radio-button{
-  width: 107px;
-  height: 15px;
-  top: 0px;
+  .radio-buttons__text{
+    @extend .general-setting__text;
+    width: 107px;
+    height: 15px;
+  }
+  .radio-switch__man, .radio-switch__woman {
+    height: 24px;
+    display: flex;
+  }
+  .radio-switch__man {
+    width: 98px;
+    margin-top: 14px;
+  }
+
+  .radio-switch__woman{
+    width: 102.74px;
+    margin-left: 118px;
+    margin-top: -24px;
+  }
 }
 
-.radio-switch__woman{
-  position: absolute;
-  width: 102.74px;
-  height: 24px;
-  left: 118px;
-  top: 29px;
-  display: flex;
-}
-.radio-switch__man {
-  position: absolute;
-  width: 98px;
-  height: 24px;
-  top: 29px;
-  display: flex;
-
-}
 
 

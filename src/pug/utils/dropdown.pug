@@ -1,6 +1,6 @@
 - var dropdownList = [{'bedrooms': ['open-text-bedrooms','спальни','2']},{'bed' : ['open-text-bed','кровати','2']},{'bathrooms': ['open-text-bathrooms','ванные комнаты','0']}];
 
-mixin dropdown(dropdownList,dropdownClass)
+mixin dropdown(dropdownList)
 	each item, key in dropdownList
 		each value, index in item
 			div(class=index)

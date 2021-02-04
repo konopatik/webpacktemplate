@@ -20,7 +20,7 @@ include ../../utils/mixins
     h3.dropdown-default__hidden-text default
     input(type='input' value='Сколько гостей').dropdown-default__input
     +button-icon(type = 'button').dropdown-default__button
-        +icon(icon="", name="expand_more")
+        +icon(icon="__expand_more", name="expand_more")
 
 //указание даты не активный(даты не выбраны)
 .data-picker
@@ -72,69 +72,46 @@ include ../../utils/mixins
     +button-icon(type = 'button').open-dropdown-expanded__button
         +icon(icon="__open-dropdown_more", name="expand_more")
     .dropdown-expanded__open
-        +dropdown(dropdownList,dropdownClass)
-        //.bedrooms
-        //    .general-setting-text.rooms__text спальни
-        //    .counter
-        //        button.button.restangle
-        //            span.restangle__text -
-        //        span.general-setting-text.quantity 2
-        //        button.button.restangle.restangle__plus
-        //            span.restangle__text +
-        //.bed
-        //    .general-setting-text.rooms__text.bed__text  кровати
-        //    .counter
-        //        button.button.restangle
-        //            span.restangle__text -
-        //        span.general-setting-text.quantity__bed 2
-        //        button.button.restangle.restangle-bed__plus
-        //            span.restangle__text +
-        //.bathrooms
-        //    .general-setting-text.rooms__text.bathrooms__text  ванные комнаты
-        //    .counter
-        //        button.button.restangle.restangle__not-active
-        //            span.restangle__text -
-        //        span.general-setting-text.quantity__bath 0
-        //        button.button.restangle.restangle-bath__plus
-        //            span.restangle__text +
+        //mixin который создает необходимое количество пунктов
+        +dropdown(dropdownList)
+
 
 //скрытый список предоставляемых услуг
-.checkbox-list.general-setting-block
-    h3.general-setting-text.text-checkbox-list expandable checkbox list
-    .input-checkbox-list
-        +button-icon.button__icon
-            +icon(icon="__expand_more", name="expand_more")
+.checkbox-list
+    h3.checkbox-list__text expandable checkbox list
+    +button-icon(type = 'button').checkbox-list__button
+        +icon(icon="__expand_more", name="expand_more")
 
 //раскрытый список предоставляемых услуг, внутри миксин checkbox, который выводит этот список
-.open-checkbox-list.general-setting-block
-    h3.general-setting-text.text-open-checkbox-list expandable checkbox list
-    .input-open-checkbox-list
-        +button-icon.button__icon
-            +icon(icon="__rotate", name="expand_more")
+.open-checkbox-list
+    h3.open-checkbox-list__text expandable checkbox list
+    +button-icon(type = 'button').open-checkbox-list__button
+        +icon(icon="__rotate", name="expand_more")
     .open-list
-        +checkbox(class_checkbox_list, expandable)
+        +checkbox(expandable)
 
 
 .advantages
     .advantages__comfort
         .advantages__wrapper-icon
-            i.material-icons.advantages__icons insert_emoticon
+            i.material-icons.material-icons__advantages insert_emoticon
         .advantages__text Комфорт <p>Шумопоглощающие стены</p>
     .advantages__band
     .advantages__convenience
         .advantages__wrapper-icon
-            i.material-icons.advantages__icons location_city
+            i.material-icons.material-icons__advantages location_city
         .advantages__text Удобство <p>Окно в каждой из спален</p>
     .advantages__band
 
 //список дополнительных возможностей
-.checkbox-buttons.general-setting-block
-    h3.general-setting-text.text-checkbox-button  checkbox buttons
-    +checkbox(class_checkbox_button, check_box_button)
+.checkbox-buttons
+    h3.checkbox-button__text checkbox buttons
+    .checkbox-buttons__block
+        +checkbox(checkbox_button)
 
 //выбор пола(переключатель)
-.radio-buttons.general-setting-block
-    h3.general-setting-text.text-radio-button  radio buttons
+.radio-buttons
+    h3.radio-buttons__text radio buttons
     .radio-switch__man
         input(type='radio' name='radio' value='1' checked='')
         label Мужчина
@@ -143,8 +120,8 @@ include ../../utils/mixins
         label Женщина
 
 //переключатель на рассылку
-.toggle.general-setting-block
-    h3.general-setting-text.toggle-text  toggle
+.toggle
+    h3.toggle__text  toggle
     .toggle__active
         input.switch(type='checkbox' checked='')
         label Получать спецпредложения
@@ -153,40 +130,37 @@ include ../../utils/mixins
         label Получать спецпредложения
 
 //показатель лайков активный/не активный
-.like-button.general-setting-block
-    h3.general-setting-text.like-button-text  like button
+.like-button
+    h3.like-button__text  like button
     .like-button__not-active
-        +button-icon().like-button__not-active-switch
+        +button-icon(type='like')
             +icon(icon="__heart", name="favorite_border")
-            span.like-button__not-active-text 2
+            span.like__not-active-text  2
     .like-button__active
-        .like-button__active-switch
-        +button-icon().like-button__active-switch
-            +icon(icon="__heart material-icons__heart-color", name="favorite")
-            span.like-button__active-text 12
+        +button-icon(type='like').like-button-active
+            +icon(icon="__heart", name="favorite")
+            span.like__active-text  12
 
 //кнопки рейтинга
 //.rate-button.general-setting-block
-h3.general-setting-text.rate-button__text  rate button
-.rate-button__rating
-    +button-icon.rate-button
+.rate-button__block
+    h3.rate-button__text  rate button
+    +button-icon(type = 'rating').rating
         - for(let i = 1; i <= 5; i++)
         -if (i == 5)
             +icon(icon="__rating" name="star_border")
         -else
             +icon(icon="__rating" name="star")
-.rate-button__rating-full
-    +button-icon.rate-button
+    +button-icon(type = 'rating').rating-full
         - for(let i = 1; i <= 5; i++)
         +icon(icon="__rating" name="star")
 
 //открытый выпадающий список в котором указывается количество человек
-.open-guest-dropdown.general-setting-block
-    h3.general-setting-text.text-guest-dropdown dropdown
-    input.text-field-input.open-guest-dropdown__input(value='Сколько гостей')
-    .input-guest-dropdown
-        +button-icon.button__icon
-            +icon(icon="__expand_more", name="expand_more")
+.open-guest-dropdown
+    h3.open-guest-dropdown__text dropdown
+    input(type='input' value='Сколько гостей').open-guest-dropdown__input
+    +button-icon(type = 'button').open-guest-dropdown__button
+        +icon(icon="__dropdown-expand_more", name="expand_more")
     .guest-dropdown__open
         .adults
             .general-setting-text.people__text взрослые
