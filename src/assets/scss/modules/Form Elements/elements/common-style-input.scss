@@ -1,27 +1,30 @@
-.general-setting-block{
+.general-setting-block {
   position: absolute;
   left: 141px;
 }
-.general-setting__block{
+
+.general-setting__block {
   position: absolute;
   left: 141px;
 }
+
 .general-setting__text {
   font-family: $mainFontBold;
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
-  color: #1F2041;
+  color: $default-color;
 }
+
 .general-setting__hidden-text {
   font-family: $mainFont;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
-  //text-align: right;
   color: rgba(31, 32, 65, 0.5);
 }
+
 .general-setting-text {
   font-family: $mainFontBold;
   position: absolute;
@@ -33,6 +36,7 @@
   text-transform: uppercase;
   color: #1F2041;
 }
+
 .text-default {
   font-family: $mainFont;
   top: 0;
@@ -43,6 +47,7 @@
   text-align: right;
   color: rgba(31, 32, 65, 0.5);
 }
+
 .input__style {
   position: absolute;
   width: 320px;
@@ -52,6 +57,7 @@
   border-radius: 4px;
   outline: none;
 }
+
 .input__input-text {
   font-family: 'Montserrat-Regular';
   font-size: 13.9px;
@@ -59,6 +65,7 @@
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
 }
+
 .text-field-input {
   position: absolute;
   width: 320px;
@@ -75,22 +82,57 @@
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
 }
+
 .not-visible {
   visibility: hidden;
   left: 261.74px;
 }
-.material-icons__expand_more{
+
+.material-icons__expand_more {
   color: rgba(31, 32, 65, 0.5);
 
   padding-bottom: 8px;
 }
-.button__icon{
+
+.button__icon {
   margin-left: 10px;
   margin-top: 10px;
 }
-.buttons__general-text {
-  font-family: "Montserrat-Bold";
-  font-size: 12px;
-  line-height: 15px;
-  text-transform: uppercase;
+
+//.buttons__general-text {
+//  font-family: "Montserrat-Bold";
+//  font-size: 12px;
+//  line-height: 15px;
+//  text-transform: uppercase;
+//}
+
+//dropdown
+.dropdown__open-text {
+  @extend .general-setting__text;
+  margin-left: 14px;
+  margin-top: 12px;
 }
+
+.counter {
+  display: flex;
+  align-items: center;
+  width: 92px;
+  margin-right: 7px;
+  margin-left: auto;
+
+}
+
+.counter__quantity {
+  @extend .general-setting__text;
+  width: 32px;
+  height: 15px;
+  margin-left: 2px;
+
+  text-align: center;
+
+}
+
+.restangle__not-active {
+  opacity: 0.38;
+}
+

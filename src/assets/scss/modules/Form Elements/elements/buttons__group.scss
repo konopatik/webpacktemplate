@@ -1,0 +1,48 @@
+.buttons__group {
+  position: absolute;
+  width: 218px;
+  height: 195px;
+  left: 979px;
+  top: 231px;
+
+  .buttons__text {
+    @extend .general-setting__text;
+  }
+
+  .button__color, .button__transparent, .button__apply {
+    display: flex;
+    margin-top: 16px;
+  }
+  .button__transparent,.button__apply {
+    margin-top: 30px;
+  }
+
+  .color__text-style {
+    margin-left: 1px;
+    color: #ffffff;
+  }
+
+  .transparent__text-style {
+    color: #BC9CFF;
+  }
+
+  .button__hover {
+    opacity: 0.5;
+    margin-left: 19px;
+  }
+
+  .apply__color,.apply__hover {
+    width: 61px;
+    height: 15px;
+    margin-left: 1px;
+    margin-top: 1px;
+
+    @extend .general-setting__text;
+    color: #BC9CFF;
+  }
+  .apply__hover {
+    color: rgba(31, 32, 65, 0.5);
+    margin-left: 20px;
+  }
+}
+

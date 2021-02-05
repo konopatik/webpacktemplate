@@ -1,57 +1,57 @@
 .rich-checkbox-buttons {
+  position: absolute;
   width: 266px;
   height: 145px;
   left: 587px;
   top: 1196px;
+
+  .rich-checkbox-button__text {
+    @extend .general-setting__text;
+    width: 171px;
+    height: 15px;
+  }
+
+  .wide-corridor, .disabled-assistant {
+    height: 52px;
+  }
+
+  .wide-corridor {
+    width: 233px;
+    margin-top: 16px;
+  }
+
+  .disabled-assistant {
+    width: 264px;
+    margin-top: 10px;
+  }
+
+  .general-explanation {
+    width: 203px;
+
+    font-family: $mainFontBold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+
+    /* Dark 75% */
+
+    color: rgba(31, 32, 65, 0.75);
+
+    margin-top: -19px;
+    margin-left: 30px;
+  }
+
+  .explanation {
+    @extend .general-setting__hidden-text;
+    text-transform: none;
+    line-height: 14px;
+    margin-left: 30px;
+    padding-top: 6px;
+  }
+
 }
 
-.rich-checkbox-button__text {
-  width: 171px;
-  height: 15px;
-  top: 0px;
-}
-.wide-corridor, .disabled-assistant {
-  position: absolute;
-  height: 52px;
-}
-.general-explanation {
-  width: 203px;
-  margin-top: -19px;
-  margin-left: 31px;
-  font-family: "Montserrat-Bold";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
-  /* identical to box height, or 129% */
-
-
-  /* Dark 75% */
-
-  color: rgba(31, 32, 65, 0.75);
-}
-.explanation {
-  margin-left: 30px;
-  padding-top: 5px;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  /* or 117% */
-
-
-  /* Dark 50% */
-
-  color: rgba(31, 32, 65, 0.5);
-}
-.wide-corridor {
-  width: 233px;
-  top: 31px;
-}
-
-.disabled-assistant {
-  width: 264px;
-  top: 93px;
-}
 
 
 

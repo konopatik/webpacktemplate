@@ -2,7 +2,8 @@
   button[type='button'],
   button[type='submit'],
   button[type='like'],
-  button[type='rating']{
+  button[type='rating'],
+  button[type='filter'],{
     width: 44px;
     height: 44px;
     padding: 0;
@@ -15,13 +16,17 @@
     align-items: center;
     text-align: center;
 
+  }
+  button[type='button'] {
     &.restangle {
-      @extend .general-setting__hidden-text;
+      font-family: $mainFont;
+      font-weight: normal;
       font-size: 18px;
       line-height: 22px;
       display: flex;
       align-items: center;
-      text-align: center;
+      justify-content: center;
+      color: rgba(31, 32, 65, 0.5);
 
       width: 30px;
       height: 30px;
@@ -66,5 +71,30 @@
     width: 120px;
     height: 24px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  }
+  button[type='filter'] {
+    width: 84px;
+    height: 15px;
+    @extend .general-setting__text;
+  }
+  button[type='color-button'] {
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    width: 99px;
+    height: 44px;
+    border-radius: 22px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    @extend .general-setting__text;
+    &.transparent {
+      border: 2px solid transparent;
+      background:
+              linear-gradient(#fff,#fff) padding-box, /*this white background*/
+              linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%) border-box;
+    }
+    &:hover {
+      opacity: 0.5;
+    }
   }
 }

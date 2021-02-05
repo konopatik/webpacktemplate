@@ -162,35 +162,12 @@ include ../../utils/mixins
     +button-icon(type = 'button').open-guest-dropdown__button
         +icon(icon="__dropdown-expand_more", name="expand_more")
     .guest-dropdown__open
-        .adults
-            .general-setting-text.people__text взрослые
-            .guest-dropdown__counter
-                button.button.restangle.restangle__not-active
-                    span.restangle__text -
-                span.general-setting-text.quantity 0
-                button.button.restangle.restangle__plus
-                    span.restangle__text +
-        .children
-            .general-setting-text.people__text.children__text  дети
-            .guest-dropdown__counter
-                button.button.restangle.restangle__not-active
-                    span.restangle__text -
-                span.general-setting-text.quantity__children 0
-                button.button.restangle.restangle-children__plus
-                    span.restangle__text +
-        .babies
-            .general-setting-text.people__text.babies__text  младенцы
-            .guest-dropdown__counter
-                button.button.restangle.restangle__not-active
-                    span.restangle__text -
-                span.general-setting-text.quantity__babies 0
-                button.button.restangle.restangle-babies__plus
-                    span.restangle__text +
-    button.button.calendar__link-color.link-button применить
+        +dropdown(guestDropdownList)
+        button(type='filter').button-apply применить
 
 //дополнительный чекбокс(раскрытый)
-.rich-checkbox-buttons.general-setting-block
-    h3.general-setting-text.rich-checkbox-button__text rich checkbox buttons
+.rich-checkbox-buttons
+    h3.rich-checkbox-button__text rich checkbox buttons
     .wide-corridor
         input(type="checkbox")
         .general-explanation Широкий коридор
@@ -211,16 +188,18 @@ include ../../utils/mixins
             .range-slider__group-circle.range-slider__group-circle-right
 
 //кнопки в обычном состоянии и при наведении
-.buttons
-    h3.general-setting-text.buttons-text buttons
-    button.button__color-default click me
-    button.button__color-hover click me
-    button.button__transparent-default click me
-    button.button__transparent-hover click me
-    .buttons__icon-left
-        span.buttons__general-text click me
-    .buttons__icon-right
-        span.buttons__general-text click me
+.buttons__group
+    h3.buttons__text buttons
+    .button__color
+        button(type='color-button').color__text-style click me
+        button(type='color-button').color__text-style.button__hover click me
+    .button__transparent
+        button(type='color-button').transparent.transparent__text-style  click me
+        button(type='color-button').transparent.transparent__text-style.button__hover  click me
+    .button__apply
+        button(type='button').apply__color click me
+        button(type='button').apply__hover  click me
+
 
 //кнопка
 .button-default

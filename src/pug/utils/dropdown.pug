@@ -1,16 +1,16 @@
-- var dropdownList = [{'bedrooms': ['open-text-bedrooms','спальни','2']},{'bed' : ['open-text-bed','кровати','2']},{'bathrooms': ['open-text-bathrooms','ванные комнаты','0']}];
-
+- var dropdownList = [{'bedrooms': ['спальни','2']},{'bed' : ['кровати','2']},{'bathrooms': ['ванные комнаты','0']}];
+- var guestDropdownList = [{'adults': ['взрослые', '0'], }, {'children': ['дети', '0']}, {'babies':['младенцы', '0']}]
 mixin dropdown(dropdownList)
 	each item, key in dropdownList
 		each value, index in item
 			div(class=index)
-				div(class=value[0]).dropdown__open-text=value[1]
+				div.dropdown__open-text=value[0]
 				.counter
-					if value[2] == 0
+					if value[1] == 0
 						button.restangle.restangle__not-active(type='button') -
-						span.counter__quantity=value[2]
-						button.restangle(type='button') +
+						span.counter__quantity=value[1]
+						button(type='button').restangle +
 					else
 						button.restangle(type='button') -
-						span.counter__quantity=value[2]
-						button.restangle(type='button') +
+						span.counter__quantity=value[1]
+						button(type='button').restangle +

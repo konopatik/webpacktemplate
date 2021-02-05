@@ -1,59 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="рефакторинг scss(mixin dropdown)">
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="рефакторинг scss(mixin dropdown, checkbox)">
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/buttons__group.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/advantages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/room-page-lux.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/room-page-lux.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/buttons.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/date-dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/date-dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-expanded.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-expanded.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/filter-date-dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/filter-date-dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/like-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/like-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-dropdown-expanded.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-dropdown-expanded.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-guest-dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-guest-dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/radio-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/radio-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rate-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rate-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/subscription-text-field.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/subscription-text-field.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/toggle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/toggle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/range-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/range-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rich-checkbox-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rich-checkbox-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cards/calendar/calendar.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cards/calendar/calendar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cards/cards.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cards/common-style-cards.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cards/room-page-lux/room-page-lux.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cards/room-page-lux/room-page-lux.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cards/room-page/room-page.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cards/room-page/room-page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/checkbox-button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/checkbox-list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/common-style-input.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/data-picker.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/date-dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/dropdown-default.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/dropdown-expanded.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/filter-date-dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/input-default.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/input-focus.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/open-checkbox-list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/open-dropdown-expanded.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/placeholder.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/subscription-text-field.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/Form Elements/elements/too-date-dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/form_elements.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form Elements/form_elements.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/logo.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/utils/checkbox-list.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/utils/mixins.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/utils/checkbox-list.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/checkbox-list.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/utils/dropdown.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/dropdown.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/mixins.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +173,10 @@
       <workItem from="1611940916005" duration="96000" />
       <workItem from="1611996745373" duration="16615000" />
       <workItem from="1612344372739" duration="15458000" />
-      <workItem from="1612422562814" duration="20267000" />
+      <workItem from="1612422562814" duration="20335000" />
+      <workItem from="1612451280487" duration="1191000" />
+      <workItem from="1612523353896" duration="6874000" />
+      <workItem from="1612530255518" duration="10244000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -533,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612424220492</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="рефакторинг scss(mixin dropdown, checkbox)">
+      <created>1612447414517</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1612447414517</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +527,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="checkbox-list" />
     <MESSAGE value="open-checkbox-list" />
     <MESSAGE value="пытаюсь сделать миксин для вывода списка checkbox. застряла" />
     <MESSAGE value="open-list доделала(не нравится как, но пока оставлю так, по ПП совпадает и хорошо. миксин не удалось довести до ума)" />
@@ -578,7 +551,8 @@
     <MESSAGE value="review. закончила form elements." />
     <MESSAGE value="рефакторинг scss" />
     <MESSAGE value="рефакторинг scss(mixin dropdown)" />
-    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг scss(mixin dropdown)" />
+    <MESSAGE value="рефакторинг scss(mixin dropdown, checkbox)" />
+    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг scss(mixin dropdown, checkbox)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
