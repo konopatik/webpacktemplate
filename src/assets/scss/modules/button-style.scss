@@ -4,8 +4,7 @@
   button[type='like'],
   button[type='rating'],
   button[type='filter'],{
-    width: 44px;
-    height: 44px;
+    @extend .general-setting__text;
     padding: 0;
     cursor: pointer;
     background: #0000;
@@ -15,9 +14,10 @@
     display: flex;
     align-items: center;
     text-align: center;
-
   }
   button[type='button'] {
+    width: 44px;
+    height: 44px;
     &.restangle {
       font-family: $mainFont;
       font-weight: normal;
@@ -36,35 +36,57 @@
       box-sizing: border-box;
       border-radius: 22px;
     }
-
+    &.big-button {
+      width: 320px;
+      height: 44px;
+      background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+      border-radius: 22px;
+      text-align: center;
+    }
+    &.pagination__button {
+      width: 40px;
+      height: 40px;
+      display: block;
+    }
+    &.pagination__last-button {
+      @extend .pagination__button;
+      background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+      border-radius: 22px;
+    }
+    &.button-apply {
+      width: 84px;
+      height: 15px;
+      color: #BC9CFF;
+    }
   }
   button[type='submit'] {
     width: 24px;
     height: 24px;
-  }
-  button[type='like'] {
-    width: 40px;
-    height: 20px;
 
-    background: #FFFFFF;
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 10px;
+    &.like-button-counter {
+      width: 40px;
+      height: 20px;
 
-    font-family: Montserrat-Regular;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    /* identical to box height */
+      background: #FFFFFF;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      box-sizing: border-box;
+      border-radius: 10px;
 
-    text-align: center;
+      font-family: $mainFont;
+      font-size: 10px;
+      line-height: 12px;
+      /* identical to box height */
 
-    /* Dark 25% */
+      text-align: center;
 
-    color: rgba(31, 32, 65, 0.25);
-    &.like-button-active {
-      border: 1px solid #BC9CFF;
-      color: #BC9CFF;
+      /* Dark 25% */
+
+      color: rgba(31, 32, 65, 0.25);
+
+      &.like-button-active {
+        border: 1px solid #BC9CFF;
+        color: #BC9CFF;
+      }
     }
   }
   button[type='rating'] {
@@ -86,7 +108,6 @@
     height: 44px;
     border-radius: 22px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-    @extend .general-setting__text;
     &.transparent {
       border: 2px solid transparent;
       background:

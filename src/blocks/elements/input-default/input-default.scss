@@ -1,0 +1,25 @@
+@import "../../../assets/scss/modules/placeholder";
+
+.input-default{
+  @extend .general-setting__block;
+  width: 320px;
+  top: 140px;
+  .input-default__text {
+    @extend .general-setting__text;
+    width: 72px;
+    height: 15px;
+    margin-top: 3px;
+  }
+  .input-default__hidden-text{
+    @extend .general-setting__hidden-text;
+    width: 57px;
+    height: 15px;
+    margin-left: 263.74px;
+    margin-top: -18px;
+  }
+  .input-default__input {
+    margin-top: 8px;
+  }
+}
+
+

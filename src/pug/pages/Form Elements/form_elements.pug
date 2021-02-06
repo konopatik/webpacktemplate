@@ -1,7 +1,6 @@
 include ../../utils/mixins
 +logo
 
-
 //не активный инпут
 .input-default
     h3.input-default__text text field
@@ -133,11 +132,11 @@ include ../../utils/mixins
 .like-button
     h3.like-button__text  like button
     .like-button__not-active
-        +button-icon(type='like')
+        +button-icon(type='submit').like-button-counter
             +icon(icon="__heart", name="favorite_border")
             span.like__not-active-text  2
     .like-button__active
-        +button-icon(type='like').like-button-active
+        +button-icon(type='submit').like-button-counter.like-button-active
             +icon(icon="__heart", name="favorite")
             span.like__active-text  12
 
@@ -163,7 +162,7 @@ include ../../utils/mixins
         +icon(icon="__dropdown-expand_more", name="expand_more")
     .guest-dropdown__open
         +dropdown(guestDropdownList)
-        button(type='filter').button-apply применить
+        button(type='button').button-apply.guest-button-apply применить
 
 //дополнительный чекбокс(раскрытый)
 .rich-checkbox-buttons
@@ -178,14 +177,15 @@ include ../../utils/mixins
         .explanation На 1 этаже вас встретит специалист и проводит до номера.
 
 //слайдер(ползунок), реализация через js
-.range-slider.general-setting-block
-    h3.general-setting-text.range-slider__text range slider
-    h3.general-setting-text.text-default.range-slider__price 5 000₽ - 10 000₽
-    .range-slider__group
-        .range-slider__group-line
-            .range-slider__group-circle.range-slider__group-circle-left
-            .range-slider__group-dedicated
-            .range-slider__group-circle.range-slider__group-circle-right
+.range-slider
+    h3.range-slider__text range slider
+    h3.range-slider__price 5 000₽ - 10 000₽
+    input(type="text" name="my_range" value="").js-range-slider
+    //.range-slider__group-line
+    //    .range-slider__group-circle-left
+    //    .range-slider__group-dedicated
+    //    .range-slider__group-circle-right
+
 
 //кнопки в обычном состоянии и при наведении
 .buttons__group
@@ -202,62 +202,40 @@ include ../../utils/mixins
 
 
 //кнопка
-.button-default
-    +button-icon.button__default.buttons__general-text перейти к оплате
+.button__default
+    +button-icon(type = 'button').big-button
+        span.big-button__text перейти к оплате
         +icon(icon="__button-default", name="arrow_forward")
 
 //пагинация
 .pagination
-    h3.general-setting-text.pagination__text pagination
+    h3.pagination__text pagination
     .pagination__group
         .pagination__group-numeral
             +pagination
-            +button-icon.button.pagination__button
+            +button-icon(type='button').pagination__last-button
                 +icon(icon="__pagination-button", name="arrow_forward")
         .pagination__group-text 1 – 12 из 100+ вариантов аренды
 
 
 
 //открытый выпадающий список в котором уже указано количество человек
-.open-data-dropdown.general-setting-block
-    h3.general-setting-text.text-guest-dropdown dropdown
-    input.text-field-input.open-guest-dropdown__input(value='3 гостя')
-    .input-guest-dropdown
-        +button-icon.button__icon
-            +icon(icon="__expand_more", name="expand_more")
-    .guest-dropdown__open
-        .adults
-            .general-setting-text.people__text взрослые
-            .guest-dropdown__counter
-                button.button.restangle
-                    span.restangle__text -
-                span.general-setting-text.quantity 2
-                button.button.restangle.restangle__plus
-                    span.restangle__text +
-        .children
-            .general-setting-text.people__text.children__text  дети
-            .guest-dropdown__counter
-                button.button.restangle
-                    span.restangle__text -
-                span.general-setting-text.quantity__children 1
-                button.button.restangle.restangle-children__plus
-                    span.restangle__text +
-        .babies
-            .general-setting-text.people__text.babies__text  младенцы
-            .guest-dropdown__counter
-                button.button.restangle.restangle__not-active
-                    span.restangle__text -
-                span.general-setting-text.quantity__babies 0
-                button.button.restangle.restangle-babies__plus
-                    span.restangle__text +
-    button.button.calendar__link-color.link-button__clear очистить
-    button.button.calendar__link-color.link-button применить
+.open-data-dropdown
+    h3.open-data-dropdown__text dropdown
+    input(type='input' value='3 гостя').open-data-dropdown__input
+    +button-icon(type = 'button').open-data-dropdown__button
+        +icon(icon="__open-dropdown", name="expand_more")
+    .data-dropdown__open
+        +dropdown(dataDropdownList)
+    button(type='button').button-apply.data-button-clear очистить
+    button(type='button').button-apply.data-button-apply применить
 
 
 //список запретов
 .bullet-list
     h3.general-setting-text.bullet-list__text bullet list
-    +bullet-list(bulletListClass, bulletList)
+    .bullet-list__group
+        +bullet-list(bulletList)
 
 
 
@@ -266,12 +244,11 @@ include ../../utils/mixins
         .review__author-avatar
             img(src="../../../assets/img/avatar.png")
         .review__author-name Мурад Сарафанов <p>5 дней назад</p>
-    .like-button__active.review__like-button
-        .like-button__active-switch
-        +button-icon().like-button__active-switch
-            +icon(icon="__heart material-icons__heart-color", name="favorite")
-            span.like-button__active-text 12
-    div.review__text Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий. И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто не жаловался из соседей.
+    .review__like-button
+        +button-icon(type='submit').like-button-counter.like-button-active
+            +icon(icon="__heart", name="favorite")
+            span.like__active-text  12
+    .review__text Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий. И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто не жаловался из соседей.
 
 
 

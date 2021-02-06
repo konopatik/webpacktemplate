@@ -1,11 +1,8 @@
-- var bulletListClass = ['bullet-list__group-1', 'bullet-list__group-2', 'bullet-list__group-3'];
-- var bulletList = ['Нельзя с питомцами', 'Без вечеринок и мероприятий', 'Время прибытия — после 13:00, а выезд до 12:00'];
+- var bulletList = [['pets','Нельзя с питомцами'], ['no-parties','Без вечеринок и мероприятий'], ['arrival-time','Время прибытия — после 13:00, а выезд до 12:00']];
 
 
-mixin bullet-list(bulletListClass, bulletList)
-	each item, key in bulletListClass
-		.bullet-list__group(class=item)
-			each value, index in bulletList
-				if key==index
-					.bullet-list__group-ellipse
-					.bullet-list__group-text=value
+mixin bullet-list( bulletList)
+	each value, index in bulletList
+		div(class=value[0])
+			.bullet-list__group-ellipse
+			.bullet-list__group-text=value[1]

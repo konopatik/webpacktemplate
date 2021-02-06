@@ -1,0 +1,40 @@
+.like-button {
+  position: absolute;
+  width: 89.72px;
+  height: 51px;
+  left: 587px;
+  top: 534px;
+
+  .like-button__text {
+    @extend .general-setting__text;
+    width: 85px;
+    height: 15px;
+  }
+
+  .like-button__not-active {
+    width: 40px;
+    height: 20px;
+    margin-top: 16px;
+  }
+
+  .like-button__active {
+    width: 39.72px;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: -20px;
+  }
+  .like__not-active-text {
+    margin-left: 1px;
+  }
+
+  .like__active-text {
+    margin-left: -1px;
+  }
+}
+
+
+
+
+
+
+

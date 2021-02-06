@@ -1,0 +1,70 @@
+.review {
+  position: absolute;
+  width: 711px;
+  height: 133px;
+  left: 587px;
+  top: 1574px;
+
+  .review__author {
+    width: 278.05px;
+    height: 51px;
+    display: flex;
+
+    .review__author-avatar {
+      width: 48px;
+      height: 48px;
+
+      & img {
+        width: 100%;
+        border-radius: 32px;
+        border: 2px solid #FFFFFF;
+        filter: drop-shadow(0px 10px 20px rgba(31, 32, 65, 0.1));
+
+      }
+    }
+
+    .review__author-name {
+      width: 220.45px;
+      height: 48px;
+      left: 57.6px;
+      top: 3px;
+      margin-left: 9px;
+      font-family: $mainFontBold;
+      line-height: 24px;
+
+
+      color: $default-color;
+
+      & p {
+        font-family: $mainFont;
+        margin: 0;
+      }
+    }
+  }
+
+  .review__like-button {
+    margin-left: 4px;
+    margin-top: 9px;
+  }
+
+  .review__text {
+    width: 650px;
+    height: 72px;
+    margin-left: 59px;
+    margin-top: -22px;
+
+    font-family: $mainFont;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* Dark 75% */
+
+    color: $default-color;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+.button__default {
+  position: absolute;
+  left: 979px;
+  top: 456px;
+
+  /* Primary Gradient */
+  span {
+    width: 256px;
+    height: 15px;
+    color: #FFFFFF;
+    margin-left: 42px;
+  }
+
+  .material-icons__button-default {
+    width: 44px;
+    height: 44px;
+
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+}
+

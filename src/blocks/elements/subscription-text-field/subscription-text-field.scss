@@ -1,0 +1,33 @@
+@import "../../../assets/scss/modules/placeholder";
+
+.subscription-text-field {
+  position: absolute;;
+  width: 267px;
+  left: 140px;
+  top: 712px;
+
+  .subscription-text-field__text {
+    @extend .general-setting__text;
+    width: 170px;
+    height: 15px;
+    left: 1px;
+  }
+
+  .subscription-text-field__input {
+    margin-top: 5px;
+  }
+
+  .subscription-text-field__button {
+    position: absolute;
+    left: 233px;
+    top: 30px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+
+    .material-icons__subscription {
+      padding: 0;
+      background: white; /* Белый цвет фона */
+      mix-blend-mode: screen;
+    }
+  }
+
+}

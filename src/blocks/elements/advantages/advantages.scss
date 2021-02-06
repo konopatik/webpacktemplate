@@ -1,0 +1,60 @@
+.advantages {
+  position: absolute;
+  width: 291px;
+  height: 158px;
+  left: 140px;
+  top: 1564px;
+}
+.advantages__comfort , .advantages__convenience {
+  width: 291px;
+  height: 48px;
+  left: 140px;
+  display: flex;
+}
+.advantages__convenience {
+  top: 89px;
+}
+.advantages__wrapper-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+.material-icons__advantages {
+  padding: 0;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary Gradient */
+  mix-blend-mode: screen;
+  background: #FFFFFF;
+}
+
+.advantages__text {
+
+  font-family: $mainFontBold;
+  line-height: 24px;
+  /* or 171% */
+
+
+  /* Dark 75% */
+
+  color: $default-color;
+  & p {
+    font-family: "Montserrat-Regular";
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+  }
+}
+.advantages__band {
+  width: 280px;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* Dark 10% */
+
+  background: rgba(31, 32, 65, 0.1);
+}

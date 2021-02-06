@@ -1,0 +1,22 @@
+@import "../../../assets/scss/utils/mixins";
+
+.product__block-roompage {
+  position: absolute;
+  left: 980px;
+  top: 856px;
+  .product__rating{
+    height: 24px;
+    margin-right: 12.87px;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(rgba(188, 156, 255, 1), rgba(139, 164, 249, 1));
+  }
+  .product__testimonials {
+    margin-left: 12.87px;
+    margin-top: 11.56px;
+    color: rgba(31, 32, 65, 0.5);
+    line-height: 18px;
+    text-align: right;
+  }
+}

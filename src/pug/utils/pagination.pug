@@ -4,10 +4,10 @@ mixin pagination
     -for ( i = 1; i<=15; i++)
         -if (i <= 3 || i == 15)
             div.pagination__numeral
-                button.product__svg-button.pagination__circle-text=i
+                button(type='button').pagination__button=i
         -else if (i == 4)
             div.pagination__numeral
-                button.product__svg-button.pagination__circle-text ...
+                button(type='button').pagination__button ...
 
 
 

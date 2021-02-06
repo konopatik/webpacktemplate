@@ -1,0 +1,72 @@
+
+.general-setting__block {
+  position: absolute;
+  left: 141px;
+}
+
+.general-setting__text {
+  font-family: $mainFontBold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: $default-color;
+}
+
+.general-setting__hidden-text {
+  font-family: $mainFont;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+
+
+.material-icons__expand_more {
+  color: rgba(31, 32, 65, 0.5);
+  padding-bottom: 8px;
+
+  &:hover {
+    color: rgba(31, 32, 65, 0.75);
+  }
+}
+
+//dropdown
+.dropdown__open-text {
+  @extend .general-setting__text;
+  margin-left: 14px;
+  margin-top: 12px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  width: 92px;
+  margin-right: 7px;
+  margin-left: auto;
+
+}
+
+.counter__quantity {
+  @extend .general-setting__text;
+  width: 32px;
+  height: 15px;
+  margin-left: 2px;
+
+  text-align: center;
+
+}
+
+.restangle__not-active {
+  opacity: 0.38;
+}
+
+.material-icons__heart {
+  width: 20px;
+  height: 20px;
+  padding: 6px 2px 0px 0px;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 9px;
+}
