@@ -1,84 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="рефакторинг scss">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/form_elements.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/modules/common-style-input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/advantages/advantages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/bullet-list/bullet-list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/button-default/button-default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/buttons__group/buttons__group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/checkbox-button/checkbox-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/checkbox-list/checkbox-list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/date-dropdown/date-dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/date-dropdown__2/date-dropdown__2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/dropdown-default/dropdown-default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/dropdown-expanded/dropdown-expanded.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/filter-date-dropdown/filter-date-dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/like-button/like-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/open-checkbox-list/open-checkbox-list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/open-data-dropdown/open-data-dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/open-dropdown-expanded/open-dropdown-expanded.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/open-guest-dropdown/open-guest-dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/pagination/pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/radio-button/radio-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/range-slider/range-slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/rate-button/rate-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/review/review.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/rich-checkbox-list/rich-checkbox-list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/elements/toggle/toggle.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/test.js" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="рефакторинг scss(закончила). переделала структуру файлов(требует доработки)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/calendar/calendar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/common-style-cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/common-style-cards/common-style-cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/room-page-lux.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/room-page-lux/room-page-lux.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/All cards elem/room-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/room-page/room-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Cards/cards.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/advantages.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/bullet-list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/button-default.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/buttons__group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/checkbox-list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/common-style-input.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/data-picker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/data-picker/data-picker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/date-dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/date-dropdown__2.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-default.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/dropdown-expanded.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/filter-date-dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/input-default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/input-default/input-default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/input-focus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/input-focus/input-focus.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/like-button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-checkbox-list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-data-dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-dropdown-expanded.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/open-guest-dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/placeholder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/placeholder.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/radio-button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/range-slider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rate-button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/review.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/rich-checkbox-list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/subscription-text-field.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/subscription-text-field/subscription-text-field.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements/toggle.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/form_elements.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/wrapper.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/buttons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/layout/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/layout/main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/buttons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/utils/bullet-list.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/bullet-list.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/utils/dropdown.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/dropdown.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/utils/pagination.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/utils/pagination.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/blocks/cards" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PhpstormProjects/page" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -141,18 +73,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/blocks/cards" />
       <recent name="$PROJECT_DIR$/src/blocks" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets/scss/modules" />
-      <recent name="$PROJECT_DIR$/src/assets/scss/modules/Form Elements/elements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/image" />
       <recent name="$PROJECT_DIR$/src/assets/scss/modules" />
       <recent name="$PROJECT_DIR$/src/blocks/cards/room-page-lux" />
       <recent name="$PROJECT_DIR$/src/blocks/cards/room-page" />
       <recent name="$PROJECT_DIR$/src/blocks/cards/common-style-cards" />
-      <recent name="$PROJECT_DIR$/src/blocks/cards/calendar" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.localhost:8080">
@@ -238,7 +170,10 @@
       <workItem from="1612451280487" duration="1191000" />
       <workItem from="1612523353896" duration="6874000" />
       <workItem from="1612530255518" duration="15892000" />
-      <workItem from="1612599190214" duration="15979000" />
+      <workItem from="1612599190214" duration="16048000" />
+      <workItem from="1612870232228" duration="9959000" />
+      <workItem from="1612885506161" duration="646000" />
+      <workItem from="1612886822492" duration="2811000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1610117561801</created>
@@ -576,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612545140999</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="рефакторинг scss(закончила). переделала структуру файлов(требует доработки)">
+      <created>1612616909853</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1612616909853</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="open-checkbox-list" />
     <MESSAGE value="пытаюсь сделать миксин для вывода списка checkbox. застряла" />
     <MESSAGE value="open-list доделала(не нравится как, но пока оставлю так, по ПП совпадает и хорошо. миксин не удалось довести до ума)" />
     <MESSAGE value="сделала миксин checkbox" />
@@ -621,7 +562,8 @@
     <MESSAGE value="рефакторинг scss(mixin dropdown)" />
     <MESSAGE value="рефакторинг scss(mixin dropdown, checkbox)" />
     <MESSAGE value="рефакторинг scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг scss" />
+    <MESSAGE value="рефакторинг scss(закончила). переделала структуру файлов(требует доработки)" />
+    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг scss(закончила). переделала структуру файлов(требует доработки)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
