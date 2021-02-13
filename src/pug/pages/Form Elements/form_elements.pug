@@ -179,23 +179,37 @@ include ../../utils/mixins
 //слайдер(ползунок), реализация через js
 .range-slider
     h3.range-slider__text range slider
-    h3.range-slider__price 5 000₽ - 10 000₽
-    input(id="prange" type="text" value="").js-range-slider
-    //.range-slider__group-line
-    //    .range-slider__group-circle-left
-    //    .range-slider__group-dedicated
-    //    .range-slider__group-circle-right
+    .range-slider__body
+        .range-slider__price
+            span.irs-from(style='visibility: visible')
+                font(style='vertical-align: inherit;')
+                    font(style='vertical-align: inherit;') 5 000₽
+            span(style='visibility: visible')
+                font(style='vertical-align: inherit;')
+                    font(style='vertical-align: inherit;')  -
+            span.irs-to(style='visibility: visible')
+                font(style='vertical-align: inherit;')
+                    font(style='vertical-align: inherit;')  10 000₽
+        span.irs.irs--big.js-irs-1.irs-with-grid
+            span.irs
+                span.irs-line(tabindex='0')
+            span.irs-bar
+            span.irs-shadow.shadow-from(style='display: none;')
+            span.irs-shadow.shadow-to(style='display: none;')
+            span.irs-handle.from
+            span.irs-handle.to.type_last
+        input.js-range-slider.irs-hidden-input(type='text' name='' value='' tabindex='-1' readonly='')
 
 
 //кнопки в обычном состоянии и при наведении
 .buttons__group
     h3.buttons__text buttons
     .button__color
-        button(type='color-button').color__text-style click me
-        button(type='color-button').color__text-style.button__hover click me
+        button(type='button').color-button.color__text-style click me
+        button(type='button').color-button.color__text-style.button__hover click me
     .button__transparent
-        button(type='color-button').transparent.transparent__text-style  click me
-        button(type='color-button').transparent.transparent__text-style.button__hover  click me
+        button(type='button').color-button.transparent.transparent__text-style  click me
+        button(type='button').color-button.transparent.transparent__text-style.button__hover  click me
     .button__apply
         button(type='button').apply__color click me
         button(type='button').apply__hover  click me

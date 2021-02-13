@@ -1,31 +1,15 @@
-//extends ../layout/main
-//
-//block variables
-//    - let title = 'Test page';
-//    - let description = 'Description for Webpack + Pug';
-//    - let pageClass = 'index-page';
-//
-//block content
-//    //section.cards
-//    //    include Cards/cards
-//    section.form_elements
-//        include Form Elements/form_elements
+extends ../layout/main
 
-doctype html
-html(lang='en')
-    head
-        meta(charset='utf8')
-        title Test page
-    body
-        .block
-            .block__img
-                img(src='image/boots.png')
-            .block__description
-                h3
-                p
-            .block__price
-                p
-                .block__icons
+block variables
+    - let title = 'Webpack + Pug';
+    - let description = 'Description for Webpack + Pug';
+    - let pageClass = 'index-page';
+
+block content
+    //section.cards
+    //    include Cards/cards
+    section.form_elements
+        include Form Elements/form_elements
 
 
 

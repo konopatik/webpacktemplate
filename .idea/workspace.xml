@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="рефакторинг scss(закончила). переделала структуру файлов(требует доработки)">
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Попытка подключить jquery">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/buttons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/elements/bullet-list/bullet-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/bullet-list/bullet-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/elements/buttons__group/buttons__group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/buttons__group/buttons__group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/elements/range-slider/range-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/range-slider/range-slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
@@ -59,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PhpstormProjects/page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -174,13 +174,10 @@
       <workItem from="1612870232228" duration="9959000" />
       <workItem from="1612885506161" duration="646000" />
       <workItem from="1612886822492" duration="2811000" />
-    </task>
-    <task id="LOCAL-00001" summary="-">
-      <created>1610117561801</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1610117561801</updated>
+      <workItem from="1612937839440" duration="2662000" />
+      <workItem from="1612957507072" duration="5472000" />
+      <workItem from="1613124192389" duration="2841000" />
+      <workItem from="1613208254900" duration="6932000" />
     </task>
     <task id="LOCAL-00002" summary="Попытка подключить/настроить material icons">
       <created>1610453042760</created>
@@ -518,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612616909853</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Попытка подключить jquery">
+      <created>1612938081938</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1612938081939</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="пытаюсь сделать миксин для вывода списка checkbox. застряла" />
     <MESSAGE value="open-list доделала(не нравится как, но пока оставлю так, по ПП совпадает и хорошо. миксин не удалось довести до ума)" />
     <MESSAGE value="сделала миксин checkbox" />
     <MESSAGE value="checkbox-button" />
@@ -563,7 +566,8 @@
     <MESSAGE value="рефакторинг scss(mixin dropdown, checkbox)" />
     <MESSAGE value="рефакторинг scss" />
     <MESSAGE value="рефакторинг scss(закончила). переделала структуру файлов(требует доработки)" />
-    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг scss(закончила). переделала структуру файлов(требует доработки)" />
+    <MESSAGE value="Попытка подключить jquery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Попытка подключить jquery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
