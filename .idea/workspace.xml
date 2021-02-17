@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Попытка подключить jquery">
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="настройка ionrange slider">
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/advantages.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/bullet-list.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/button__default.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/buttons-group.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/checkbox-buttons.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/checkbox-list.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/data-picker.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/date-dropdown.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/date-dropdown__2.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/dropdown-default.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/dropdown-expanded.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/filter-date-dropdown.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/input-default.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/input-focus.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/like-button.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/open-checkbox-list.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/open-data-dropdown.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/open-dropdown-expanded.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/open-guest-dropdown.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/pagination.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/radio-buttons.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/range-slider.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/rate-button__block.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/review.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/rich-checkbox-buttons.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/subscription-text-field.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/toggle.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/elements/bullet-list/bullet-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/bullet-list/bullet-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/elements/buttons__group/buttons__group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/buttons__group/buttons__group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/elements/range-slider/range-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/range-slider/range-slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/form_elements.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +80,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pug/pages/Form Elements" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,11 +94,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pug/pages/Form Elements" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/blocks/cards" />
       <recent name="$PROJECT_DIR$/src/blocks" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/assets/scss/modules" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages/image" />
@@ -177,14 +198,9 @@
       <workItem from="1612937839440" duration="2662000" />
       <workItem from="1612957507072" duration="5472000" />
       <workItem from="1613124192389" duration="2841000" />
-      <workItem from="1613208254900" duration="6932000" />
-    </task>
-    <task id="LOCAL-00002" summary="Попытка подключить/настроить material icons">
-      <created>1610453042760</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1610453042760</updated>
+      <workItem from="1613208254900" duration="7048000" />
+      <workItem from="1613546784655" duration="2638000" />
+      <workItem from="1613554359377" duration="4473000" />
     </task>
     <task id="LOCAL-00003" summary="Попытка подключить/настроить material icons.">
       <created>1610453068850</created>
@@ -522,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612938081939</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="настройка ionrange slider">
+      <created>1613219837506</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1613219837508</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +565,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="open-list доделала(не нравится как, но пока оставлю так, по ПП совпадает и хорошо. миксин не удалось довести до ума)" />
     <MESSAGE value="сделала миксин checkbox" />
     <MESSAGE value="checkbox-button" />
     <MESSAGE value="radio-button. добавила комментарии в form elements" />
@@ -567,7 +589,8 @@
     <MESSAGE value="рефакторинг scss" />
     <MESSAGE value="рефакторинг scss(закончила). переделала структуру файлов(требует доработки)" />
     <MESSAGE value="Попытка подключить jquery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Попытка подключить jquery" />
+    <MESSAGE value="настройка ionrange slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="настройка ionrange slider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

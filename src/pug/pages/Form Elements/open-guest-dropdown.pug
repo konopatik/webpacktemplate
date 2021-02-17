@@ -1,0 +1,9 @@
+//открытый выпадающий список в котором указывается количество человек
+.open-guest-dropdown
+    h3.open-guest-dropdown__text dropdown
+    input(type='input' value='Сколько гостей').open-guest-dropdown__input
+    +button-icon(type = 'button').open-guest-dropdown__button
+        +icon(icon="__dropdown-expand_more", name="expand_more")
+    .guest-dropdown__open
+        +dropdown(guestDropdownList)
+        button(type='button').button-apply.guest-button-apply применить

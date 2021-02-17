@@ -1,0 +1,10 @@
+//открытый выпадающий список в котором указывается количество кроватей
+.open-dropdown-expanded
+    h3.open-dropdown-expanded__text dropdown
+    h3.open-dropdown-expanded__text-hidden expanded
+    input.input-medium.open-dropdown-expanded__input(type='input' value='2 спальни, 2 кровати...')
+    +button-icon(type = 'button').open-dropdown-expanded__button
+        +icon(icon="__open-dropdown_more", name="expand_more")
+    .dropdown-expanded__open
+        //mixin который создает необходимое количество пунктов
+        +dropdown(dropdownList)

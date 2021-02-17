@@ -1,0 +1,7 @@
+//раскрытый список предоставляемых услуг, внутри миксин checkbox, который выводит этот список
+.open-checkbox-list
+    h3.open-checkbox-list__text expandable checkbox list
+    +button-icon(type = 'button').open-checkbox-list__button
+        +icon(icon="__rotate", name="expand_more")
+    .open-list
+        +checkbox(expandable)

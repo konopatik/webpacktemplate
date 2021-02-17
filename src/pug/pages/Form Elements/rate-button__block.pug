@@ -1,0 +1,12 @@
+//кнопки рейтинга
+.rate-button__block
+    h3.rate-button__text  rate button
+    +button-icon(type = 'rating').rating
+        - for(let i = 1; i <= 5; i++)
+        -if (i == 5)
+        +icon(icon="__rating" name="star_border")
+        -else
+        +icon(icon="__rating" name="star")
+    +button-icon(type = 'rating').rating-full
+        - for(let i = 1; i <= 5; i++)
+        +icon(icon="__rating" name="star")

@@ -1,0 +1,10 @@
+//открытый выпадающий список в котором уже указано количество человек
+.open-data-dropdown
+    h3.open-data-dropdown__text dropdown
+    input(type='input' value='3 гостя').open-data-dropdown__input
+    +button-icon(type = 'button').open-data-dropdown__button
+        +icon(icon="__open-dropdown", name="expand_more")
+    .data-dropdown__open
+        +dropdown(dataDropdownList)
+    button(type='button').button-apply.data-button-clear очистить
+    button(type='button').button-apply.data-button-apply применить

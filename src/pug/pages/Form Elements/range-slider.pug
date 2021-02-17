@@ -1,0 +1,20 @@
+//слайдер(ползунок), реализация через js
+.range-slider
+    h3.range-slider__text range slider
+    .range-slider__body
+        .range-slider__price
+            span.irs-from
+                font 5 000₽
+            span
+                font  -
+            span.irs-to
+                font  10 000₽
+        span.irs.irs--big.js-irs-1.irs-with-grid
+            span.irs
+                span.irs-line(tabindex='0')
+            span.irs-bar
+            span.irs-shadow.shadow-from(style='display: none;')
+            span.irs-shadow.shadow-to(style='display: none;')
+            span.irs-handle.from
+            span.irs-handle.to.type_last
+        input.js-range-slider.irs-hidden-input(type='text' name='' value='' tabindex='-1' readonly='')
