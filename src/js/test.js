@@ -1,9 +1,10 @@
 import 'ion-rangeslider';
 import 'ion-rangeslider/css/ion.rangeSlider.min.css';
-
+import 'ion-rangeslider/js/ion.rangeSlider.min.js'
 
 
 $(".js-range-slider").ionRangeSlider({
+    skin: "round",
     step: 1000,
     grid_num: 3,
     type: "double",
@@ -11,8 +12,5 @@ $(".js-range-slider").ionRangeSlider({
     min: 0,
     max: 15000,
     from: 5000,
-    to: 5000,
-    onChange: function (data) {
-        console.dir(data);
-    }
+    to: 10000,
 })

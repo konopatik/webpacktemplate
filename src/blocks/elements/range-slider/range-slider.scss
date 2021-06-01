@@ -10,6 +10,17 @@
     width: 95px;
     height: 15px;
   }
+  .range-slider-single {
+    @extend .general-setting__hidden-text;
+    width: 102px;
+    height: 15px;
+    margin-left: 164px;
+    margin-top: -15px;
+  }
+  .irs-min {
+    color: white;
+    background-color: white;
+  }
 
   .range-slider__price {
     @extend .general-setting__hidden-text;
@@ -22,9 +33,14 @@
   //начальное и конечное условие
   .irs-from, .irs-to {
     position: relative;
-    display: inline;
+    display: none;
+
   }
-  //полоса по которой перемещаются ползунки
+  //окошко со значениями
+  .irs-single {
+    display: none;
+  }
+//  полоса по которой перемещаются ползунки
   .irs-line {
     width: 266px;
     height: 6px;
@@ -38,7 +54,11 @@
   .irs-line,.irs-bar,.irs-handle  {
     top:23px;
   }
-  //полоса, между двумя ползунками
+  //значение мин и мах
+   .irs-min, .irs-max {
+     display: none;
+  }
+//  полоса, между двумя ползунками
   .irs-bar {
     width: 70px;
     height: 6px;
@@ -49,7 +69,7 @@
     border-radius: 3px;
     left: 91px;
   }
-  //ручки
+// ручки
   .irs-handle {
     width: 16px;
     height: 16px;
@@ -62,16 +82,27 @@
       border: 1px solid #6FCF97;
     }
   }
+  .irs-handle>i:first-child {
+    background-color: transparent;
+    &:hover {
+      background-color: transparent;
+    }
+  }
   .from, .to {
     top: 18px;
   }
+  //в реальном проэкте это свойство удалить. оно для идеального совпадения с макетом
   .from {
-    left: 75px;
+    left: 75px !important;
   }
+  //в реальном проэкте это свойство удалить. оно для идеального совпадения с макетом
   .to{
-    left: 160px;
+    left: 160px !important;
   }
-
+  //убираем нижнюю полосу
+  .irs-grid {
+    display: none;
+  }
 }
 
 

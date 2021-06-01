@@ -5,25 +5,25 @@
   font-family: 'Montserrat-Regular';
   font-style: normal;
   font-weight: normal;
-  src: url('/dist/assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  src: url('/src/assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
   src: local(''),
-  url("/dist/assets/fonts/Montserrat/Montserrat-Regular.ttf") format('truetype');
+  url("/src/assets/fonts/Montserrat/Montserrat-Regular.ttf") format('truetype');
 }
 @font-face {
   font-family: 'Montserrat-Bold';
   font-style: normal;
   font-weight: bold;
-  src: url('/dist/assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+  src: url('/src/assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
   src: local(''),
-  url("/dist/assets/fonts/Montserrat/Montserrat-Bold.ttf") format('truetype');
+  url("/src/assets/fonts/Montserrat/Montserrat-Bold.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url("/dist/assets/fonts/Material Icons/MaterialIcons-Regular.ttf") format('truetype');
+  src: url("/src/assets/fonts/Material Icons/MaterialIcons-Regular.ttf") format('truetype');
   src: local(''),
-  url("/dist/assets/fonts/Material Icons/MaterialIcons-Regular.ttf") format('truetype');
+  url("/src/assets/fonts/Material Icons/MaterialIcons-Regular.ttf") format('truetype');
 }
 

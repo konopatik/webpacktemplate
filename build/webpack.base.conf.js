@@ -4,27 +4,27 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const fs = require("fs");
 const webpack = require("webpack");
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 const PATHS = {
     src: path.join(__dirname, '../src'),
     dist: path.join(__dirname, '../dist'),
     assets: 'assets/',
 }
-
-
-const PAGES_DIR = `${PATHS.src}/pug/pages/`;
+const PAGES_DIR = `${PATHS.src}/pug/pages`;
 const PAGES = fs.readdirSync(PAGES_DIR).filter(fileName => fileName.endsWith('.pug'));
+
+
+
 
 module.exports = {
     externals: {
         paths: PATHS,
     },
 
-    entry: {
-        app: PATHS.src,
-    },
+    entry:  PATHS.src,
     output: {
-        filename: `${PATHS.assets}js/[name].[hash].js`,
+        filename: `${PATHS.assets}js/[name].[fullhash].js`,
         path: PATHS.dist,
         publicPath: "/"
     },
@@ -52,24 +52,30 @@ module.exports = {
                 exclude: "/node_modules/",
             },
             {
-                test: /\.(woff|woff2|ttf|svg)$/,
+                test: /\.(?:woff|woff2|ttf)$/,
                 loader: "file-loader",
                 options: {
-                    name: '[name].[ext]'
+                    name: './fonts/[name].[ext]'
                 }
             },
             {
-                test: /\.(png|jpg|gif|svg)$/,
+                test: /\.(?:|png|jpg|jpeg|gif|svg)$/,
                 loader: "file-loader",
                 options: {
-                    name: '[name].[ext]'
+                    name: `./img/[name].[ext]`
                 }
             },
             {
                 test: /\.scss$/,
                 use: [
-                    "style-loader",
-                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: MiniCssExtractPlugin.loader,
+                        options: {
+                            publicPath: (resourcePath, context) => {
+                                return path.relative(path.dirname(resourcePath), context) + '/';
+                            }
+                        }
+                    },
                     {
                         loader: "css-loader",
                         options: {sourceMap: true}
@@ -77,8 +83,9 @@ module.exports = {
                     {
                         loader: "postcss-loader",
                         options: {
-                            sourceMap: true, postcssOptions: {
-                                config: path.resolve(__dirname, `../postcss.config.js`),
+                            sourceMap: true,
+                            postcssOptions: {
+                                config: path.resolve(__dirname, '../postcss.config.js'),
                             },
                         }
                     },
@@ -91,8 +98,7 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [
-                    "style-loader",
-                    MiniCssExtractPlugin.loader,
+                      MiniCssExtractPlugin.loader,
                     {
                         loader: "css-loader",
                         options: {sourceMap: true}
@@ -100,8 +106,9 @@ module.exports = {
                     {
                         loader: "postcss-loader",
                         options: {
-                            sourceMap: true, postcssOptions: {
-                                config: path.resolve(__dirname, `../postcss.config.js`),
+                            sourceMap: true,
+                            postcssOptions: {
+                                config: path.resolve(__dirname, '../postcss.config.js'),
                             },
                         }
                     },
@@ -129,7 +136,8 @@ module.exports = {
             jQuery: 'jquery',
             'window.jQuery': 'jquery'
         }),
-    ],
+        new CleanWebpackPlugin(),
+    ]
 
 }
 
