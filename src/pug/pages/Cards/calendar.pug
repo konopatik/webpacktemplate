@@ -16,9 +16,7 @@ article.calendar
 			.calendar__field-day-of-week
 				//тут срабатывает js, который вставляет сюда li с днями недели
 			.calendar__field-dates
-				//миксин, который выводитдаты календаря, применяя к нему те или иные стили
+				//миксин, который выводит даты календаря, применяя к нему те или иные стили
 				+list('', data_items)
-	//button.button.calendar__link-left.calendar__link-color очистить
-	//button.button.calendar__link-right.calendar__link-color применить
 	button(type='button').button-apply.data-button-clear очистить
 	button(type='button').button-apply.data-button-apply применить

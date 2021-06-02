@@ -48,12 +48,12 @@
     position: absolute;
     width: 119px;
     height: 24px;
-    left: 99px;
+    left: 101px;
     top: 20px;
-
+    @extend .general-setting__text;
     font-size: 19px;
-    font-weight: bold;
     line-height: 23px;
+    text-transform: none;
     /* identical to box height */
 
     text-align: center;
@@ -94,8 +94,8 @@
 //это стиль для дней недели
   .calendar__field-item-day {
     width: 39.88px;
-    font-size: 12px;
-    line-height: 15px;
+    @extend .general-setting__text;
+    text-transform: none;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -109,6 +109,7 @@
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(7, 1fr);
     margin-top: 55px;
+    margin-left: 0.7px;
   }
 
 
@@ -157,22 +158,6 @@
     background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
   }
 
-
-  .calendar__link-left {
-    position: absolute;
-    width: 72px;
-    height: 15px;
-    left: 20px;
-    top: 334px;
-  }
-
-  .calendar__link-right {
-    position: absolute;
-    width: 84px;
-    height: 15px;
-    left: 216px;
-    top: 334px;
-  }
   .data-button-clear {
     margin-left: 20px;
     margin-top: -35px;

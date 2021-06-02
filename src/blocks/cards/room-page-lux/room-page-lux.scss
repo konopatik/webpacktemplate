@@ -1,28 +1,22 @@
 @import "../../../assets/scss/utils/mixins";
 .product__block-roompage-lux{
+  @extend .general-setting__text;
   position: absolute;
   left: 980px;
   top: 559px;
-  //.product__button{
-  //  top:62.5px;
-  //  z-index: 40;
-  //  position: absolute;
-  //  opacity: 1;
-  //  width: 44px;
-  //  height: 44px;
-  //  display: flex;
-  //  justify-content: center;
-  //}
-  //.product__button-svg-right{
-  //  left: 226px;
-  //}
+  .product__button{
+    margin-top: 53px;
+  }
+  .product__button-svg-right{
+    transform: rotate(180deg);
+  }
   .material-icons__style{
     color: white;
   }
   .product__number-lux {
     position: absolute;
     left: 80px;
-    top: 181px;
+    top: 179px;
     width: 41px;
     height: 15px;
     font-size: 12px;
@@ -40,7 +34,7 @@
     height: 151px;
     left: 230px;
     top: 559.5px;
-
+    border-radius: 4px 0px 0px 0px;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 99.99%, rgba(255, 255, 255, 0) 100%);
   }
   .image-mask__right{
