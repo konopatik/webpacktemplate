@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Макет cards. Вспоминаю что где находится, подключаю созданные ранее миксины.">
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Макет cards. Подгонка по макету">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/cards/calendar/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/calendar/calendar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/cards/common-style-cards/common-style-cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/common-style-cards/common-style-cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/cards/room-page-lux/room-page-lux.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/room-page-lux/room-page-lux.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/calendar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/calendar.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/room-page-lux.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/room-page-lux.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,14 +184,7 @@
       <workItem from="1622554892499" duration="802000" />
       <workItem from="1622555713438" duration="6857000" />
       <workItem from="1622634296680" duration="9082000" />
-      <workItem from="1622648603261" duration="6287000" />
-    </task>
-    <task id="LOCAL-00006" summary="Верстка календаря(продолжается)">
-      <created>1610643843431</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1610643843431</updated>
+      <workItem from="1622648603261" duration="8612000" />
     </task>
     <task id="LOCAL-00007" summary="Закончила кадендарь. Дописала миксин(не уверена в его &quot;красоте&quot;).">
       <created>1610706089636</created>
@@ -534,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622643636112</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Макет cards. Подгонка по макету">
+      <created>1622654930536</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1622654930537</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="toggle" />
     <MESSAGE value="рефакторинг" />
     <MESSAGE value="like-button" />
     <MESSAGE value="rate-button" />
@@ -579,7 +573,8 @@
     <MESSAGE value="разделила form elements на блоки" />
     <MESSAGE value="Вернулась к стилизации макета form elements. настроила отображение range slider." />
     <MESSAGE value="Макет cards. Вспоминаю что где находится, подключаю созданные ранее миксины." />
-    <option name="LAST_COMMIT_MESSAGE" value="Макет cards. Вспоминаю что где находится, подключаю созданные ранее миксины." />
+    <MESSAGE value="Макет cards. Подгонка по макету" />
+    <option name="LAST_COMMIT_MESSAGE" value="Макет cards. Подгонка по макету" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

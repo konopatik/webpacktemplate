@@ -93,22 +93,25 @@
   }
 
   .product__number {
-    align-items: center;
+    font-family: $mainFontBold;
     width: 60px;
     height: 24px;
+    align-items: center;
     margin-left: 5.7px;
     color: #1F2041;
   }
 
   .product__number span {
     font-size: 19px;
-    margin-left: 3px;
+    //margin-left: 3px;
   }
 
   .product__price {
+    font-family: $mainFontBold;
+
     margin-left: 72px;
-    font-size: 14px;
-    line-height: 18px;
+    //font-size: 14px;
+    //line-height: 18px;
     align-items: center;
     width: 101px;
     height: 20px;
@@ -118,7 +121,7 @@
 
   .product__price span {
     font-family: "Montserrat-Regular";
-    font-size: 12.3px;
+    font-size: 12px;
     font-weight: normal;
     text-transform: none;
     margin-left: 3px;
