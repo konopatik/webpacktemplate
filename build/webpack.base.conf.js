@@ -143,3 +143,22 @@ module.exports = {
 
 
 // ["./src/main.pug", "./src/about.pug"]
+// const getFiles = (dir, fileType) => {
+//     return dir.map(folder => {
+//         const folderPath = `${PAGES_DIR}/${folder}`;
+//         const folderFiles = fs.readdirSync(folderPath);
+//         const pageFile = folderFiles.find(fileName => fileName.endsWith(`.${fileType}`));
+//         return pageFile;
+//     });
+// }
+//
+// const PAGES_DIR = `${PATHS.src}/pug/pages`;
+// const PAGES_FOLDER = fs.readdirSync(PAGES_DIR);
+// const PAGES = getFiles(PAGES_FOLDER, 'pug');
+// const ENTRY = getFiles(PAGES_FOLDER, 'js');
+// const ENTRYS = {};
+//
+// ENTRY.forEach((entryFile, index) => {
+//     const fileName = entryFile.split('.')[0];
+//     ENTRYS[fileName] = `${PAGES_DIR}/${PAGES[index]}/${entryFile}`
+// })

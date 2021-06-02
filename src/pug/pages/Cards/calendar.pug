@@ -5,10 +5,10 @@ article.calendar
 	.calendar__field
 		//блок с кнопками вперед/назад
 		.calendar__button
-			+button-icon()
+			+button-icon(type='submit')
 				+icon(icon="__style", name="arrow_back")
 		.calendar__button.calendar__button-svg-right
-			+button-icon()
+			+button-icon(type='submit')
 				+icon(icon="__style", name="arrow_forward")
 		.calendar__field-month Август 2019
 		.calendar__field-days
@@ -18,5 +18,7 @@ article.calendar
 			.calendar__field-dates
 				//миксин, который выводитдаты календаря, применяя к нему те или иные стили
 				+list('', data_items)
-	button.button.calendar__link-left.calendar__link-color очистить
-	button.button.calendar__link-right.calendar__link-color применить
+	//button.button.calendar__link-left.calendar__link-color очистить
+	//button.button.calendar__link-right.calendar__link-color применить
+	button(type='button').button-apply.data-button-clear очистить
+	button(type='button').button-apply.data-button-apply применить

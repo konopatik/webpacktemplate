@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="разделила form elements на блоки">
-      <change afterPath="$PROJECT_DIR$/build/config/getEntry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/config/getFilePath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/config/htmlConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/Cards/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/index.js" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Вернулась к стилизации макета form elements. настроила отображение range slider.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utils/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/elements/range-slider/range-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/range-slider/range-slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/range-slider.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Form Elements/range-slider.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/button-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/cards/calendar/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/calendar/calendar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/range_slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/calendar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/calendar.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Form Elements/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,14 +191,8 @@
       <workItem from="1615275822415" duration="15708000" />
       <workItem from="1615377234880" duration="6948000" />
       <workItem from="1622554892499" duration="802000" />
-      <workItem from="1622555713438" duration="6402000" />
-    </task>
-    <task id="LOCAL-00004" summary="Оставила шрифты пока так, потом покопаюсь. Верстка страницы Cards">
-      <created>1610556067596</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1610556067596</updated>
+      <workItem from="1622555713438" duration="6857000" />
+      <workItem from="1622634296680" duration="9025000" />
     </task>
     <task id="LOCAL-00005" summary="Верстка календаря">
       <created>1610622852452</created>
@@ -536,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613570567212</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Вернулась к стилизации макета form elements. настроила отображение range slider.">
+      <created>1622563835704</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1622563835705</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +557,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="checkbox-button" />
     <MESSAGE value="radio-button. добавила комментарии в form elements" />
     <MESSAGE value="toggle" />
     <MESSAGE value="рефакторинг" />
@@ -581,7 +581,8 @@
     <MESSAGE value="Попытка подключить jquery" />
     <MESSAGE value="настройка ionrange slider" />
     <MESSAGE value="разделила form elements на блоки" />
-    <option name="LAST_COMMIT_MESSAGE" value="разделила form elements на блоки" />
+    <MESSAGE value="Вернулась к стилизации макета form elements. настроила отображение range slider." />
+    <option name="LAST_COMMIT_MESSAGE" value="Вернулась к стилизации макета form elements. настроила отображение range slider." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
