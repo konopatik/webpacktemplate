@@ -117,10 +117,8 @@
     position: absolute;
     width: 39.88px;
     height: 40.44px;
-    margin-top: 12px;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
+    margin-top: 11px;
+    font-family: "Montserrat-Regular";
     text-align: center;
     /* Dark 50% */
 
@@ -132,9 +130,7 @@
   }
 
   .calendar-color-date {
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
+    font-family: "Montserrat-Bold";
 
     color: #FFFFFF;
   }

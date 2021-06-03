@@ -1,0 +1,27 @@
+include ../../utils/mixins
+
+
+article.pick-up-room
+	.pick-up-room__text Найдём номера под ваши пожелания
+		//блок заезд
+	.pick-up-room__block
+		.pick-up-room__arrival
+			h3.date-dropdown__text прибытие
+			input.input-small.date-dropdown__input(type='input' value='ДД.ММ.ГГГГ')
+			+button-icon(type = 'button').date-dropdown__button
+				+icon(icon="__expand_more", name="expand_more")
+		//блок выезд
+		.pick-up-room__departure
+			h3.date-dropdown__text выезд
+			input.input-small.date-dropdown__input(type='input' value='ДД.ММ.ГГГГ')
+			+button-icon(type = 'button').date-dropdown__button
+				+icon(icon="__expand_more", name="expand_more")
+		//блок количество гостей
+	.pick-up-room__guests
+		h3.dropdown-default__text гости
+		input(type='input' value='Сколько гостей').dropdown-default__input
+		+button-icon(type = 'button').dropdown-default__button
+			+icon(icon="__expand_more", name="expand_more")
+	+button-icon(type = 'button').big-button
+		span.big-button__text перейти к оплате
+		+icon(icon="__button-default", name="arrow_forward")

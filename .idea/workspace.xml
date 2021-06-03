@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Макет cards. Подгонка по макету">
+      <change afterPath="$PROJECT_DIR$/src/blocks/cards/pick-up-room/pick-up-room.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Cards/pick-up-room.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/cards/calendar/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/calendar/calendar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/cards/common-style-cards/common-style-cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/common-style-cards/common-style-cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/cards/room-page-lux/room-page-lux.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/room-page-lux/room-page-lux.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/cards/room-page/room-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/room-page/room-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/room-page-lux.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/room-page-lux.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/room-page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/room-page.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/blocks/cards/pick-up-room" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,11 +78,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/blocks/cards/pick-up-room" />
+      <recent name="$PROJECT_DIR$/src/pug/pages/Cards" />
       <recent name="$PROJECT_DIR$/build" />
       <recent name="$PROJECT_DIR$/src/pug/pages/Form Elements" />
       <recent name="$PROJECT_DIR$/src/pages" />
-      <recent name="$PROJECT_DIR$/src/blocks/cards" />
-      <recent name="$PROJECT_DIR$/src/blocks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pug/pages" />
@@ -185,6 +195,7 @@
       <workItem from="1622555713438" duration="6857000" />
       <workItem from="1622634296680" duration="9082000" />
       <workItem from="1622648603261" duration="8612000" />
+      <workItem from="1622714772691" duration="6066000" />
     </task>
     <task id="LOCAL-00007" summary="Закончила кадендарь. Дописала миксин(не уверена в его &quot;красоте&quot;).">
       <created>1610706089636</created>

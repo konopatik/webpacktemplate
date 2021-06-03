@@ -1,0 +1,72 @@
+@import "../../../assets/scss/utils/mixins";
+
+.pick-up-room {
+  @extend .restangle-block;
+  position: absolute;
+  width: 380px;
+  height: 374px;
+  left: 140px;
+  top: 150px;
+  .pick-up-room__text {
+    width: 320px;
+    height: 59px;
+    margin-left: 29px;
+    margin-top: 39px;
+    font-family: $mainFontBold;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* Dark 100% */
+
+    color: #1F2041;
+
+  }
+  .pick-up-room__block {
+    display: flex;
+    margin-left: 29px;
+  }
+  .pick-up-room__arrival,.pick-up-room__departure {
+    width: 150px;
+    height: 65px;
+    margin-top: 21px;
+  }
+  .pick-up-room__departure {
+    margin-left: 20px;
+  }
+  .date-dropdown__text {
+    @extend .general-setting__text;
+    width: 150px;
+    height: 15px;
+  }
+
+  .date-dropdown__input {
+    margin-top: 5px;
+  }
+
+  .date-dropdown__button {
+    margin-top: -44px;
+    margin-left: 106px;
+  }
+  .pick-up-room__guests {
+    margin-top: 20px;
+    margin-left: 29px;
+    .dropdown-default__text {
+      @extend .general-setting__text;
+      width: 81px;
+      top: 0.44px;
+    }
+    .dropdown-default__hidden-text {
+      @extend .general-setting__hidden-text;
+      margin-left: 263.74px;
+      margin-top: -16px;
+      visibility: hidden;
+    }
+    .dropdown-default__input{
+      margin-top: 6px;
+    }
+    .dropdown-default__button{
+      margin-left: 275.74px;
+      margin-top: -45px;
+    }
+  }
+}
