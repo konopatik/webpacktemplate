@@ -1,0 +1,30 @@
+include ../../utils/mixins
+
+
+article.registration
+	.registration__text Регистрация аккаунта
+		//блок заезд
+	.registration-input__name
+		input(type='input' placeholder='Имя').input-default__input
+	.registration-input__surname
+		input(type='input' placeholder='Фамилия').input-default__input.input__surname
+	.registration-input__radio
+		.radio-switch__man
+			input(type='radio' name='radio' value='1' checked='')
+			label Мужчина
+		.radio-switch__woman
+			input(type='radio' name='radio' value='2')
+			label Женщина
+	.registration-input__birthday
+		h3.input-default__text дата рождения
+		input(type='input' placeholder='ДД.ММ.ГГГГ').data-picker__input
+	.registration-input__data
+		h3.input-default__text данные для входа в сервис
+		input(type='input' placeholder='Email').input-default__input
+		input(type='input' placeholder='Пароль').input-default__input
+		.toggle__not-active
+			input(type='checkbox').switch
+			label Получать спецпредложения
+	//+button-icon(type = 'button').big-button
+	//	span.big-button__text подобрать номер
+	//	+icon(icon="__button-default", name="arrow_forward")

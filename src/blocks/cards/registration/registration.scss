@@ -1,0 +1,92 @@
+@import "../../../assets/scss/utils/mixins";
+
+.registration {
+  @extend .restangle-block;
+  position: absolute;
+  width: 380px;
+  height: 646px;
+  left: 140px;
+  top: 564px;
+  div {
+    margin-left: 30px;
+  }
+  .registration__text {
+    width: 320px;
+    height: 30px;
+    margin-left: 29px;
+    margin-top: 39px;
+    font-family: $mainFontBold;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* Dark 100% */
+
+    color: #1F2041;
+
+  }
+  .registration-input__name {
+    width: 320px;
+    height: 44px;
+    margin-top: 20px;
+  }
+  .registration-input__surname {
+    width: 320px;
+    height: 44px;
+    margin-top: 10px;
+  }
+  .registration-input__radio {
+    width: 220.74px;
+    height: 24.44px;
+    margin-left: 0;
+    .radio-switch__man, .radio-switch__woman {
+      height: 24px;
+      display: flex;
+    }
+    .radio-switch__man {
+      width: 98px;
+      margin-top: 9px;
+    }
+
+    .radio-switch__woman{
+      width: 102.74px;
+      margin-left: 147px;
+      margin-top: -25px;
+    }
+  }
+  .registration-input__birthday {
+    width: 320px;
+    height: 64px;
+    margin-top: 22px;
+
+    .input-default__text {
+      @extend .general-setting__text;
+      width: 118px;
+      height: 15px;
+      margin-top: 3px;
+    }
+    input {
+      margin-top: 4px;
+    }
+  }
+
+  .registration-input__data {
+    width: 320px;
+    height: 118px;
+    margin-top: 20px;
+    .input-default__text {
+      @extend .general-setting__text;
+      width: 211px;
+      height: 15px;
+    }
+    input {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .toggle__not-active {
+      width: 260px;
+      height: 24px;
+      margin: 0;
+    }
+  }
+
+}

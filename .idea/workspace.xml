@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Макет cards. Подгонка по макету">
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Макет cards. блок pick-up-room">
+      <change afterPath="$PROJECT_DIR$/src/blocks/cards/registration/registration.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/Cards/registration.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/cards/pick-up-room/pick-up-room.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/pick-up-room/pick-up-room.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/pick-up-room.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/pick-up-room.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/blocks/cards/pick-up-room" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pug/pages/Cards" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/blocks/cards/pick-up-room" />
       <recent name="$PROJECT_DIR$/src/pug/pages/Cards" />
+      <recent name="$PROJECT_DIR$/src/blocks/cards" />
+      <recent name="$PROJECT_DIR$/src/blocks/cards/pick-up-room" />
       <recent name="$PROJECT_DIR$/build" />
       <recent name="$PROJECT_DIR$/src/pug/pages/Form Elements" />
-      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pug/pages" />
@@ -188,14 +191,7 @@
       <workItem from="1622634296680" duration="9082000" />
       <workItem from="1622648603261" duration="8612000" />
       <workItem from="1622714772691" duration="6066000" />
-      <workItem from="1622806324173" duration="1524000" />
-    </task>
-    <task id="LOCAL-00007" summary="Закончила кадендарь. Дописала миксин(не уверена в его &quot;красоте&quot;).">
-      <created>1610706089636</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1610706089636</updated>
+      <workItem from="1622806324173" duration="13554000" />
     </task>
     <task id="LOCAL-00008" summary="Обнаружила недочеты в календаре, доделала. Леплю логотип">
       <created>1610716803275</created>
@@ -533,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622654930537</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Макет cards. блок pick-up-room">
+      <created>1622808303965</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1622808303970</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +556,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="рефакторинг" />
     <MESSAGE value="like-button" />
     <MESSAGE value="rate-button" />
     <MESSAGE value="попытка сделать инпуты переключаемыми( с сохранением цветов). местами кривовато" />
@@ -578,7 +580,8 @@
     <MESSAGE value="Вернулась к стилизации макета form elements. настроила отображение range slider." />
     <MESSAGE value="Макет cards. Вспоминаю что где находится, подключаю созданные ранее миксины." />
     <MESSAGE value="Макет cards. Подгонка по макету" />
-    <option name="LAST_COMMIT_MESSAGE" value="Макет cards. Подгонка по макету" />
+    <MESSAGE value="Макет cards. блок pick-up-room" />
+    <option name="LAST_COMMIT_MESSAGE" value="Макет cards. блок pick-up-room" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
