@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Макет cards. блок pick-up-room">
-      <change afterPath="$PROJECT_DIR$/src/blocks/cards/registration/registration.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/Cards/registration.pug" afterDir="false" />
+    <list default="true" id="b8365e1c-21d5-4bac-b58e-c9072b9c7f77" name="Default Changelist" comment="Макет cards. блок registration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/modules/input-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/cards.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/cards/registration/registration.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/cards/registration/registration.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/Cards/registration.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/Cards/registration.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,14 +188,8 @@
       <workItem from="1622634296680" duration="9082000" />
       <workItem from="1622648603261" duration="8612000" />
       <workItem from="1622714772691" duration="6066000" />
-      <workItem from="1622806324173" duration="13554000" />
-    </task>
-    <task id="LOCAL-00008" summary="Обнаружила недочеты в календаре, доделала. Леплю логотип">
-      <created>1610716803275</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1610716803275</updated>
+      <workItem from="1622806324173" duration="13833000" />
+      <workItem from="1623150103599" duration="2358000" />
     </task>
     <task id="LOCAL-00009" summary="Логотип закончила. Начала страницу Form Elements. Сверстала первые два поля.">
       <created>1610733991902</created>
@@ -536,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622808303970</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Макет cards. блок registration">
+      <created>1622821372244</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1622821372245</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +554,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="like-button" />
     <MESSAGE value="rate-button" />
     <MESSAGE value="попытка сделать инпуты переключаемыми( с сохранением цветов). местами кривовато" />
     <MESSAGE value="под стили инпута переделала radio button" />
@@ -581,7 +578,8 @@
     <MESSAGE value="Макет cards. Вспоминаю что где находится, подключаю созданные ранее миксины." />
     <MESSAGE value="Макет cards. Подгонка по макету" />
     <MESSAGE value="Макет cards. блок pick-up-room" />
-    <option name="LAST_COMMIT_MESSAGE" value="Макет cards. блок pick-up-room" />
+    <MESSAGE value="Макет cards. блок registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Макет cards. блок registration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
