@@ -51,6 +51,16 @@ ul, li {
   width: 1440px;
   height: 1350px;
   background: #F4F4F6;
+  display: flex;
+  .block1 {
+    flex-basis: 37%;
+  }
+  .block2 {
+    flex-basis: 30%;
+  }
+  .block3 {
+    flex-basis: 34%;
+  }
 }
 .form_elements {
   position: relative;
