@@ -1,19 +1,15 @@
 .advantages {
-  position: absolute;
   width: 291px;
   height: 158px;
-  left: 140px;
-  top: 1564px;
+  margin-top: 14px;
+  margin-right: 17px;
 }
 .advantages__comfort , .advantages__convenience {
   width: 291px;
   height: 48px;
-  left: 140px;
   display: flex;
 }
-.advantages__convenience {
-  top: 89px;
-}
+
 .advantages__wrapper-icon {
   width: 48px;
   height: 48px;

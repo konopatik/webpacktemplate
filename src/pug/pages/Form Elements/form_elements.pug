@@ -1,57 +1,58 @@
 include ../../utils/mixins
-+logo
+.form-elements_block
+	.block1
+		+logo
+		//не активный инпут
+		include input-default
+		//инпут с данными
+		include input-focus
+		//выпадающий список(не активный)
+		include dropdown-default
+		//указание даты не активный(даты не выбраны)
+		include data-picker
+		//выбор даты не активный
+		include date-dropdown
+		//инпут с датой
+		include date-dropdown__2
+		//указание даты (даты выбраны)
+		include filter-date-dropdown
+		//ввод емейл адреса
+		include subscription-text-field
+		//активный инпут с выбором кроватей
+		include dropdown-expanded
+		//открытый выпадающий список в котором указывается количество кроватей
+		include open-dropdown-expanded
+		//скрытый список предоставляемых услуг
+		include checkbox-list
+		//раскрытый список предоставляемых услуг, внутри миксин checkbox, который выводит этот список
+		include open-checkbox-list
+	.block2
+		//список дополнительных возможностей
+		include checkbox-buttons
+		//выбор пола(переключатель)
+		include radio-buttons
+		//переключатель на рассылку
+		include toggle
+		//показатель лайков активный/не активный
+		include like-button
+		//кнопки рейтинга
+		include rate-button__block
+		//открытый выпадающий список в котором указывается количество человек
+		include open-guest-dropdown
+		//дополнительный чекбокс(раскрытый)
+		include rich-checkbox-buttons
+	.block3
+		//слайдер(ползунок), реализация через js
+		include range-slider
+		//кнопки в обычном состоянии и при наведении
+		include buttons-group
+		//кнопка
+		include button__default
+		//пагинация
+		include pagination
+		//открытый выпадающий список в котором уже указано количество человек
+		include open-data-dropdown
+		//список запретов
+		include bullet-list
 
-//не активный инпут
-include input-default
-//инпут с данными
-include input-focus
-//выпадающий список(не активный)
-include dropdown-default
-//указание даты не активный(даты не выбраны)
-include data-picker
-//выбор даты не активный
-include date-dropdown
-//инпут с датой
-include date-dropdown__2
-//указание даты (даты выбраны)
-include filter-date-dropdown
-//ввод емейл адреса
-include subscription-text-field
-//активный инпут с выбором кроватей
-include dropdown-expanded
-//открытый выпадающий список в котором указывается количество кроватей
-include open-dropdown-expanded
-//скрытый список предоставляемых услуг
-include checkbox-list
-//раскрытый список предоставляемых услуг, внутри миксин checkbox, который выводит этот список
-include open-checkbox-list
-include advantages
-//список дополнительных возможностей
-include checkbox-buttons
-//выбор пола(переключатель)
-include radio-buttons
-//переключатель на рассылку
-include toggle
-//показатель лайков активный/не активный
-include like-button
-//кнопки рейтинга
-include rate-button__block
-//открытый выпадающий список в котором указывается количество человек
-include open-guest-dropdown
-//дополнительный чекбокс(раскрытый)
-include rich-checkbox-buttons
-//слайдер(ползунок), реализация через js
-include range-slider
-//кнопки в обычном состоянии и при наведении
-include buttons-group
-//кнопка
-include button__default
-//пагинация
-include pagination
-//открытый выпадающий список в котором уже указано количество человек
-include open-data-dropdown
-//список запретов
-include bullet-list
-//отзыв
-include review
 

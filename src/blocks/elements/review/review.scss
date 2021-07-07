@@ -1,10 +1,7 @@
 .review {
-  position: absolute;
   width: 711px;
   height: 133px;
-  left: 587px;
-  top: 1574px;
-
+  margin-top: 24px;
   .review__author {
     width: 278.05px;
     height: 51px;
@@ -41,7 +38,9 @@
       }
     }
   }
-
+  .review__block {
+    display: flex;
+  }
   .review__like-button {
     margin-left: 4px;
     margin-top: 9px;
@@ -50,8 +49,8 @@
   .review__text {
     width: 650px;
     height: 72px;
-    margin-left: 59px;
-    margin-top: -22px;
+    margin-left: 21px;
+    margin-top: 7px;
 
     font-family: $mainFont;
     line-height: 24px;
